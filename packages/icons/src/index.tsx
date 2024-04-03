@@ -1,8 +1,8 @@
-import SFSymbol from 'sweet-sfsymbols';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import * as React from 'react';
 import { Platform } from 'react-native';
+import SFSymbol from 'sweet-sfsymbols';
 
 type IconName = keyof typeof ICON_NAMES;
 
@@ -51,6 +51,16 @@ type IconProps = IconPropsWithOptionalName | IconPropsWithRequiredName;
 
 export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
   const { useMaterialIcon, ...sfSymbolProps } = ios ?? {};
+
+  // TODO: Create an index.ios.tsx and move this there along with ios only code + remove ios only code here
+  const adjustedSizes = React.useMemo(() => {
+    const _size = (sfSymbolProps as { size?: number }).size ?? size;
+    return {
+      sfSymbolSize: _size * 0.8,
+      sfSymbolStyle: { margin: _size * 0.1 },
+    };
+  }, [size, sfSymbolProps]);
+
   if (Platform.OS !== 'ios' || useMaterialIcon) {
     if (materialIcon?.type === 'MaterialCommunityIcons') {
       return (
@@ -96,17 +106,19 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
   }
   return (
     <SFSymbol
-      size={size}
+      size={adjustedSizes.sfSymbolSize}
       name={
         name && ICON_NAMES[name]?.ios ? ICON_NAMES[name].ios : 'questionmark'
       }
       colors={[color]}
+      style={adjustedSizes.sfSymbolStyle}
       {...sfSymbolProps}
     />
   );
 }
 
-const ICON_NAMES = {
+// TODO: do not export this, instead export types
+export const ICON_NAMES = {
   'tray-arrow-up': {
     ios: 'square.and.arrow.up',
     default: {
@@ -660,25 +672,51 @@ const ICON_NAMES = {
       type: 'MaterialCommunityIcons',
     },
   },
+  'file-document-multiple-outline': {
+    ios: 'doc.on.doc',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-document-multiple': {
+    ios: 'doc.on.doc.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-copy': {
+    ios: 'doc.on.clipboard.fill',
+    default: {
+      type: 'MaterialIcons',
+    },
+  },
+  'clipboard-outline': {
+    ios: 'clipboard',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  clipboard: {
+    ios: 'clipboard.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'clipboard-list-outline': {
+    ios: 'list.clipboard',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'clipboard-list': {
+    ios: 'list.clipboard.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
 } as const;
 
 export type NamesLeft =
-  | 'doc.text'
-  | 'doc.text.fill'
-  | 'doc.zipper'
-  | 'doc.on.doc'
-  | 'doc.on.doc.fill'
-  | 'doc.on.clipboard'
-  | 'doc.on.clipboard.fill'
-  | 'arrow.right.doc.on.clipboard'
-  | 'arrow.up.doc.on.clipboard'
-  | 'arrow.triangle.2.circlepath.doc.on.clipboard'
-  | 'clipboard'
-  | 'clipboard.fill'
-  | 'list.bullet.clipboard'
-  | 'list.bullet.clipboard.fill'
-  | 'list.clipboard'
-  | 'list.clipboard.fill'
   | 'pencil.and.list.clipboard'
   | 'doc.richtext'
   | 'doc.richtext.fill'
