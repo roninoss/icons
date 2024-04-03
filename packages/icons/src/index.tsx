@@ -6,24 +6,45 @@ import { Platform } from 'react-native';
 
 type IconName = keyof typeof ICON_NAMES;
 
+type IOSProps =
+  | { useMaterialIcon: true }
+  | ({ useMaterialIcon?: false } & React.ComponentPropsWithoutRef<
+      typeof SFSymbol
+    >);
+type OptionalIOSProps = { useMaterialIcon?: boolean } & Partial<
+  React.ComponentPropsWithoutRef<typeof SFSymbol>
+>;
+
+type MaterialIconProps =
+  | ({ type: 'MaterialCommunityIcons' } & React.ComponentPropsWithoutRef<
+      typeof MaterialCommunityIcons
+    >)
+  | ({ type: 'MaterialIcons' } & React.ComponentPropsWithoutRef<
+      typeof MaterialIcons
+    >);
+type OptionalMaterialIconProps =
+  | ({ type: 'MaterialCommunityIcons' } & Partial<
+      React.ComponentPropsWithoutRef<typeof MaterialCommunityIcons>
+    >)
+  | ({ type: 'MaterialIcons' } & Partial<
+      React.ComponentPropsWithoutRef<typeof MaterialIcons>
+    >);
+
 type IconPropsWithOptionalName = {
   name: IconName;
   color: string;
   size?: number;
-  ios?: { useMaterialIcon: boolean } & Partial<
-    React.ComponentPropsWithoutRef<typeof SFSymbol>
-  >;
-  materialIcon?:
-    | ({ type: 'MaterialCommunityIcons' } & Partial<
-        React.ComponentPropsWithoutRef<typeof MaterialCommunityIcons>
-      >)
-    | ({ type: 'MaterialIcons' } & Partial<
-        React.ComponentPropsWithoutRef<typeof MaterialIcons>
-      >);
+  ios?: OptionalIOSProps;
+  materialIcon?: OptionalMaterialIconProps;
 };
 
-type IconPropsWithRequiredName = Omit<IconPropsWithOptionalName, 'name'> & {
+type IconPropsWithRequiredName = Omit<
+  IconPropsWithOptionalName,
+  'name' | 'ios' | 'materialIcon'
+> & {
   name?: IconName;
+  ios: IOSProps;
+  materialIcon: MaterialIconProps;
 };
 
 type IconProps = IconPropsWithOptionalName | IconPropsWithRequiredName;
@@ -54,12 +75,14 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
       );
     }
     if (!name) return null;
+    const materialProps = materialIcon ?? {};
     return ICON_NAMES[name].default.type === 'MaterialCommunityIcons' ? (
       <MaterialCommunityIcons
         // @ts-expect-error
         name={name}
         size={size}
         color={color}
+        {...materialProps}
       />
     ) : (
       <MaterialIcons
@@ -67,6 +90,7 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
         name={name}
         size={size}
         color={color}
+        {...materialProps}
       />
     );
   }
@@ -313,10 +337,6 @@ export type NamesLeft =
   | 'pencil.and.outline' // excluded
   | 'pencil.tip.crop.circle' // excluded
   | 'pencil.tip.crop.circle.fill' // excluded
-  | 'pencil.tip.crop.circle.badge.plus'
-  | 'pencil.tip.crop.circle.badge.plus.fill'
-  | 'pencil.tip.crop.circle.badge.minus'
-  | 'pencil.tip.crop.circle.badge.minus.fill'
   | 'pencil.tip.crop.circle.badge.arrow.forward' // excluded
   | 'pencil.tip.crop.circle.badge.arrow.forward.fill' // excluded
   | 'lasso.badge.sparkles' // excluded
