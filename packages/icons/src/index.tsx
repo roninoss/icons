@@ -23,10 +23,10 @@ type MaterialIconProps =
       typeof MaterialIcons
     >);
 type OptionalMaterialIconProps =
-  | ({ type: 'MaterialCommunityIcons' } & Partial<
+  | ({ type?: 'MaterialCommunityIcons' } & Partial<
       React.ComponentPropsWithoutRef<typeof MaterialCommunityIcons>
     >)
-  | ({ type: 'MaterialIcons' } & Partial<
+  | ({ type?: 'MaterialIcons' } & Partial<
       React.ComponentPropsWithoutRef<typeof MaterialIcons>
     >);
 

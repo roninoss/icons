@@ -20,22 +20,13 @@ export default function Native() {
       <Icon
         name='arrow-up-box'
         color={'orange'}
-        ios={{
-          name: 'sun.max.fill',
-          colors: ['orange'],
-          symbolEffect: {
-            type: 'pulse',
-            isActive: true,
-            repeat: true,
-            speed: 2,
-          },
-        }}
+        ios={{ useMaterialIcon: type === 'Material Icon' }}
       />
       <Icon
         name='trash-can-outline'
         ios={{ useMaterialIcon: type === 'Material Icon' }}
         color={'orange'}
-        materialIcon={{ type: 'MaterialCommunityIcons', name: 'delete' }}
+        materialIcon={{ onPress: () => console.log('Material Icon Pressed') }}
       />
       <Icon
         ios={{ useMaterialIcon: type === 'Material Icon' }}
