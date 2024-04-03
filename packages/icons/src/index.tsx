@@ -76,7 +76,7 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
     }
     if (!name) return null;
     const materialProps = materialIcon ?? {};
-    return ICON_NAMES[name].default.type === 'MaterialCommunityIcons' ? (
+    return ICON_NAMES[name]?.default.type === 'MaterialCommunityIcons' ? (
       <MaterialCommunityIcons
         // @ts-expect-error
         name={name}
@@ -94,12 +94,13 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
       />
     );
   }
-  if (!name) return null;
   return (
     <SFSymbol
       size={size}
       // name={'folder'}
-      name={ICON_NAMES[name].ios}
+      name={
+        name && ICON_NAMES[name]?.ios ? ICON_NAMES[name].ios : 'questionmark'
+      }
       colors={[color]}
       {...sfSymbolProps}
     />
