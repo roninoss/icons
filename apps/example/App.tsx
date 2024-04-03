@@ -18,50 +18,36 @@ export default function Native() {
       </Pressable>
 
       <Icon
-        name='arrow-up-box'
+        name='file-upload-outline'
         color={'orange'}
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
+        ios={{
+          useMaterialIcon: type === 'Material Icon',
+          // name: 'arrow.up.doc',
+        }}
       />
       <Icon
-        name='trash-can-outline'
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
+        name='file-upload'
         color={'orange'}
-        materialIcon={{ onPress: () => console.log('Material Icon Pressed') }}
+        ios={{
+          useMaterialIcon: type === 'Material Icon',
+          // name: 'arrow.up.doc.fill',
+        }}
       />
       <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='trash-can'
+        name='file-download-outline'
         color={'orange'}
+        ios={{
+          useMaterialIcon: type === 'Material Icon',
+          // name: 'arrow.down.doc',
+        }}
       />
       <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='delete-circle-outline'
+        name='file-download'
         color={'orange'}
-      />
-      <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='delete-circle'
-        color={'orange'}
-      />
-      <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='delete-off-outline'
-        color={'orange'}
-      />
-      <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='delete-off'
-        color={'orange'}
-      />
-      <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='restore-from-trash'
-        color={'orange'}
-      />
-      <Icon
-        ios={{ useMaterialIcon: type === 'Material Icon' }}
-        name='folder-open'
-        color={'orange'}
+        ios={{
+          useMaterialIcon: type === 'Material Icon',
+          // name: 'arrow.down.doc.fill',
+        }}
       />
 
       <StatusBar style='auto' />

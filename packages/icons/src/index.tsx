@@ -97,7 +97,6 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
   return (
     <SFSymbol
       size={size}
-      // name={'folder'}
       name={
         name && ICON_NAMES[name]?.ios ? ICON_NAMES[name].ios : 'questionmark'
       }
@@ -319,130 +318,351 @@ const ICON_NAMES = {
     },
   },
   //
+  folder: {
+    ios: 'folder.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-plus-outline': {
+    ios: 'folder.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-plus': {
+    ios: 'folder.fill.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-remove-outline': {
+    ios: 'folder.badge.minus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-remove': {
+    ios: 'folder.fill.badge.minus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-account-outline': {
+    ios: 'folder.badge.person.crop',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-account': {
+    ios: 'folder.fill.badge.person.crop',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-cog-outline': {
+    ios: 'folder.badge.gearshape',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'folder-cog': {
+    ios: 'folder.fill.badge.gearshape',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'send-outline': {
+    ios: 'paperplane',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  send: {
+    ios: 'paperplane.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'send-circle-outline': {
+    ios: 'paperplane.circle',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'send-circle': {
+    ios: 'paperplane.circle.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  tray: {
+    ios: 'tray',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  inbox: {
+    ios: 'tray.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-full-outline': {
+    ios: 'tray.full',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-full': {
+    ios: 'tray.full.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-arrow-up-outline': {
+    ios: 'tray.and.arrow.up',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-arrow-up': {
+    ios: 'tray.and.arrow.up.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-arrow-down-outline': {
+    ios: 'tray.and.arrow.down',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-arrow-down': {
+    ios: 'tray.and.arrow.down.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-multiple-outline': {
+    ios: 'tray.2',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'inbox-multiple': {
+    ios: 'tray.2.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-outline': {
+    ios: 'externaldrive',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  database: {
+    ios: 'externaldrive.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-plus-outline': {
+    ios: 'externaldrive.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-plus': {
+    ios: 'externaldrive.fill.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-minus-outline': {
+    ios: 'externaldrive.badge.minus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-minus': {
+    ios: 'externaldrive.fill.badge.minus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-check-outline': {
+    ios: 'externaldrive.badge.checkmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-check': {
+    ios: 'externaldrive.fill.badge.checkmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-remove-outline': {
+    ios: 'externaldrive.badge.xmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-remove': {
+    ios: 'externaldrive.fill.badge.xmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-alert-outline': {
+    ios: 'externaldrive.badge.exclamationmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-alert': {
+    ios: 'externaldrive.fill.badge.exclamationmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-clock-outline': {
+    ios: 'externaldrive.badge.timemachine',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'database-clock': {
+    ios: 'externaldrive.fill.badge.timemachine',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'archive-outline': {
+    ios: 'archivebox',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  archive: {
+    ios: 'archivebox.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'archive-remove-outline': {
+    ios: 'xmark.bin',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'archive-remove': {
+    ios: 'xmark.bin.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'archive-arrow-up-outline': {
+    ios: 'arrow.up.bin',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'archive-arrow-up': {
+    ios: 'arrow.up.bin.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-document-outline': {
+    ios: 'doc',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-document': {
+    ios: 'doc.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-plus-outline': {
+    ios: 'doc.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-plus': {
+    ios: 'doc.fill.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-upload-outline': {
+    ios: 'arrow.up.doc',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-upload': {
+    ios: 'arrow.up.doc.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-clock-outline': {
+    ios: 'doc.badge.clock',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-clock': {
+    ios: 'doc.badge.clock.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-cog-outline': {
+    ios: 'doc.badge.gearshape',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-cog': {
+    ios: 'doc.badge.gearshape.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-lock-outline': {
+    ios: 'lock.doc',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-lock': {
+    ios: 'lock.doc.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-download-outline': {
+    ios: 'arrow.down.doc',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-download': {
+    ios: 'arrow.down.doc.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
 } as const;
 
 export type NamesLeft =
-  | 'square.and.arrow.up.trianglebadge.exclamationmark' // excluded
-  | 'square.and.arrow.up.on.square' // excluded
-  | 'square.and.arrow.up.on.square.fill' // excluded
-  | 'square.and.arrow.down.on.square' // excluded
-  | 'square.and.arrow.down.on.square.fill' // excluded
-  | 'rectangle.portrait.and.arrow.forward' // excluded
-  | 'rectangle.portrait.and.arrow.forward.fill' // excluded
-  | 'eraser.line.dashed' // excluded
-  | 'eraser.line.dashed.fill' // excluded
-  | 'square.and.pencil.circle' // excluded
-  | 'square.and.pencil.circle.fill' // excluded
-  | 'scribble' // excluded
-  | 'scribble.variable' // excluded
-  | 'pencil.and.outline' // excluded
-  | 'pencil.tip.crop.circle' // excluded
-  | 'pencil.tip.crop.circle.fill' // excluded
-  | 'pencil.tip.crop.circle.badge.arrow.forward' // excluded
-  | 'pencil.tip.crop.circle.badge.arrow.forward.fill' // excluded
-  | 'lasso.badge.sparkles' // excluded
-  | 'trash.square' // excluded
-  | 'trash.square.fill' // excluded
-  | 'trash.slash.circle' // excluded
-  | 'trash.slash.circle.fill' // excluded
-  | 'trash.slash.square' // excluded
-  | 'trash.slash.square.fill' // excluded
-  | 'arrow.up.trash' // excluded
-  | 'folder.fill'
-  | 'folder.circle'
-  | 'folder.circle.fill'
-  | 'folder.badge.plus'
-  | 'folder.fill.badge.plus'
-  | 'folder.badge.minus'
-  | 'folder.fill.badge.minus'
-  | 'folder.badge.questionmark'
-  | 'folder.fill.badge.questionmark'
-  | 'folder.badge.person.crop'
-  | 'folder.fill.badge.person.crop'
-  | 'square.grid.3x1.folder.badge.plus'
-  | 'square.grid.3x1.folder.fill.badge.plus'
-  | 'folder.badge.gearshape'
-  | 'folder.fill.badge.gearshape'
-  | 'plus.rectangle.on.folder'
-  | 'plus.rectangle.on.folder.fill'
-  | 'questionmark.folder'
-  | 'questionmark.folder.fill'
-  | 'paperplane'
-  | 'paperplane.fill'
-  | 'paperplane.circle'
-  | 'paperplane.circle.fill'
-  | 'tray'
-  | 'tray.fill'
-  | 'tray.circle'
-  | 'tray.circle.fill'
-  | 'tray.full'
-  | 'tray.full.fill'
-  | 'tray.and.arrow.up'
-  | 'tray.and.arrow.up.fill'
-  | 'tray.and.arrow.down'
-  | 'tray.and.arrow.down.fill'
-  | 'tray.2'
-  | 'tray.2.fill'
-  | 'externaldrive'
-  | 'externaldrive.fill'
-  | 'externaldrive.badge.plus'
-  | 'externaldrive.fill.badge.plus'
-  | 'externaldrive.badge.minus'
-  | 'externaldrive.fill.badge.minus'
-  | 'externaldrive.badge.checkmark'
-  | 'externaldrive.fill.badge.checkmark'
-  | 'externaldrive.badge.xmark'
-  | 'externaldrive.fill.badge.xmark'
-  | 'externaldrive.badge.questionmark'
-  | 'externaldrive.fill.badge.questionmark'
-  | 'externaldrive.badge.exclamationmark'
-  | 'externaldrive.fill.badge.exclamationmark'
-  | 'externaldrive.badge.person.crop'
-  | 'externaldrive.fill.badge.person.crop'
-  | 'externaldrive.badge.wifi'
-  | 'externaldrive.fill.badge.wifi'
-  | 'externaldrive.badge.icloud'
-  | 'externaldrive.fill.badge.icloud'
-  | 'externaldrive.trianglebadge.exclamationmark'
-  | 'externaldrive.fill.trianglebadge.exclamationmark'
-  | 'externaldrive.badge.timemachine'
-  | 'externaldrive.fill.badge.timemachine'
-  | 'internaldrive'
-  | 'internaldrive.fill'
-  | 'opticaldiscdrive'
-  | 'opticaldiscdrive.fill'
-  | 'externaldrive.connected.to.line.below'
-  | 'externaldrive.connected.to.line.below.fill'
-  | 'archivebox'
-  | 'archivebox.fill'
-  | 'archivebox.circle'
-  | 'archivebox.circle.fill'
-  | 'xmark.bin'
-  | 'xmark.bin.fill'
-  | 'xmark.bin.circle'
-  | 'xmark.bin.circle.fill'
-  | 'arrow.up.bin'
-  | 'arrow.up.bin.fill'
-  | 'doc'
-  | 'doc.fill'
-  | 'doc.circle'
-  | 'doc.circle.fill'
-  | 'doc.badge.plus'
-  | 'doc.fill.badge.plus'
-  | 'doc.badge.arrow.up'
-  | 'doc.badge.arrow.up.fill'
-  | 'doc.badge.ellipsis'
-  | 'doc.fill.badge.ellipsis'
-  | 'doc.badge.clock'
-  | 'doc.badge.clock.fill'
-  | 'doc.badge.gearshape'
-  | 'doc.badge.gearshape.fill'
-  | 'lock.doc'
-  | 'lock.doc.fill'
-  | 'arrow.up.doc'
-  | 'arrow.up.doc.fill'
-  | 'arrow.down.doc'
-  | 'arrow.down.doc.fill'
   | 'doc.text'
   | 'doc.text.fill'
   | 'doc.zipper'
