@@ -1,3 +1,5 @@
+// @refresh reset
+
 import 'expo-dev-client';
 
 import { ICON_NAMES, Icon } from '@roninoss/icons';
@@ -6,16 +8,15 @@ import * as React from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
 const data = Object.keys(ICON_NAMES).map((name) => name);
-
+data.reverse();
 export default function Native() {
   const [type, setType] = React.useState('iOS Icon');
   return (
     <View style={styles.container}>
       <FlatList
-        inverted
         extraData={data}
         keyExtractor={(item) => item}
-        ListFooterComponent={
+        ListHeaderComponent={
           <Pressable
             onPress={() => {
               setType(type === 'iOS Icon' ? 'Material Icon' : 'iOS Icon');
@@ -24,7 +25,7 @@ export default function Native() {
             <Text style={styles.header}>{type}</Text>
           </Pressable>
         }
-        numColumns={8}
+        numColumns={9}
         data={data}
         renderItem={({ item }) => (
           <Icon
@@ -33,7 +34,7 @@ export default function Native() {
             size={42}
             ios={{
               useMaterialIcon: type === 'Material Icon',
-              // name: 'calendar.badge.plus',
+              // name: 'sportscourt',
             }}
           />
         )}

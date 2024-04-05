@@ -1,3 +1,5 @@
+// @refresh reset
+
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import * as React from 'react';
@@ -57,8 +59,8 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
     if (materialIcon?.type === 'MaterialCommunityIcons') {
       return (
         <MaterialCommunityIcons
-          // @ts-expect-error
           name={
+            // @ts-expect-error
             materialIcon.name ?? sharedIcon?.ios ? name : sharedIcon?.android
           }
           size={size}
@@ -70,8 +72,8 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
     if (materialIcon?.type === 'MaterialIcons') {
       return (
         <MaterialIcons
-          // @ts-expect-error
           name={
+            // @ts-expect-error
             materialIcon.name ?? sharedIcon?.ios ? name : sharedIcon?.android
           }
           size={size}
@@ -84,8 +86,8 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
     const materialProps = materialIcon ?? {};
     return ICON_NAMES[name]?.type === 'MaterialCommunityIcons' ? (
       <MaterialCommunityIcons
-        // @ts-expect-error
         name={
+          // @ts-expect-error
           materialIcon?.name ?? sharedIcon?.ios ? name : sharedIcon?.android
         }
         size={size}
@@ -94,8 +96,8 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
       />
     ) : (
       <MaterialIcons
-        // @ts-expect-error
         name={
+          // @ts-expect-error
           materialIcon?.name ?? sharedIcon?.ios ? name : sharedIcon?.android
         }
         size={size}
@@ -110,8 +112,9 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
       scale={'small'}
       name={
         name
-          ? ICON_NAMES[name].ios ?? ICON_NAMES[name]?.android ?? 'questionmark'
-          : 'questionmark'
+          ? ICON_NAMES[name].ios ?? 'questionmark'
+          : // ? ICON_NAMES[name].ios ?? ICON_NAMES[name]?.android ?? 'questionmark'
+            'questionmark'
       }
       colors={[color]}
       {...sfSymbolProps}
@@ -122,1012 +125,760 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
 export const ICON_NAMES = {
   'tray-arrow-up': {
     ios: 'square.and.arrow.up',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-box': {
     ios: 'square.and.arrow.up.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-circle-outline': {
     ios: 'square.and.arrow.up.circle',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-circle': {
     ios: 'square.and.arrow.up.circle.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'tray-arrow-down': {
     ios: 'square.and.arrow.down',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-box': {
     ios: 'square.and.arrow.down.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-box-outline': {
     ios: 'square.and.arrow.down.on.square',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-box': {
     ios: 'square.and.arrow.down.on.square.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-box-outline': {
     ios: 'rectangle.portrait.and.arrow.right',
-
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-box': {
     ios: 'rectangle.portrait.and.arrow.right.fill',
-
     type: 'MaterialCommunityIcons',
   },
   pencil: {
     ios: 'pencil',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-circle-outline': {
     ios: 'pencil.circle',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-circle': {
     ios: 'pencil.circle.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-off': {
     ios: 'pencil.slash',
-
     type: 'MaterialCommunityIcons',
   },
   'progress-pencil': {
     ios: 'pencil.line',
-
     type: 'MaterialCommunityIcons',
   },
   eraser: {
     ios: 'eraser',
-
     type: 'MaterialCommunityIcons',
   },
   'eraser-variant': {
     ios: 'eraser.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-box-outline': {
     ios: 'square.and.pencil',
-
     type: 'MaterialCommunityIcons',
   },
   'drive-file-rename-outline': {
     ios: 'rectangle.and.pencil.and.ellipsis',
-
     type: 'MaterialIcons',
   },
   draw: {
     ios: 'pencil.and.scribble',
-
     type: 'MaterialCommunityIcons',
   },
   marker: {
     ios: 'highlighter',
-
     type: 'MaterialCommunityIcons',
   },
   'fountain-pen-tip': {
     ios: 'pencil.tip',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-plus-outline': {
     ios: 'pencil.tip.crop.circle.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'pen-plus': {
     ios: 'pencil.tip.crop.circle.badge.plus.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'pencil-minus-outline': {
     ios: 'pencil.tip.crop.circle.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'pen-minus': {
     ios: 'pencil.tip.crop.circle.badge.minus.fill',
-
     type: 'MaterialCommunityIcons',
   },
   lasso: {
     ios: 'lasso',
-
     type: 'MaterialCommunityIcons',
   },
   'trash-can-outline': {
     ios: 'trash',
-
     type: 'MaterialCommunityIcons',
   },
   'trash-can': {
     ios: 'trash.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'delete-circle-outline': {
     ios: 'trash.circle',
-
     type: 'MaterialCommunityIcons',
   },
   'delete-circle': {
     ios: 'trash.circle.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'delete-off-outline': {
     ios: 'trash.slash',
-
     type: 'MaterialCommunityIcons',
   },
   'delete-off': {
     ios: 'trash.slash.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'restore-from-trash': {
     ios: 'arrow.up.trash.fill',
-
     type: 'MaterialIcons',
   },
   'folder-open': {
     ios: 'folder',
-
     type: 'MaterialIcons',
   },
   //
   folder: {
     ios: 'folder.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-plus-outline': {
     ios: 'folder.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-plus': {
     ios: 'folder.fill.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-remove-outline': {
     ios: 'folder.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-remove': {
     ios: 'folder.fill.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-account-outline': {
     ios: 'folder.badge.person.crop',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-account': {
     ios: 'folder.fill.badge.person.crop',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-cog-outline': {
     ios: 'folder.badge.gearshape',
-
     type: 'MaterialCommunityIcons',
   },
   'folder-cog': {
     ios: 'folder.fill.badge.gearshape',
-
     type: 'MaterialCommunityIcons',
   },
   'send-outline': {
     ios: 'paperplane',
-
     type: 'MaterialCommunityIcons',
   },
   send: {
     ios: 'paperplane.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'send-circle-outline': {
     ios: 'paperplane.circle',
-
     type: 'MaterialCommunityIcons',
   },
   'send-circle': {
     ios: 'paperplane.circle.fill',
-
     type: 'MaterialCommunityIcons',
   },
   tray: {
     ios: 'tray',
-
     type: 'MaterialCommunityIcons',
   },
   inbox: {
     ios: 'tray.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-full-outline': {
     ios: 'tray.full',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-full': {
     ios: 'tray.full.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-up-outline': {
     ios: 'tray.and.arrow.up',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-up': {
     ios: 'tray.and.arrow.up.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-down-outline': {
     ios: 'tray.and.arrow.down',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-down': {
     ios: 'tray.and.arrow.down.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-multiple-outline': {
     ios: 'tray.2',
-
     type: 'MaterialCommunityIcons',
   },
   'inbox-multiple': {
     ios: 'tray.2.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'database-outline': {
     ios: 'externaldrive',
-
     type: 'MaterialCommunityIcons',
   },
   database: {
     ios: 'externaldrive.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'database-plus-outline': {
     ios: 'externaldrive.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'database-plus': {
     ios: 'externaldrive.fill.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'database-minus-outline': {
     ios: 'externaldrive.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'database-minus': {
     ios: 'externaldrive.fill.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'database-check-outline': {
     ios: 'externaldrive.badge.checkmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-check': {
     ios: 'externaldrive.fill.badge.checkmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-remove-outline': {
     ios: 'externaldrive.badge.xmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-remove': {
     ios: 'externaldrive.fill.badge.xmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-alert-outline': {
     ios: 'externaldrive.badge.exclamationmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-alert': {
     ios: 'externaldrive.fill.badge.exclamationmark',
-
     type: 'MaterialCommunityIcons',
   },
   'database-clock-outline': {
     ios: 'externaldrive.badge.timemachine',
-
     type: 'MaterialCommunityIcons',
   },
   'database-clock': {
     ios: 'externaldrive.fill.badge.timemachine',
-
     type: 'MaterialCommunityIcons',
   },
   'archive-outline': {
     ios: 'archivebox',
-
     type: 'MaterialCommunityIcons',
   },
   archive: {
     ios: 'archivebox.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'archive-remove-outline': {
     ios: 'xmark.bin',
-
     type: 'MaterialCommunityIcons',
   },
   'archive-remove': {
     ios: 'xmark.bin.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'archive-arrow-up-outline': {
     ios: 'arrow.up.bin',
-
     type: 'MaterialCommunityIcons',
   },
   'archive-arrow-up': {
     ios: 'arrow.up.bin.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-document-outline': {
     ios: 'doc',
-
     type: 'MaterialCommunityIcons',
   },
   'file-document': {
     ios: 'doc.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-plus-outline': {
     ios: 'doc.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'file-plus': {
     ios: 'doc.fill.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'file-upload-outline': {
     ios: 'arrow.up.doc',
-
     type: 'MaterialCommunityIcons',
   },
   'file-upload': {
     ios: 'arrow.up.doc.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-clock-outline': {
     ios: 'doc.badge.clock',
-
     type: 'MaterialCommunityIcons',
   },
   'file-clock': {
     ios: 'doc.badge.clock.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-cog-outline': {
     ios: 'doc.badge.gearshape',
-
     type: 'MaterialCommunityIcons',
   },
   'file-cog': {
     ios: 'doc.badge.gearshape.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-lock-outline': {
     ios: 'lock.doc',
-
     type: 'MaterialCommunityIcons',
   },
   'file-lock': {
     ios: 'lock.doc.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-download-outline': {
     ios: 'arrow.down.doc',
-
     type: 'MaterialCommunityIcons',
   },
   'file-download': {
     ios: 'arrow.down.doc.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-document-multiple-outline': {
     ios: 'doc.on.doc',
-
     type: 'MaterialCommunityIcons',
   },
   'file-document-multiple': {
     ios: 'doc.on.doc.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-copy': {
     ios: 'doc.on.clipboard.fill',
-
     type: 'MaterialIcons',
   },
   'clipboard-outline': {
     ios: 'clipboard',
-
     type: 'MaterialCommunityIcons',
   },
   clipboard: {
     ios: 'clipboard.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'clipboard-list-outline': {
     ios: 'list.clipboard',
-
     type: 'MaterialCommunityIcons',
   },
   'clipboard-list': {
     ios: 'list.clipboard.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'clipboard-edit-outline': {
     ios: 'pencil.and.list.clipboard',
-
     type: 'MaterialCommunityIcons',
   },
   'image-text': {
     ios: 'doc.richtext',
-
     type: 'MaterialCommunityIcons',
   },
   'file-question-outline': {
     ios: 'doc.questionmark',
-
     type: 'MaterialCommunityIcons',
   },
   'file-question': {
     ios: 'doc.questionmark.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'card-bulleted-outline': {
     ios: 'list.bullet.rectangle',
-
     type: 'MaterialCommunityIcons',
   },
   'card-bulleted': {
     ios: 'list.bullet.rectangle.fill',
-
     type: 'MaterialCommunityIcons',
   },
   'file-search-outline': {
     ios: 'doc.text.magnifyingglass',
-
     type: 'MaterialCommunityIcons',
   },
   'note-outline': {
     ios: 'note',
-
     type: 'MaterialCommunityIcons',
   },
   'note-text-outline': {
     ios: 'note.text',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-month': {
     ios: 'calendar',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-plus': {
     ios: 'calendar.badge.plus',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-minus': {
     ios: 'calendar.badge.minus',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-clock': {
     ios: 'calendar.badge.clock',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-alert': {
     ios: 'calendar.badge.exclamationmark',
-
     type: 'MaterialCommunityIcons',
   },
   'calendar-check': {
     ios: 'calendar.badge.checkmark',
-
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-bold-outline': {
+    ios: 'arrowshape.left',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-bold': {
+    ios: 'arrowshape.left.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-bold-circle-outline': {
+    ios: 'arrowshape.left.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-bold-circle': {
+    ios: 'arrowshape.left.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-bold-outline': {
+    ios: 'arrowshape.right',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-bold': {
+    ios: 'arrowshape.right.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-bold-circle-outline': {
+    ios: 'arrowshape.right.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-bold-circle': {
+    ios: 'arrowshape.right.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-bold-outline': {
+    ios: 'arrowshape.up',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-bold': {
+    ios: 'arrowshape.up.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-bold-circle-outline': {
+    ios: 'arrowshape.up.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-bold-circle': {
+    ios: 'arrowshape.up.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-bold-outline': {
+    ios: 'arrowshape.down',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-bold': {
+    ios: 'arrowshape.down.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-bold-circle-outline': {
+    ios: 'arrowshape.down.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-bold-circle': {
+    ios: 'arrowshape.down.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-right-bold-outline': {
+    ios: 'arrowshape.left.arrowshape.right',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-right-bold': {
+    ios: 'arrowshape.left.arrowshape.right.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-top': {
+    ios: 'arrowshape.turn.up.left',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-top-bold': {
+    ios: 'arrowshape.turn.up.left.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-top': {
+    ios: 'arrowshape.turn.up.right',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-top-bold': {
+    ios: 'arrowshape.turn.up.right.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'book-open-outline': {
+    ios: 'book',
+    type: 'MaterialCommunityIcons',
+  },
+  'book-open': {
+    ios: 'book.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  bookshelf: {
+    ios: 'books.vertical.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'menu-book': {
+    ios: 'menucard.fill',
+    type: 'MaterialIcons',
+  },
+  newspaper: {
+    ios: 'newspaper',
+    type: 'MaterialCommunityIcons',
+  },
+  'newspaper-variant': {
+    ios: 'newspaper.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'bookmark-outline': {
+    ios: 'bookmark',
+    type: 'MaterialCommunityIcons',
+  },
+  bookmark: {
+    ios: 'bookmark.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'bookmark-off-outline': {
+    ios: 'bookmark.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'bookmark-off': {
+    ios: 'bookmark.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'pencil-ruler': {
+    ios: 'pencil.and.ruler.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  ruler: {
+    ios: 'ruler.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  backpack: {
+    ios: 'backpack.fill',
+    type: 'MaterialIcons',
+  },
+  paperclip: {
+    ios: 'paperclip',
+    type: 'MaterialCommunityIcons',
+  },
+  link: {
+    ios: 'link',
+    type: 'MaterialCommunityIcons',
+  },
+  'link-plus': {
+    ios: 'link.badge.plus',
+    type: 'MaterialCommunityIcons',
+  },
+  'vector-link': {
+    ios: 'personalhotspot',
+    type: 'MaterialCommunityIcons',
+  },
+  'person-outline': {
+    ios: 'person',
+    type: 'MaterialIcons',
+  },
+  person: {
+    ios: 'person.fill',
+    type: 'MaterialIcons',
+  },
+  'account-circle-outline': {
+    ios: 'person.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-circle': {
+    ios: 'person.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-off-outline': {
+    ios: 'person.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-off': {
+    ios: 'person.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-check': {
+    ios: 'person.fill.checkmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-remove': {
+    ios: 'person.fill.xmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-question': {
+    ios: 'person.fill.questionmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-plus-outline': {
+    ios: 'person.badge.plus',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-minus-outline': {
+    ios: 'person.badge.minus',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-clock-outline': {
+    ios: 'person.badge.clock',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-clock': {
+    ios: 'person.badge.clock.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-key-outline': {
+    ios: 'person.badge.key',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-key': {
+    ios: 'person.badge.key.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-multiple-outline': {
+    ios: 'person.2',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-multiple': {
+    ios: 'person.2.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'account-voice': {
+    ios: 'person.wave.2.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'image-frame': {
+    ios: 'photo.artframe',
+    type: 'MaterialCommunityIcons',
+  },
+  checkerboard: {
+    ios: 'rectangle.checkered',
+    type: 'MaterialCommunityIcons',
+  },
+  accessibility: {
+    ios: 'accessibility',
+    type: 'MaterialIcons',
+  },
+  dumbbell: {
+    ios: 'dumbbell.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'soccer-field': {
+    ios: 'sportscourt',
+    type: 'MaterialCommunityIcons',
+  },
+  soccer: {
+    ios: 'soccerball',
+    type: 'MaterialCommunityIcons',
+  },
+  baseball: {
+    ios: 'baseball.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  basketball: {
+    ios: 'basketball.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  football: {
+    ios: 'football.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  tennis: {
+    ios: 'tennis.racket',
+    type: 'MaterialCommunityIcons',
+  },
+  'hockey-puck': {
+    ios: 'hockey.puck.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  cricket: {
+    ios: 'cricket.ball.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'tennis-ball': {
+    ios: 'tennisball.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  volleyball: {
+    ios: 'volleyball.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  skateboard: {
+    ios: 'skateboard',
+    type: 'MaterialCommunityIcons',
+  },
+  ski: {
+    ios: 'skis',
+    type: 'MaterialCommunityIcons',
+  },
+  snowboard: {
+    ios: 'snowboard',
     type: 'MaterialCommunityIcons',
   },
 } as const;
 
-type IosNames = (typeof ICON_NAMES)[keyof typeof ICON_NAMES]['ios'];
-type MaterialIconNames = keyof typeof ICON_NAMES;
-type IconNamesForMaterialIcons = typeof ICON_NAMES;
-type IconNamesFromIos = Record<
-  IosNames,
-  {
-    type: 'MaterialIcons' | 'MaterialCommunityIcons';
-    android: MaterialIconNames;
-  }
->;
-
-// Allows to use either iOS or Material icon names
-// for (const key in ICON_NAMES) {
-//   const subObject = ICON_NAMES[key as MaterialIconNames];
-//   ICON_NAMES[subObject.ios as IosNames] = {
-//     ...subObject.default,
-//     name: key as MaterialIconNames,
-//   };
-// }
-
-// console.log(Object.keys(ICON_NAMES));
-
 export type NamesLeft =
-  | 'calendar.badge.plus'
-  | 'calendar.badge.minus'
-  | 'calendar.badge.clock'
-  | 'calendar.badge.exclamationmark'
-  | 'calendar.badge.checkmark'
-  | 'calendar.day.timeline.left'
-  | 'calendar.day.timeline.right'
-  | 'calendar.day.timeline.leading'
-  | 'calendar.day.timeline.trailing'
-  | 'arrowshape.left'
-  | 'arrowshape.left.fill'
-  | 'arrowshape.left.circle'
-  | 'arrowshape.left.circle.fill'
-  | 'arrowshape.backward'
-  | 'arrowshape.backward.fill'
-  | 'arrowshape.backward.circle'
-  | 'arrowshape.backward.circle.fill'
-  | 'arrowshape.right'
-  | 'arrowshape.right.fill'
-  | 'arrowshape.right.circle'
-  | 'arrowshape.right.circle.fill'
-  | 'arrowshape.forward'
-  | 'arrowshape.forward.fill'
-  | 'arrowshape.forward.circle'
-  | 'arrowshape.forward.circle.fill'
-  | 'arrowshape.up'
-  | 'arrowshape.up.fill'
-  | 'arrowshape.up.circle'
-  | 'arrowshape.up.circle.fill'
-  | 'arrowshape.down'
-  | 'arrowshape.down.fill'
-  | 'arrowshape.down.circle'
-  | 'arrowshape.down.circle.fill'
-  | 'arrowshape.left.arrowshape.right'
-  | 'arrowshape.left.arrowshape.right.fill'
-  | 'arrowshape.turn.up.left'
-  | 'arrowshape.turn.up.left.fill'
-  | 'arrowshape.turn.up.left.circle'
-  | 'arrowshape.turn.up.left.circle.fill'
-  | 'arrowshape.turn.up.backward'
-  | 'arrowshape.turn.up.backward.fill'
-  | 'arrowshape.turn.up.backward.circle'
-  | 'arrowshape.turn.up.backward.circle.fill'
-  | 'arrowshape.turn.up.backward.badge.clock'
-  | 'arrowshape.turn.up.backward.badge.clock.fill'
-  | 'arrowshape.turn.up.right'
-  | 'arrowshape.turn.up.right.fill'
-  | 'arrowshape.turn.up.right.circle'
-  | 'arrowshape.turn.up.right.circle.fill'
-  | 'arrowshape.turn.up.forward'
-  | 'arrowshape.turn.up.forward.fill'
-  | 'arrowshape.turn.up.forward.circle'
-  | 'arrowshape.turn.up.forward.circle.fill'
-  | 'arrowshape.turn.up.left.2'
-  | 'arrowshape.turn.up.left.2.fill'
-  | 'arrowshape.turn.up.left.2.circle'
-  | 'arrowshape.turn.up.left.2.circle.fill'
-  | 'arrowshape.turn.up.backward.2'
-  | 'arrowshape.turn.up.backward.2.fill'
-  | 'arrowshape.turn.up.backward.2.circle'
-  | 'arrowshape.turn.up.backward.2.circle.fill'
-  | 'arrowshape.zigzag.right'
-  | 'arrowshape.zigzag.right.fill'
-  | 'arrowshape.zigzag.forward'
-  | 'arrowshape.zigzag.forward.fill'
-  | 'arrowshape.bounce.right'
-  | 'arrowshape.bounce.right.fill'
-  | 'arrowshape.bounce.forward'
-  | 'arrowshape.bounce.forward.fill'
-  | 'book'
-  | 'book.fill'
-  | 'book.circle'
-  | 'book.circle.fill'
-  | 'books.vertical'
-  | 'books.vertical.fill'
-  | 'books.vertical.circle'
-  | 'books.vertical.circle.fill'
-  | 'book.closed'
-  | 'book.closed.fill'
-  | 'book.closed.circle'
-  | 'book.closed.circle.fill'
-  | 'character.book.closed'
-  | 'character.book.closed.fill'
-  | 'text.book.closed'
-  | 'text.book.closed.fill'
-  | 'menucard'
-  | 'menucard.fill'
-  | 'greetingcard'
-  | 'greetingcard.fill'
-  | 'magazine'
-  | 'magazine.fill'
-  | 'newspaper'
-  | 'newspaper.fill'
-  | 'newspaper.circle'
-  | 'newspaper.circle.fill'
-  | 'doc.text.image'
-  | 'doc.text.image.fill'
-  | 'bookmark'
-  | 'bookmark.fill'
-  | 'bookmark.circle'
-  | 'bookmark.circle.fill'
-  | 'bookmark.square'
-  | 'bookmark.square.fill'
-  | 'bookmark.slash'
-  | 'bookmark.slash.fill'
-  | 'graduationcap'
-  | 'graduationcap.fill'
-  | 'graduationcap.circle'
-  | 'graduationcap.circle.fill'
-  | 'pencil.and.ruler'
-  | 'pencil.and.ruler.fill'
-  | 'ruler'
-  | 'ruler.fill'
-  | 'backpack'
-  | 'backpack.fill'
-  | 'backpack.circle'
-  | 'backpack.circle.fill'
-  | 'studentdesk'
-  | 'paperclip'
-  | 'paperclip.circle'
-  | 'paperclip.circle.fill'
-  | 'paperclip.badge.ellipsis'
-  | 'rectangle.and.paperclip'
-  | 'rectangle.dashed.and.paperclip'
-  | 'link'
-  | 'link.circle'
-  | 'link.circle.fill'
-  | 'link.badge.plus'
-  | 'personalhotspot'
-  | 'personalhotspot.circle'
-  | 'personalhotspot.circle.fill'
-  | 'person'
-  | 'person.fill'
-  | 'person.circle'
-  | 'person.circle.fill'
-  | 'person.slash'
-  | 'person.slash.fill'
-  | 'person.fill.turn.right'
-  | 'person.fill.turn.down'
-  | 'person.fill.turn.left'
-  | 'person.fill.checkmark'
-  | 'person.fill.xmark'
-  | 'person.fill.questionmark'
-  | 'person.badge.plus'
-  | 'person.fill.badge.plus'
-  | 'person.badge.minus'
-  | 'person.fill.badge.minus'
-  | 'person.badge.clock'
-  | 'person.badge.clock.fill'
-  | 'person.badge.shield.checkmark'
-  | 'person.badge.shield.checkmark.fill'
-  | 'person.badge.key'
-  | 'person.badge.key.fill'
-  | 'person.2.badge.key'
-  | 'person.2.badge.key.fill'
-  | 'shareplay'
-  | 'shareplay.slash'
-  | 'rectangle.inset.filled.and.person.filled'
-  | 'rectangle.inset.filled.badge.record'
-  | 'rectangle.inset.filled.and.cursorarrow'
-  | 'shared.with.you'
-  | 'shared.with.you.circle'
-  | 'shared.with.you.circle.fill'
-  | 'shared.with.you.slash'
-  | 'person.and.arrow.left.and.arrow.right'
-  | 'person.fill.and.arrow.left.and.arrow.right'
-  | 'person.2'
-  | 'person.2.fill'
-  | 'person.2.circle'
-  | 'person.2.circle.fill'
-  | 'person.2.slash'
-  | 'person.2.slash.fill'
-  | 'person.2.gobackward'
-  | 'person.2.badge.gearshape'
-  | 'person.2.badge.gearshape.fill'
-  | 'person.wave.2'
-  | 'person.wave.2.fill'
-  | 'person.2.wave.2'
-  | 'person.2.wave.2.fill'
-  | 'person.line.dotted.person'
-  | 'person.line.dotted.person.fill'
-  | 'person.3'
-  | 'person.3.fill'
-  | 'person.3.sequence'
-  | 'person.3.sequence.fill'
-  | 'lanyardcard'
-  | 'lanyardcard.fill'
-  | 'person.crop.circle'
-  | 'person.crop.circle.fill'
-  | 'person.crop.circle.badge.plus'
-  | 'person.crop.circle.fill.badge.plus'
-  | 'person.crop.circle.badge.minus'
-  | 'person.crop.circle.fill.badge.minus'
-  | 'person.crop.circle.badge.checkmark'
-  | 'person.crop.circle.fill.badge.checkmark'
-  | 'person.crop.circle.badge.xmark'
-  | 'person.crop.circle.fill.badge.xmark'
-  | 'person.crop.circle.badge.questionmark'
-  | 'person.crop.circle.badge.questionmark.fill'
-  | 'person.crop.circle.badge.exclamationmark'
-  | 'person.crop.circle.badge.exclamationmark.fill'
-  | 'person.crop.circle.badge.moon'
-  | 'person.crop.circle.badge.moon.fill'
-  | 'person.crop.circle.badge.clock'
-  | 'person.crop.circle.badge.clock.fill'
-  | 'person.crop.circle.badge'
-  | 'person.crop.circle.badge.fill'
-  | 'person.crop.circle.dashed'
-  | 'person.crop.circle.dashed.circle'
-  | 'person.crop.circle.dashed.circle.fill'
-  | 'person.crop.square'
-  | 'person.crop.square.fill'
-  | 'person.crop.artframe'
-  | 'photo.artframe'
-  | 'photo.artframe.circle'
-  | 'photo.artframe.circle.fill'
-  | 'person.bust'
-  | 'person.bust.fill'
-  | 'person.bust.circle'
-  | 'person.bust.circle.fill'
-  | 'person.crop.rectangle.stack'
-  | 'person.crop.rectangle.stack.fill'
-  | 'person.2.crop.square.stack'
-  | 'person.2.crop.square.stack.fill'
-  | 'person.crop.rectangle'
-  | 'person.crop.rectangle.fill'
-  | 'person.crop.rectangle.badge.plus'
-  | 'person.crop.rectangle.badge.plus.fill'
-  | 'arrow.up.and.person.rectangle.portrait'
-  | 'arrow.up.and.person.rectangle.turn.right'
-  | 'arrow.up.and.person.rectangle.turn.left'
-  | 'person.crop.square.filled.and.at.rectangle'
-  | 'person.crop.square.filled.and.at.rectangle.fill'
-  | 'square.and.at.rectangle'
-  | 'square.and.at.rectangle.fill'
-  | 'person.text.rectangle'
-  | 'person.text.rectangle.fill'
-  | 'rectangle.checkered'
-  | 'person.and.background.dotted'
-  | 'person.and.background.striped.horizontal'
-  | 'figure.stand'
-  | 'figure.stand.line.dotted.figure.stand'
-  | 'figure.dress.line.vertical.figure'
-  | 'figure.arms.open'
-  | 'figure.2.arms.open'
-  | 'figure.2.and.child.holdinghands'
-  | 'figure.and.child.holdinghands'
-  | 'figure'
-  | 'accessibility'
-  | 'accessibility.fill'
-  | 'voiceover'
-  | 'accessibility.badge.arrow.up.right'
-  | 'figure.2'
-  | 'figure.2.circle'
-  | 'figure.2.circle.fill'
-  | 'figure.walk'
-  | 'figure.walk.circle'
-  | 'figure.walk.circle.fill'
-  | 'figure.walk.diamond'
-  | 'figure.walk.diamond.fill'
-  | 'figure.walk.arrival'
-  | 'figure.walk.departure'
-  | 'figure.walk.motion'
-  | 'figure.walk.motion.trianglebadge.exclamationmark'
-  | 'figure.wave'
-  | 'figure.wave.circle'
-  | 'figure.wave.circle.fill'
-  | 'figure.fall'
-  | 'figure.fall.circle'
-  | 'figure.fall.circle.fill'
-  | 'figure.run'
-  | 'figure.run.circle'
-  | 'figure.run.circle.fill'
-  | 'figure.run.square.stack'
-  | 'figure.run.square.stack.fill'
-  | 'figure.roll'
-  | 'figure.roll.runningpace'
-  | 'figure.american.football'
-  | 'figure.archery'
-  | 'figure.australian.football'
-  | 'figure.badminton'
-  | 'figure.barre'
-  | 'figure.baseball'
-  | 'figure.basketball'
-  | 'figure.bowling'
-  | 'figure.boxing'
-  | 'figure.climbing'
-  | 'figure.cooldown'
-  | 'figure.core.training'
-  | 'figure.cricket'
-  | 'figure.skiing.crosscountry'
-  | 'figure.cross.training'
-  | 'figure.curling'
-  | 'figure.dance'
-  | 'figure.disc.sports'
-  | 'figure.skiing.downhill'
-  | 'figure.elliptical'
-  | 'figure.equestrian.sports'
-  | 'figure.fencing'
-  | 'figure.fishing'
-  | 'figure.flexibility'
-  | 'figure.strengthtraining.functional'
-  | 'figure.golf'
-  | 'figure.gymnastics'
-  | 'figure.hand.cycling'
-  | 'figure.handball'
-  | 'figure.highintensity.intervaltraining'
-  | 'figure.hiking'
-  | 'figure.hockey'
-  | 'figure.hunting'
-  | 'figure.indoor.cycle'
-  | 'figure.jumprope'
-  | 'figure.kickboxing'
-  | 'figure.lacrosse'
-  | 'figure.martial.arts'
-  | 'figure.mind.and.body'
-  | 'figure.mixed.cardio'
-  | 'figure.open.water.swim'
-  | 'figure.outdoor.cycle'
-  | 'oar.2.crossed'
-  | 'figure.pickleball'
-  | 'figure.pilates'
-  | 'figure.play'
-  | 'figure.pool.swim'
-  | 'figure.racquetball'
-  | 'figure.rolling'
-  | 'figure.rower'
-  | 'figure.rugby'
-  | 'figure.sailing'
-  | 'figure.skating'
-  | 'figure.snowboarding'
-  | 'figure.soccer'
-  | 'figure.socialdance'
-  | 'figure.softball'
-  | 'figure.squash'
-  | 'figure.stair.stepper'
-  | 'figure.stairs'
-  | 'figure.step.training'
-  | 'figure.surfing'
-  | 'figure.table.tennis'
-  | 'figure.taichi'
-  | 'figure.tennis'
-  | 'figure.track.and.field'
-  | 'figure.strengthtraining.traditional'
-  | 'figure.volleyball'
-  | 'figure.water.fitness'
-  | 'figure.waterpolo'
-  | 'figure.wrestling'
-  | 'figure.yoga'
-  | 'baseball.diamond.bases'
-  | 'dumbbell'
-  | 'dumbbell.fill'
-  | 'sportscourt'
-  | 'sportscourt.fill'
-  | 'sportscourt.circle'
-  | 'sportscourt.circle.fill'
-  | 'lane'
-  | '1.lane'
-  | '2.lane'
-  | '3.lane'
-  | '4.lane'
-  | '5.lane'
-  | '6.lane'
-  | '7.lane'
-  | '8.lane'
-  | '9.lane'
-  | '10.lane'
-  | '11.lane'
-  | '12.lane'
-  | 'soccerball'
-  | 'soccerball.inverse'
-  | 'soccerball.circle'
-  | 'soccerball.circle.inverse'
-  | 'soccerball.circle.fill'
-  | 'soccerball.circle.fill.inverse'
-  | 'baseball'
-  | 'baseball.fill'
-  | 'baseball.circle'
-  | 'baseball.circle.fill'
-  | 'basketball'
-  | 'basketball.fill'
-  | 'basketball.circle'
-  | 'basketball.circle.fill'
-  | 'football'
-  | 'football.fill'
-  | 'football.circle'
-  | 'football.circle.fill'
-  | 'tennis.racket'
-  | 'tennis.racket.circle'
-  | 'tennis.racket.circle.fill'
-  | 'hockey.puck'
-  | 'hockey.puck.fill'
-  | 'hockey.puck.circle'
-  | 'hockey.puck.circle.fill'
-  | 'cricket.ball'
-  | 'cricket.ball.fill'
-  | 'cricket.ball.circle'
-  | 'cricket.ball.circle.fill'
-  | 'tennisball'
-  | 'tennisball.fill'
-  | 'tennisball.circle'
-  | 'tennisball.circle.fill'
-  | 'volleyball'
-  | 'volleyball.fill'
-  | 'volleyball.circle'
-  | 'volleyball.circle.fill'
-  | 'skateboard'
-  | 'skateboard.fill'
-  | 'skis'
-  | 'skis.fill'
-  | 'snowboard'
-  | 'snowboard.fill'
   | 'surfboard'
   | 'surfboard.fill'
   | 'gym.bag'
@@ -5866,3 +5617,25 @@ export type NamesLeft =
   | '50.square'
   | '50.square.fill'
   | 'apple.logo';
+
+type IosNames = (typeof ICON_NAMES)[keyof typeof ICON_NAMES]['ios'];
+type MaterialIconNames = keyof typeof ICON_NAMES;
+type IconNamesForMaterialIcons = typeof ICON_NAMES;
+type IconNamesFromIos = Record<
+  IosNames,
+  {
+    type: 'MaterialIcons' | 'MaterialCommunityIcons';
+    android: MaterialIconNames;
+  }
+>;
+
+// Allows to use either iOS or Material icon names
+// for (const key in ICON_NAMES) {
+//   const subObject = ICON_NAMES[key as MaterialIconNames];
+//   ICON_NAMES[subObject.ios as IosNames] = {
+//     ...subObject.default,
+//     name: key as MaterialIconNames,
+//   };
+// }
+
+// console.log(Object.keys(ICON_NAMES));
