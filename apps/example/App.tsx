@@ -34,7 +34,7 @@ export default function Native() {
             size={42}
             ios={{
               useMaterialIcon: type === 'Material Icon',
-              // name: 'quote.bubble',
+              // name: 'bandage',
             }}
           />
         )}
@@ -62,6 +62,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     fontSize: 36,
-    marginTop: 60,
+    marginTop: 20,
   },
 });
