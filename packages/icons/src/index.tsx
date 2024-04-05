@@ -884,322 +884,229 @@ export const ICON_NAMES = {
     ios: 'trophy.fill',
     type: 'MaterialCommunityIcons',
   },
+  'medal-outline': {
+    ios: 'medal',
+    type: 'MaterialCommunityIcons',
+  },
+  medal: {
+    ios: 'medal.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'apple-keyboard-command': {
+    ios: 'command',
+    type: 'MaterialCommunityIcons',
+  },
+  'keyboard-space': {
+    ios: 'space',
+    type: 'MaterialCommunityIcons',
+  },
+  'apple-keyboard-option': {
+    ios: 'option',
+    type: 'MaterialCommunityIcons',
+  },
+  restart: {
+    ios: 'restart',
+    type: 'MaterialCommunityIcons',
+  },
+  sleep: {
+    ios: 'zzz',
+    type: 'MaterialCommunityIcons',
+  },
+  power: {
+    ios: 'power',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-cycle': {
+    ios: 'togglepower',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-on': {
+    ios: 'poweron',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-off': {
+    ios: 'poweroff',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-sleep': {
+    ios: 'powersleep',
+    type: 'MaterialCommunityIcons',
+  },
+  'alpha-x-box-outline': {
+    ios: 'clear',
+    type: 'MaterialCommunityIcons',
+  },
+  'alpha-x-box': {
+    ios: 'clear.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'keyboard-backspace': {
+    ios: 'delete.left',
+    type: 'MaterialCommunityIcons',
+  },
+  'apple-keyboard-shift': {
+    ios: 'shift',
+    type: 'MaterialCommunityIcons',
+  },
+  'apple-keyboard-caps': {
+    ios: 'capslock',
+    type: 'MaterialCommunityIcons',
+  },
+  'keyboard-outline': {
+    ios: 'keyboard',
+    type: 'MaterialCommunityIcons',
+  },
+  keyboard: {
+    ios: 'keyboard.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'keyboard-settings-outline': {
+    ios: 'keyboard.badge.ellipsis',
+    type: 'MaterialCommunityIcons',
+  },
+  'keyboard-settings': {
+    ios: 'keyboard.badge.ellipsis.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  web: {
+    ios: 'globe',
+    type: 'MaterialCommunityIcons',
+  },
+  'access-point-network': {
+    ios: 'network',
+    type: 'MaterialCommunityIcons',
+  },
+  'access-point-network-off': {
+    ios: 'network.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-sunny': {
+    ios: 'sun.min',
+    type: 'MaterialCommunityIcons',
+  },
+  'white-balance-sunny': {
+    ios: 'sun.max.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-sunny-alert': {
+    ios: 'sun.max.trianglebadge.exclamationmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-night': {
+    ios: 'moon.stars',
+    type: 'MaterialCommunityIcons',
+  },
+  'nightlight-round': {
+    ios: 'moon.fill',
+    type: 'MaterialIcons',
+  },
+  'star-four-points': {
+    ios: 'sparkle',
+    type: 'MaterialCommunityIcons',
+  },
+  'cloud-outline': {
+    ios: 'cloud',
+    type: 'MaterialCommunityIcons',
+  },
+  cloud: {
+    ios: 'cloud.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-rainy': {
+    ios: 'cloud.rain',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-lightning': {
+    ios: 'cloud.bolt',
+    type: 'MaterialCommunityIcons',
+  },
+  'weather-tornado': {
+    ios: 'tornado',
+    type: 'MaterialCommunityIcons',
+  },
+  'sun-thermometer-outline': {
+    ios: 'thermometer.sun',
+    type: 'MaterialCommunityIcons',
+  },
+  'sun-thermometer': {
+    ios: 'thermometer.sun.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'water-outline': {
+    ios: 'drop',
+    type: 'MaterialCommunityIcons',
+  },
+  water: {
+    ios: 'drop.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'water-circle': {
+    ios: 'drop.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  fire: {
+    ios: 'flame',
+    type: 'MaterialCommunityIcons',
+  },
+  'fire-circle': {
+    ios: 'flame.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'umbrella-outline': {
+    ios: 'umbrella',
+    type: 'MaterialCommunityIcons',
+  },
+  umbrella: {
+    ios: 'umbrella.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-outline': {
+    ios: 'play',
+    type: 'MaterialCommunityIcons',
+  },
+  play: {
+    ios: 'play.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-circle-outline': {
+    ios: 'play.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-circle': {
+    ios: 'play.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-box-outline': {
+    ios: 'play.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-box': {
+    ios: 'play.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-box-multiple-outline': {
+    ios: 'play.square.stack',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-box-multiple': {
+    ios: 'play.square.stack.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  pause: {
+    ios: 'ppause',
+    type: 'MaterialCommunityIcons',
+  },
+  'pause-circle-outline': {
+    ios: 'pause.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'pause-circle': {
+    ios: 'pause.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
 } as const;
 
 export type NamesLeft =
-  | 'trophy.circle'
-  | 'trophy.circle.fill'
-  | 'medal'
-  | 'medal.fill'
-  | 'command'
-  | 'command.circle'
-  | 'command.circle.fill'
-  | 'command.square'
-  | 'command.square.fill'
-  | 'space'
-  | 'option'
-  | 'alt'
-  | 'control'
-  | 'projective'
-  | 'chevron.left.to.line'
-  | 'chevron.right.to.line'
-  | 'chevron.backward.to.line'
-  | 'chevron.forward.to.line'
-  | 'escape'
-  | 'restart'
-  | 'restart.circle'
-  | 'restart.circle.fill'
-  | 'sleep'
-  | 'sleep.circle'
-  | 'sleep.circle.fill'
-  | 'power'
-  | 'power.circle'
-  | 'power.circle.fill'
-  | 'power.dotted'
-  | 'togglepower'
-  | 'poweron'
-  | 'poweroff'
-  | 'powersleep'
-  | 'directcurrent'
-  | 'alternatingcurrent'
-  | 'clear'
-  | 'clear.fill'
-  | 'delete.left'
-  | 'delete.left.fill'
-  | 'delete.backward'
-  | 'delete.backward.fill'
-  | 'delete.right'
-  | 'delete.right.fill'
-  | 'delete.forward'
-  | 'delete.forward.fill'
-  | 'shift'
-  | 'shift.fill'
-  | 'capslock'
-  | 'capslock.fill'
-  | 'eject'
-  | 'eject.fill'
-  | 'eject.circle'
-  | 'eject.circle.fill'
-  | 'rays'
-  | 'slowmo'
-  | 'timelapse'
-  | 'rectangle.on.rectangle.badge.gearshape'
-  | 'filemenu.and.selection'
-  | 'dot.circle.and.hand.point.up.left.fill'
-  | 'keyboard'
-  | 'keyboard.fill'
-  | 'keyboard.badge.ellipsis'
-  | 'keyboard.badge.ellipsis.fill'
-  | 'keyboard.badge.eye'
-  | 'keyboard.badge.eye.fill'
-  | 'keyboard.chevron.compact.down'
-  | 'keyboard.chevron.compact.down.fill'
-  | 'keyboard.chevron.compact.left'
-  | 'keyboard.chevron.compact.left.fill'
-  | 'keyboard.onehanded.left'
-  | 'keyboard.onehanded.left.fill'
-  | 'keyboard.onehanded.right'
-  | 'keyboard.onehanded.right.fill'
-  | 'globe'
-  | 'globe.badge.chevron.backward'
-  | 'network'
-  | 'network.slash'
-  | 'network.badge.shield.half.filled'
-  | 'globe.americas'
-  | 'globe.americas.fill'
-  | 'globe.europe.africa'
-  | 'globe.europe.africa.fill'
-  | 'globe.asia.australia'
-  | 'globe.asia.australia.fill'
-  | 'globe.central.south.asia'
-  | 'globe.central.south.asia.fill'
-  | 'sun.min'
-  | 'sun.min.fill'
-  | 'sun.max'
-  | 'sun.max.fill'
-  | 'sun.max.circle'
-  | 'sun.max.circle.fill'
-  | 'sun.max.trianglebadge.exclamationmark'
-  | 'sun.max.trianglebadge.exclamationmark.fill'
-  | 'sunrise'
-  | 'sunrise.fill'
-  | 'sunrise.circle'
-  | 'sunrise.circle.fill'
-  | 'sunset'
-  | 'sunset.fill'
-  | 'sunset.circle'
-  | 'sunset.circle.fill'
-  | 'sun.horizon'
-  | 'sun.horizon.fill'
-  | 'sun.horizon.circle'
-  | 'sun.horizon.circle.fill'
-  | 'sun.dust'
-  | 'sun.dust.fill'
-  | 'sun.dust.circle'
-  | 'sun.dust.circle.fill'
-  | 'sun.haze'
-  | 'sun.haze.fill'
-  | 'sun.haze.circle'
-  | 'sun.haze.circle.fill'
-  | 'sun.rain'
-  | 'sun.rain.fill'
-  | 'sun.rain.circle'
-  | 'sun.rain.circle.fill'
-  | 'sun.snow'
-  | 'sun.snow.fill'
-  | 'sun.snow.circle'
-  | 'sun.snow.circle.fill'
-  | 'moonphase.new.moon'
-  | 'moonphase.waxing.crescent'
-  | 'moonphase.first.quarter'
-  | 'moonphase.waxing.gibbous'
-  | 'moonphase.full.moon'
-  | 'moonphase.waning.gibbous'
-  | 'moonphase.last.quarter'
-  | 'moonphase.waning.crescent'
-  | 'moonphase.new.moon.inverse'
-  | 'moonphase.waxing.crescent.inverse'
-  | 'moonphase.first.quarter.inverse'
-  | 'moonphase.waxing.gibbous.inverse'
-  | 'moonphase.full.moon.inverse'
-  | 'moonphase.waning.gibbous.inverse'
-  | 'moonphase.last.quarter.inverse'
-  | 'moonphase.waning.crescent.inverse'
-  | 'zzz'
-  | 'moon'
-  | 'moon.fill'
-  | 'moon.circle'
-  | 'moon.circle.fill'
-  | 'moonrise'
-  | 'moonrise.fill'
-  | 'moonrise.circle'
-  | 'moonrise.circle.fill'
-  | 'moonset'
-  | 'moonset.fill'
-  | 'moonset.circle'
-  | 'moonset.circle.fill'
-  | 'moon.dust'
-  | 'moon.dust.fill'
-  | 'moon.dust.circle'
-  | 'moon.dust.circle.fill'
-  | 'moon.haze'
-  | 'moon.haze.fill'
-  | 'moon.haze.circle'
-  | 'moon.haze.circle.fill'
-  | 'moon.zzz'
-  | 'moon.zzz.fill'
-  | 'sparkle'
-  | 'moon.stars'
-  | 'moon.stars.fill'
-  | 'moon.stars.circle'
-  | 'moon.stars.circle.fill'
-  | 'cloud'
-  | 'cloud.fill'
-  | 'cloud.circle'
-  | 'cloud.circle.fill'
-  | 'cloud.drizzle'
-  | 'cloud.drizzle.fill'
-  | 'cloud.drizzle.circle'
-  | 'cloud.drizzle.circle.fill'
-  | 'cloud.rain'
-  | 'cloud.rain.fill'
-  | 'cloud.rain.circle'
-  | 'cloud.rain.circle.fill'
-  | 'cloud.heavyrain'
-  | 'cloud.heavyrain.fill'
-  | 'cloud.heavyrain.circle'
-  | 'cloud.heavyrain.circle.fill'
-  | 'cloud.fog'
-  | 'cloud.fog.fill'
-  | 'cloud.fog.circle'
-  | 'cloud.fog.circle.fill'
-  | 'cloud.hail'
-  | 'cloud.hail.fill'
-  | 'cloud.hail.circle'
-  | 'cloud.hail.circle.fill'
-  | 'cloud.snow'
-  | 'cloud.snow.fill'
-  | 'cloud.snow.circle'
-  | 'cloud.snow.circle.fill'
-  | 'cloud.sleet'
-  | 'cloud.sleet.fill'
-  | 'cloud.sleet.circle'
-  | 'cloud.sleet.circle.fill'
-  | 'cloud.bolt'
-  | 'cloud.bolt.fill'
-  | 'cloud.bolt.circle'
-  | 'cloud.bolt.circle.fill'
-  | 'cloud.bolt.rain'
-  | 'cloud.bolt.rain.fill'
-  | 'cloud.bolt.rain.circle'
-  | 'cloud.bolt.rain.circle.fill'
-  | 'cloud.sun'
-  | 'cloud.sun.fill'
-  | 'cloud.sun.circle'
-  | 'cloud.sun.circle.fill'
-  | 'cloud.sun.rain'
-  | 'cloud.sun.rain.fill'
-  | 'cloud.sun.rain.circle'
-  | 'cloud.sun.rain.circle.fill'
-  | 'cloud.sun.bolt'
-  | 'cloud.sun.bolt.fill'
-  | 'cloud.sun.bolt.circle'
-  | 'cloud.sun.bolt.circle.fill'
-  | 'cloud.moon'
-  | 'cloud.moon.fill'
-  | 'cloud.moon.circle'
-  | 'cloud.moon.circle.fill'
-  | 'cloud.moon.rain'
-  | 'cloud.moon.rain.fill'
-  | 'cloud.moon.rain.circle'
-  | 'cloud.moon.rain.circle.fill'
-  | 'cloud.moon.bolt'
-  | 'cloud.moon.bolt.fill'
-  | 'cloud.moon.bolt.circle'
-  | 'cloud.moon.bolt.circle.fill'
-  | 'smoke'
-  | 'smoke.fill'
-  | 'smoke.circle'
-  | 'smoke.circle.fill'
-  | 'wind'
-  | 'wind.circle'
-  | 'wind.circle.fill'
-  | 'wind.snow'
-  | 'wind.snow.circle'
-  | 'wind.snow.circle.fill'
-  | 'snowflake'
-  | 'snowflake.circle'
-  | 'snowflake.circle.fill'
-  | 'snowflake.slash'
-  | 'tornado'
-  | 'tornado.circle'
-  | 'tornado.circle.fill'
-  | 'tropicalstorm'
-  | 'tropicalstorm.circle'
-  | 'tropicalstorm.circle.fill'
-  | 'hurricane'
-  | 'hurricane.circle'
-  | 'hurricane.circle.fill'
-  | 'thermometer.sun'
-  | 'thermometer.sun.fill'
-  | 'thermometer.sun.circle'
-  | 'thermometer.sun.circle.fill'
-  | 'thermometer.snowflake'
-  | 'thermometer.snowflake.circle'
-  | 'thermometer.snowflake.circle.fill'
-  | 'thermometer.variable.and.figure'
-  | 'thermometer.variable.and.figure.circle'
-  | 'thermometer.variable.and.figure.circle.fill'
-  | 'thermometer.low'
-  | 'thermometer.medium'
-  | 'thermometer.high'
-  | 'thermometer.medium.slash'
-  | 'rainbow'
-  | 'cloud.rainbow.half'
-  | 'cloud.rainbow.half.fill'
-  | 'water.waves'
-  | 'water.waves.slash'
-  | 'water.waves.and.arrow.up'
-  | 'water.waves.and.arrow.down'
-  | 'water.waves.and.arrow.down.trianglebadge.exclamationmark'
-  | 'drop'
-  | 'drop.fill'
-  | 'drop.circle'
-  | 'drop.circle.fill'
-  | 'drop.degreesign'
-  | 'drop.degreesign.fill'
-  | 'drop.degreesign.slash'
-  | 'drop.degreesign.slash.fill'
-  | 'drop.triangle'
-  | 'drop.triangle.fill'
-  | 'flame'
-  | 'flame.fill'
-  | 'flame.circle'
-  | 'flame.circle.fill'
-  | 'beach.umbrella'
-  | 'beach.umbrella.fill'
-  | 'umbrella'
-  | 'umbrella.fill'
-  | 'umbrella.percent'
-  | 'umbrella.percent.fill'
-  | 'play'
-  | 'play.fill'
-  | 'play.circle'
-  | 'play.circle.fill'
-  | 'play.square'
-  | 'play.square.fill'
-  | 'play.rectangle'
-  | 'play.rectangle.fill'
-  | 'play.square.stack'
-  | 'play.square.stack.fill'
-  | 'play.slash'
-  | 'play.slash.fill'
-  | 'pause'
-  | 'pause.fill'
-  | 'pause.circle'
-  | 'pause.circle.fill'
-  | 'pause.rectangle'
-  | 'pause.rectangle.fill'
   | 'stop'
   | 'stop.fill'
   | 'stop.circle'
