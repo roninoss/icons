@@ -34,7 +34,7 @@ export default function Native() {
             size={42}
             ios={{
               useMaterialIcon: type === 'Material Icon',
-              name: 'play.square.stack',
+              // name: 'quote.bubble',
             }}
           />
         )}

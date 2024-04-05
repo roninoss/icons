@@ -1093,7 +1093,7 @@ export const ICON_NAMES = {
     type: 'MaterialCommunityIcons',
   },
   pause: {
-    ios: 'ppause',
+    ios: 'pause',
     type: 'MaterialCommunityIcons',
   },
   'pause-circle-outline': {
@@ -1104,466 +1104,353 @@ export const ICON_NAMES = {
     ios: 'pause.circle.fill',
     type: 'MaterialCommunityIcons',
   },
+  stop: {
+    ios: 'stop.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'stop-circle-outline': {
+    ios: 'stop.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'stop-circle': {
+    ios: 'stop.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'record-circle-outline': {
+    ios: 'record.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'record-circle': {
+    ios: 'record.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'play-pause': {
+    ios: 'playpause.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'rewind-outline': {
+    ios: 'backward',
+    type: 'MaterialCommunityIcons',
+  },
+  rewind: {
+    ios: 'backward.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'fast-forward-outline': {
+    ios: 'forward',
+    type: 'MaterialCommunityIcons',
+  },
+  'fast-forward': {
+    ios: 'forward.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'skip-backward-outline': {
+    ios: 'backward.end',
+    type: 'MaterialCommunityIcons',
+  },
+  'skip-backward': {
+    ios: 'backward.end.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'skip-forward-outline': {
+    ios: 'forward.end',
+    type: 'MaterialCommunityIcons',
+  },
+  'skip-forward': {
+    ios: 'forward.end.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'step-backward': {
+    ios: 'backward.frame.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'step-forward': {
+    ios: 'forward.frame.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  shuffle: {
+    ios: 'shuffle',
+    type: 'MaterialCommunityIcons',
+  },
+  repeat: {
+    ios: 'repeat',
+    type: 'MaterialCommunityIcons',
+  },
+  'repeat-once': {
+    ios: 'repeat.1',
+    type: 'MaterialCommunityIcons',
+  },
+  infinity: {
+    ios: 'infinity',
+    type: 'MaterialCommunityIcons',
+  },
+  'bullhorn-outline': {
+    ios: 'megaphone',
+    type: 'MaterialCommunityIcons',
+  },
+  bullhorn: {
+    ios: 'megaphone.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-low': {
+    ios: 'speaker.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-plus': {
+    ios: 'speaker.plus.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-minus': {
+    ios: 'speaker.minus.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-variant-off': {
+    ios: 'speaker.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-medium': {
+    ios: 'speaker.wave.1.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'volume-high': {
+    ios: 'speaker.wave.3.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'music-note': {
+    ios: 'music.note',
+    type: 'MaterialCommunityIcons',
+  },
+  'playlist-music': {
+    ios: 'music.note.list',
+    type: 'MaterialCommunityIcons',
+  },
+  'microphone-variant': {
+    ios: 'music.mic',
+    type: 'MaterialCommunityIcons',
+  },
+  magnify: {
+    ios: 'magnifyingglass',
+    type: 'MaterialCommunityIcons',
+  },
+  'magnify-minus-outline': {
+    ios: 'minus.magnifyingglass',
+    type: 'MaterialCommunityIcons',
+  },
+  'magnify-plus-outline': {
+    ios: 'plus.magnifyingglass',
+    type: 'MaterialCommunityIcons',
+  },
+  'microphone-outline': {
+    ios: 'mic',
+    type: 'MaterialCommunityIcons',
+  },
+  microphone: {
+    ios: 'mic.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'microphone-off': {
+    ios: 'mic.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'microphone-plus': {
+    ios: 'mic.fill.badge.plus',
+    type: 'MaterialCommunityIcons',
+  },
+  'circle-outline': {
+    ios: 'circle',
+    type: 'MaterialCommunityIcons',
+  },
+  circle: {
+    ios: 'circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  cancel: {
+    ios: 'circle.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  target: {
+    ios: 'target',
+    type: 'MaterialCommunityIcons',
+  },
+  'square-outline': {
+    ios: 'square',
+    type: 'MaterialCommunityIcons',
+  },
+  square: {
+    ios: 'square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'star-box-multiple-outline': {
+    ios: 'star.square.on.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'star-box-multiple': {
+    ios: 'star.square.on.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'plus-box-outline': {
+    ios: 'plus.app',
+    type: 'MaterialCommunityIcons',
+  },
+  'plus-box': {
+    ios: 'plus.app.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'checkbox-blank-badge-outline': {
+    ios: 'app.badge',
+    type: 'MaterialCommunityIcons',
+  },
+  'checkbox-blank-badge': {
+    ios: 'app.badge.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'check-decagram-outline': {
+    ios: 'checkmark.seal',
+    type: 'MaterialCommunityIcons',
+  },
+  'check-decagram': {
+    ios: 'checkmark.seal.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'heart-outline': {
+    ios: 'heart',
+    type: 'MaterialCommunityIcons',
+  },
+  heart: {
+    ios: 'heart.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'heart-flash': {
+    ios: 'bolt.heart.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'star-outline': {
+    ios: 'star',
+    type: 'MaterialCommunityIcons',
+  },
+  star: {
+    ios: 'star.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-outline': {
+    ios: 'shield',
+    type: 'MaterialCommunityIcons',
+  },
+  shield: {
+    ios: 'shield.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'flag-outline': {
+    ios: 'flag',
+    type: 'MaterialCommunityIcons',
+  },
+  flag: {
+    ios: 'flag.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'bell-outline': {
+    ios: 'bell',
+    type: 'MaterialCommunityIcons',
+  },
+  bell: {
+    ios: 'bell.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'tag-outline': {
+    ios: 'tag',
+    type: 'MaterialCommunityIcons',
+  },
+  tag: {
+    ios: 'tag.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lightning-bolt-outline': {
+    ios: 'bolt',
+    type: 'MaterialCommunityIcons',
+  },
+  'lightning-bolt': {
+    ios: 'bolt.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'square-root': {
+    ios: 'x.squareroot',
+    type: 'MaterialCommunityIcons',
+  },
+  flashlight: {
+    ios: 'flashlight.on.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'flashlight-off': {
+    ios: 'flashlight.off.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'camera-outline': {
+    ios: 'camera',
+    type: 'MaterialCommunityIcons',
+  },
+  camera: {
+    ios: 'camera.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-outline': {
+    ios: 'message',
+    type: 'MaterialCommunityIcons',
+  },
+  message: {
+    ios: 'message.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-plus-outline': {
+    ios: 'plus.message',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-plus': {
+    ios: 'plus.message.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-processing-outline': {
+    ios: 'ellipsis.message',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-processing': {
+    ios: 'ellipsis.message.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-quote-open': {
+    ios: 'quote.opening',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-quote-close': {
+    ios: 'quote.closing',
+    type: 'MaterialCommunityIcons',
+  },
+  'comment-quote-outline': {
+    ios: 'quote.bubble',
+    type: 'MaterialCommunityIcons',
+  },
+  'comment-quote': {
+    ios: 'quote.bubble.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-star-outline': {
+    ios: 'star.bubble',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-star': {
+    ios: 'star.bubble.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-question-outline': {
+    ios: 'questionmark.bubble',
+    type: 'MaterialCommunityIcons',
+  },
+  'message-question': {
+    ios: 'questionmark.bubble.fill',
+    type: 'MaterialCommunityIcons',
+  },
 } as const;
 
 export type NamesLeft =
-  | 'stop'
-  | 'stop.fill'
-  | 'stop.circle'
-  | 'stop.circle.fill'
-  | 'record.circle'
-  | 'record.circle.fill'
-  | 'playpause'
-  | 'playpause.fill'
-  | 'playpause.circle'
-  | 'playpause.circle.fill'
-  | 'backward'
-  | 'backward.fill'
-  | 'backward.circle'
-  | 'backward.circle.fill'
-  | 'forward'
-  | 'forward.fill'
-  | 'forward.circle'
-  | 'forward.circle.fill'
-  | 'backward.end'
-  | 'backward.end.fill'
-  | 'backward.end.circle'
-  | 'backward.end.circle.fill'
-  | 'forward.end'
-  | 'forward.end.fill'
-  | 'forward.end.circle'
-  | 'forward.end.circle.fill'
-  | 'backward.end.alt'
-  | 'backward.end.alt.fill'
-  | 'forward.end.alt'
-  | 'forward.end.alt.fill'
-  | 'backward.frame'
-  | 'backward.frame.fill'
-  | 'forward.frame'
-  | 'forward.frame.fill'
-  | 'shuffle'
-  | 'shuffle.circle'
-  | 'shuffle.circle.fill'
-  | 'repeat'
-  | 'repeat.circle'
-  | 'repeat.circle.fill'
-  | 'repeat.1'
-  | 'repeat.1.circle'
-  | 'repeat.1.circle.fill'
-  | 'infinity'
-  | 'infinity.circle'
-  | 'infinity.circle.fill'
-  | 'sos'
-  | 'sos.circle'
-  | 'sos.circle.fill'
-  | 'megaphone'
-  | 'megaphone.fill'
-  | 'speaker'
-  | 'speaker.fill'
-  | 'speaker.circle'
-  | 'speaker.circle.fill'
-  | 'speaker.square'
-  | 'speaker.square.fill'
-  | 'speaker.plus'
-  | 'speaker.plus.fill'
-  | 'speaker.minus'
-  | 'speaker.minus.fill'
-  | 'speaker.slash'
-  | 'speaker.slash.fill'
-  | 'speaker.slash.circle'
-  | 'speaker.slash.circle.fill'
-  | 'speaker.zzz'
-  | 'speaker.zzz.fill'
-  | 'speaker.wave.1'
-  | 'speaker.wave.1.fill'
-  | 'speaker.wave.2'
-  | 'speaker.wave.2.fill'
-  | 'speaker.wave.2.circle'
-  | 'speaker.wave.2.circle.fill'
-  | 'speaker.wave.3'
-  | 'speaker.wave.3.fill'
-  | 'speaker.badge.exclamationmark'
-  | 'speaker.badge.exclamationmark.fill'
-  | 'badge.plus.radiowaves.right'
-  | 'badge.plus.radiowaves.forward'
-  | 'music.note'
-  | 'music.note.list'
-  | 'music.quarternote.3'
-  | 'music.mic'
-  | 'music.mic.circle'
-  | 'music.mic.circle.fill'
-  | 'goforward'
-  | 'gobackward'
-  | 'goforward.5'
-  | 'gobackward.5'
-  | 'goforward.10'
-  | 'gobackward.10'
-  | 'goforward.15'
-  | 'gobackward.15'
-  | 'goforward.30'
-  | 'gobackward.30'
-  | 'goforward.45'
-  | 'gobackward.45'
-  | 'goforward.60'
-  | 'gobackward.60'
-  | 'goforward.75'
-  | 'gobackward.75'
-  | 'goforward.90'
-  | 'gobackward.90'
-  | 'goforward.plus'
-  | 'gobackward.minus'
-  | 'magnifyingglass'
-  | 'magnifyingglass.circle'
-  | 'magnifyingglass.circle.fill'
-  | 'plus.magnifyingglass'
-  | 'minus.magnifyingglass'
-  | 'exclamationmark.magnifyingglass'
-  | '1.magnifyingglass'
-  | 'arrow.up.left.and.down.right.magnifyingglass'
-  | 'text.magnifyingglass'
-  | 'sparkle.magnifyingglass'
-  | 'location.magnifyingglass'
-  | 'loupe'
-  | 'mic'
-  | 'mic.fill'
-  | 'mic.circle'
-  | 'mic.circle.fill'
-  | 'mic.square'
-  | 'mic.square.fill'
-  | 'mic.slash'
-  | 'mic.slash.fill'
-  | 'mic.slash.circle'
-  | 'mic.slash.circle.fill'
-  | 'mic.badge.plus'
-  | 'mic.fill.badge.plus'
-  | 'mic.badge.xmark'
-  | 'mic.fill.badge.xmark'
-  | 'mic.and.signal.meter'
-  | 'mic.and.signal.meter.fill'
-  | 'drop.halffull'
-  | 'swirl.circle.righthalf.filled'
-  | 'swirl.circle.righthalf.filled.inverse'
-  | 'circle.dotted.circle'
-  | 'circle.dotted.circle.fill'
-  | 'circle.bottomrighthalf.checkered'
-  | 'circle'
-  | 'circle.fill'
-  | 'circle.slash'
-  | 'circle.slash.fill'
-  | 'circle.badge.plus'
-  | 'circle.badge.plus.fill'
-  | 'circle.badge.minus'
-  | 'circle.badge.minus.fill'
-  | 'circle.badge.checkmark'
-  | 'circle.badge.checkmark.fill'
-  | 'circle.badge.xmark'
-  | 'circle.badge.xmark.fill'
-  | 'circle.badge.questionmark'
-  | 'circle.badge.questionmark.fill'
-  | 'circle.badge.exclamationmark'
-  | 'circle.badge.exclamationmark.fill'
-  | 'circle.lefthalf.filled'
-  | 'circle.lefthalf.filled.inverse'
-  | 'circle.righthalf.filled'
-  | 'circle.righthalf.filled.inverse'
-  | 'circle.tophalf.filled'
-  | 'circle.tophalf.filled.inverse'
-  | 'circle.bottomhalf.filled'
-  | 'circle.bottomhalf.filled.inverse'
-  | 'circle.inset.filled'
-  | 'smallcircle.filled.circle'
-  | 'smallcircle.filled.circle.fill'
-  | 'smallcircle.circle'
-  | 'smallcircle.circle.fill'
-  | 'target'
-  | 'circle.dotted'
-  | 'circle.dashed'
-  | 'circle.dashed.inset.filled'
-  | 'circlebadge'
-  | 'circlebadge.fill'
-  | 'circlebadge.2'
-  | 'circlebadge.2.fill'
-  | 'circle.grid.2x1'
-  | 'circle.grid.2x1.fill'
-  | 'circle.grid.2x1.left.filled'
-  | 'circle.grid.2x1.right.filled'
-  | 'circle.grid.2x2'
-  | 'circle.grid.2x2.fill'
-  | 'circle.grid.3x3'
-  | 'circle.grid.3x3.fill'
-  | 'circle.grid.3x3.circle'
-  | 'circle.grid.3x3.circle.fill'
-  | 'circle.hexagonpath'
-  | 'circle.hexagonpath.fill'
-  | 'circle.hexagongrid'
-  | 'circle.hexagongrid.fill'
-  | 'circle.hexagongrid.circle'
-  | 'circle.hexagongrid.circle.fill'
-  | 'placeholdertext.fill'
-  | 'square'
-  | 'square.fill'
-  | 'square.slash'
-  | 'square.slash.fill'
-  | 'square.lefthalf.filled'
-  | 'square.righthalf.filled'
-  | 'square.tophalf.filled'
-  | 'square.bottomhalf.filled'
-  | 'square.inset.filled'
-  | 'square.split.2x1'
-  | 'square.split.2x1.fill'
-  | 'square.split.1x2'
-  | 'square.split.1x2.fill'
-  | 'square.split.2x2'
-  | 'square.split.2x2.fill'
-  | 'square.split.diagonal.2x2'
-  | 'square.split.diagonal.2x2.fill'
-  | 'square.split.diagonal'
-  | 'square.split.diagonal.fill'
-  | 'square.topthird.inset.filled'
-  | 'square.bottomthird.inset.filled'
-  | 'square.leftthird.inset.filled'
-  | 'square.rightthird.inset.filled'
-  | 'square.leadingthird.inset.filled'
-  | 'square.trailingthird.inset.filled'
-  | 'square.dotted'
-  | 'square.dashed'
-  | 'square.dashed.inset.filled'
-  | 'plus.square.dashed'
-  | 'questionmark.square.dashed'
-  | 'dot.square'
-  | 'dot.square.fill'
-  | 'circle.square'
-  | 'circle.square.fill'
-  | 'square.on.square'
-  | 'square.fill.on.square.fill'
-  | 'square.on.square.badge.person.crop'
-  | 'square.on.square.badge.person.crop.fill'
-  | 'square.filled.on.square'
-  | 'hand.raised.square.on.square'
-  | 'hand.raised.square.on.square.fill'
-  | 'star.square.on.square'
-  | 'star.square.on.square.fill'
-  | 'square.on.square.dashed'
-  | 'square.on.square.intersection.dashed'
-  | 'plus.square.on.square'
-  | 'plus.square.fill.on.square.fill'
-  | 'plus.app'
-  | 'plus.app.fill'
-  | 'arrow.down.app'
-  | 'arrow.down.app.fill'
-  | 'arrow.up.forward.app'
-  | 'arrow.up.forward.app.fill'
-  | 'xmark.app'
-  | 'xmark.app.fill'
-  | 'questionmark.app'
-  | 'questionmark.app.fill'
-  | 'app.badge'
-  | 'app.badge.fill'
-  | 'app.badge.checkmark'
-  | 'app.badge.checkmark.fill'
-  | 'app.dashed'
-  | 'questionmark.app.dashed'
-  | 'lock.app.dashed'
-  | 'appclip'
-  | 'app.gift'
-  | 'app.gift.fill'
-  | 'play.rectangle.on.rectangle'
-  | 'play.rectangle.on.rectangle.fill'
-  | 'play.rectangle.on.rectangle.circle'
-  | 'play.rectangle.on.rectangle.circle.fill'
-  | 'plus.rectangle.on.rectangle'
-  | 'plus.rectangle.fill.on.rectangle.fill'
-  | 'exclamationmark.triangle'
-  | 'exclamationmark.triangle.fill'
-  | 'diamond'
-  | 'diamond.fill'
-  | 'octagon'
-  | 'octagon.fill'
-  | 'hexagon'
-  | 'hexagon.fill'
-  | 'pentagon'
-  | 'pentagon.fill'
-  | 'seal'
-  | 'seal.fill'
-  | 'checkmark.seal'
-  | 'checkmark.seal.fill'
-  | 'xmark.seal'
-  | 'xmark.seal.fill'
-  | 'heart'
-  | 'heart.fill'
-  | 'heart.circle'
-  | 'heart.circle.fill'
-  | 'heart.square'
-  | 'heart.square.fill'
-  | 'heart.rectangle'
-  | 'heart.rectangle.fill'
-  | 'heart.slash'
-  | 'heart.slash.fill'
-  | 'heart.slash.circle'
-  | 'heart.slash.circle.fill'
-  | 'bolt.heart'
-  | 'bolt.heart.fill'
-  | 'arrow.up.heart'
-  | 'arrow.up.heart.fill'
-  | 'arrow.down.heart'
-  | 'arrow.down.heart.fill'
-  | 'suit.club'
-  | 'suit.club.fill'
-  | 'suit.spade'
-  | 'suit.spade.fill'
-  | 'star'
-  | 'star.fill'
-  | 'star.leadinghalf.filled'
-  | 'star.slash'
-  | 'star.slash.fill'
-  | 'star.circle'
-  | 'star.circle.fill'
-  | 'star.square'
-  | 'star.square.fill'
-  | 'shield'
-  | 'shield.fill'
-  | 'shield.lefthalf.filled'
-  | 'shield.lefthalf.filled.badge.checkmark'
-  | 'shield.lefthalf.filled.trianglebadge.exclamationmark'
-  | 'shield.righthalf.filled'
-  | 'shield.slash'
-  | 'shield.slash.fill'
-  | 'shield.lefthalf.filled.slash'
-  | 'shield.checkered'
-  | 'staroflife.shield'
-  | 'staroflife.shield.fill'
-  | 'firewall'
-  | 'firewall.fill'
-  | 'flag'
-  | 'flag.fill'
-  | 'flag.circle'
-  | 'flag.circle.fill'
-  | 'location'
-  | 'location.fill'
-  | 'location.circle'
-  | 'location.circle.fill'
-  | 'location.square'
-  | 'location.square.fill'
-  | 'location.slash'
-  | 'location.slash.fill'
-  | 'location.slash.circle'
-  | 'location.slash.circle.fill'
-  | 'bell'
-  | 'bell.fill'
-  | 'bell.circle'
-  | 'bell.circle.fill'
-  | 'bell.slash'
-  | 'bell.slash.fill'
-  | 'bell.slash.circle'
-  | 'bell.slash.circle.fill'
-  | 'tag'
-  | 'tag.fill'
-  | 'tag.slash'
-  | 'tag.slash.fill'
-  | 'bolt'
-  | 'bolt.fill'
-  | 'icloud.fill'
-  | 'x.squareroot'
-  | 'flashlight.off.fill'
-  | 'flashlight.off.circle'
-  | 'flashlight.off.circle.fill'
-  | 'flashlight.on.fill'
-  | 'flashlight.on.circle'
-  | 'flashlight.on.circle.fill'
-  | 'flashlight.slash'
-  | 'flashlight.slash.circle'
-  | 'flashlight.slash.circle.fill'
-  | 'camera'
-  | 'camera.fill'
-  | 'camera.circle'
-  | 'camera.circle.fill'
-  | 'camera.shutter.button'
-  | 'camera.shutter.button.fill'
-  | 'camera.badge.clock'
-  | 'camera.badge.clock.fill'
-  | 'camera.badge.ellipsis'
-  | 'camera.badge.ellipsis.fill'
-  | 'camera.on.rectangle'
-  | 'camera.on.rectangle.fill'
-  | 'message'
-  | 'message.fill'
-  | 'message.circle'
-  | 'message.circle.fill'
-  | 'message.badge'
-  | 'message.badge.filled.fill'
-  | 'message.badge.circle'
-  | 'message.badge.circle.fill'
-  | 'message.badge.fill'
-  | 'checkmark.message'
-  | 'checkmark.message.fill'
-  | 'arrow.up.message'
-  | 'arrow.up.message.fill'
-  | 'arrow.down.message'
-  | 'arrow.down.message.fill'
-  | 'plus.message'
-  | 'plus.message.fill'
-  | 'ellipsis.message'
-  | 'ellipsis.message.fill'
-  | 'bubble'
-  | 'bubble.fill'
-  | 'bubble.circle'
-  | 'bubble.circle.fill'
-  | 'bubble.right'
-  | 'bubble.right.fill'
-  | 'bubble.right.circle'
-  | 'bubble.right.circle.fill'
-  | 'bubble.left'
-  | 'bubble.left.fill'
-  | 'bubble.left.circle'
-  | 'bubble.left.circle.fill'
-  | 'exclamationmark.bubble'
-  | 'exclamationmark.bubble.fill'
-  | 'exclamationmark.bubble.circle'
-  | 'exclamationmark.bubble.circle.fill'
-  | 'quote.opening'
-  | 'quote.closing'
-  | 'quote.bubble'
-  | 'quote.bubble.fill'
-  | 'star.bubble'
-  | 'star.bubble.fill'
-  | 'character.bubble'
-  | 'character.bubble.fill'
-  | 'text.bubble'
-  | 'text.bubble.fill'
-  | 'captions.bubble'
-  | 'captions.bubble.fill'
-  | 'info.bubble'
-  | 'info.bubble.fill'
-  | 'questionmark.bubble'
-  | 'questionmark.bubble.fill'
-  | 'plus.bubble'
-  | 'plus.bubble.fill'
-  | 'checkmark.bubble'
-  | 'checkmark.bubble.fill'
-  | 'rectangle.3.group.bubble'
-  | 'rectangle.3.group.bubble.fill'
-  | 'ellipsis.bubble'
-  | 'ellipsis.bubble.fill'
-  | 'ellipsis.vertical.bubble'
-  | 'ellipsis.vertical.bubble.fill'
-  | 'phone.bubble'
-  | 'phone.bubble.fill'
-  | 'video.bubble'
-  | 'video.bubble.fill'
-  | 'speaker.wave.2.bubble'
-  | 'speaker.wave.2.bubble.fill'
-  | 'person.bubble'
-  | 'person.bubble.fill'
-  | 'bubble.middle.bottom'
-  | 'bubble.middle.bottom.fill'
-  | 'bubble.middle.top'
-  | 'bubble.middle.top.fill'
-  | 'bubble.left.and.bubble.right'
-  | 'bubble.left.and.bubble.right.fill'
-  | 'bubble.left.and.exclamationmark.bubble.right'
-  | 'bubble.left.and.exclamationmark.bubble.right.fill'
-  | 'bubble.left.and.text.bubble.right'
-  | 'bubble.left.and.text.bubble.right.fill'
   | 'phone'
   | 'phone.fill'
   | 'phone.circle'
