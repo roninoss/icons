@@ -52,15 +52,6 @@ type IconProps = IconPropsWithOptionalName | IconPropsWithRequiredName;
 export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
   const { useMaterialIcon, ...sfSymbolProps } = ios ?? {};
 
-  // TODO: Create an index.ios.tsx and move this there along with ios only code + remove ios only code here
-  const adjustedSizes = React.useMemo(() => {
-    const _size = (sfSymbolProps as { size?: number }).size ?? size;
-    return {
-      sfSymbolSize: _size * 0.8,
-      sfSymbolStyle: { margin: _size * 0.1 },
-    };
-  }, [size, sfSymbolProps]);
-
   if (Platform.OS !== 'ios' || useMaterialIcon) {
     if (materialIcon?.type === 'MaterialCommunityIcons') {
       return (
@@ -106,12 +97,12 @@ export function Icon({ name, color, size = 27, ios, materialIcon }: IconProps) {
   }
   return (
     <SFSymbol
-      size={adjustedSizes.sfSymbolSize}
+      size={size}
+      scale={'small'}
       name={
         name && ICON_NAMES[name]?.ios ? ICON_NAMES[name].ios : 'questionmark'
       }
       colors={[color]}
-      style={adjustedSizes.sfSymbolStyle}
       {...sfSymbolProps}
     />
   );
@@ -714,40 +705,119 @@ export const ICON_NAMES = {
       type: 'MaterialCommunityIcons',
     },
   },
+  'clipboard-edit-outline': {
+    ios: 'pencil.and.list.clipboard',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'image-text': {
+    ios: 'doc.richtext',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-question-outline': {
+    ios: 'doc.questionmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-question': {
+    ios: 'doc.questionmark.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'card-bulleted-outline': {
+    ios: 'list.bullet.rectangle',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'card-bulleted': {
+    ios: 'list.bullet.rectangle.fill',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'file-search-outline': {
+    ios: 'doc.text.magnifyingglass',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'note-outline': {
+    ios: 'note',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'note-text-outline': {
+    ios: 'note.text',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-month': {
+    ios: 'calendar',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-plus': {
+    ios: 'calendar.badge.plus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-minus': {
+    ios: 'calendar.badge.minus',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-clock': {
+    ios: 'calendar.badge.clock',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-alert': {
+    ios: 'calendar.badge.exclamationmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
+  'calendar-check': {
+    ios: 'calendar.badge.checkmark',
+    default: {
+      type: 'MaterialCommunityIcons',
+    },
+  },
 } as const;
 
+type IosNames = (typeof ICON_NAMES)[keyof typeof ICON_NAMES]['ios'];
+type MaterialIconNames = keyof typeof ICON_NAMES;
+type IconNamesForMaterialIcons = typeof ICON_NAMES;
+type IconNamesFromIos = Record<
+  IosNames,
+  { type: 'MaterialIcons' | 'MaterialCommunityIcons'; name: MaterialIconNames }
+>;
+
+// const iconNamesFromIos = {} as IconNamesFromIos;
+
+// for (const key in ICON_NAMES) {
+//   const subObject = ICON_NAMES[key as MaterialIconNames];
+//   iconNamesFromIos[subObject.ios as IosNames] = {
+//     ...subObject.default,
+//     name: key as MaterialIconNames,
+//   };
+// }
+
+// console.log(iconNamesFromIos);
+
 export type NamesLeft =
-  | 'pencil.and.list.clipboard'
-  | 'doc.richtext'
-  | 'doc.richtext.fill'
-  | 'doc.plaintext'
-  | 'doc.plaintext.fill'
-  | 'doc.append'
-  | 'doc.append.fill'
-  | 'doc.text.below.ecg'
-  | 'doc.text.below.ecg.fill'
-  | 'doc.questionmark'
-  | 'doc.questionmark.fill'
-  | 'chart.bar.doc.horizontal'
-  | 'chart.bar.doc.horizontal.fill'
-  | 'book.pages'
-  | 'book.pages.fill'
-  | 'list.bullet.rectangle.portrait'
-  | 'list.bullet.rectangle.portrait.fill'
-  | 'doc.text.magnifyingglass'
-  | 'list.bullet.rectangle'
-  | 'list.bullet.rectangle.fill'
-  | 'list.dash.header.rectangle'
-  | 'apple.terminal'
-  | 'apple.terminal.fill'
-  | 'apple.terminal.on.rectangle'
-  | 'apple.terminal.on.rectangle.fill'
-  | 'note'
-  | 'note.text'
-  | 'note.text.badge.plus'
-  | 'calendar'
-  | 'calendar.circle'
-  | 'calendar.circle.fill'
   | 'calendar.badge.plus'
   | 'calendar.badge.minus'
   | 'calendar.badge.clock'

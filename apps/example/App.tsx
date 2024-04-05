@@ -6,14 +6,16 @@ import * as React from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
 const data = Object.keys(ICON_NAMES).map((name) => name);
-data.reverse();
 
 export default function Native() {
   const [type, setType] = React.useState('iOS Icon');
   return (
     <View style={styles.container}>
       <FlatList
-        ListHeaderComponent={
+        inverted
+        extraData={data}
+        keyExtractor={(item) => item}
+        ListFooterComponent={
           <Pressable
             onPress={() => {
               setType(type === 'iOS Icon' ? 'Material Icon' : 'iOS Icon');
@@ -22,9 +24,8 @@ export default function Native() {
             <Text style={styles.header}>{type}</Text>
           </Pressable>
         }
-        numColumns={6}
+        numColumns={8}
         data={data}
-        // ItemSeparatorComponent={() => <View style={{ padding: 12 }} />}
         renderItem={({ item }) => (
           <Icon
             name={item}
@@ -32,10 +33,16 @@ export default function Native() {
             size={42}
             ios={{
               useMaterialIcon: type === 'Material Icon',
-              // name: item,
+              // name: 'calendar.badge.plus',
             }}
           />
         )}
+        contentContainerStyle={{
+          paddingTop: 60,
+        }}
+        style={{
+          overflow: 'visible',
+        }}
       />
 
       <StatusBar style='auto' />
@@ -48,13 +55,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
     gap: 12,
-    paddingTop: 60,
   },
   header: {
     fontWeight: 'bold',
     marginBottom: 20,
     fontSize: 36,
+    marginTop: 60,
   },
 });
