@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Platform } from 'react-native';
 import SFSymbol from 'sweet-sfsymbols';
 import { getIconNames } from './get-icon-names';
-import { IconProps } from './types';
+import type { IconProps } from './types';
 
 export function Icon({
   name,
