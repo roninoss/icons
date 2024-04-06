@@ -34,7 +34,7 @@ export default function Native() {
             size={42}
             ios={{
               useMaterialIcon: type === 'Material Icon',
-              // name: 'globe.desk',
+              // name: 'checkmark.diamond',
             }}
           />
         )}

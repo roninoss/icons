@@ -127,24 +127,8 @@ export const ICON_NAMES = {
     ios: 'square.and.arrow.up',
     type: 'MaterialCommunityIcons',
   },
-  'arrow-up-box': {
-    ios: 'square.and.arrow.up.fill',
-    type: 'MaterialCommunityIcons',
-  },
-  'arrow-up-circle-outline': {
-    ios: 'square.and.arrow.up.circle',
-    type: 'MaterialCommunityIcons',
-  },
-  'arrow-up-circle': {
-    ios: 'square.and.arrow.up.circle.fill',
-    type: 'MaterialCommunityIcons',
-  },
   'tray-arrow-down': {
     ios: 'square.and.arrow.down',
-    type: 'MaterialCommunityIcons',
-  },
-  'arrow-down-box': {
-    ios: 'square.and.arrow.down.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-box-outline': {
@@ -2092,183 +2076,349 @@ export const ICON_NAMES = {
     ios: 'globe.desk',
     type: 'MaterialCommunityIcons',
   },
+  'gift-outline': {
+    ios: 'gift',
+    type: 'MaterialCommunityIcons',
+  },
+  gift: {
+    ios: 'gift.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  cash: {
+    ios: 'banknote',
+    type: 'MaterialCommunityIcons',
+  },
+  grid: {
+    ios: 'grid',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-list-checks': {
+    ios: 'checklist',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-list-bulleted': {
+    ios: 'list.bullet',
+    type: 'MaterialCommunityIcons',
+  },
+  'reorder-horizontal': {
+    ios: 'line.3.horizontal',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-bold': {
+    ios: 'bold',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-italic': {
+    ios: 'italic',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-underline': {
+    ios: 'underline',
+    type: 'MaterialCommunityIcons',
+  },
+  'format-strikethrough': {
+    ios: 'strikethrough',
+    type: 'MaterialCommunityIcons',
+  },
+  percent: {
+    ios: 'percent',
+    type: 'MaterialCommunityIcons',
+  },
+  'information-outline': {
+    ios: 'info.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  information: {
+    ios: 'info.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'alternate-email': {
+    ios: 'at',
+    type: 'MaterialIcons',
+  },
+  help: {
+    ios: 'questionmark',
+    type: 'MaterialCommunityIcons',
+  },
+  exclamation: {
+    ios: 'exclamationmark',
+    type: 'MaterialCommunityIcons',
+  },
+  plus: {
+    ios: 'plus',
+    type: 'MaterialCommunityIcons',
+  },
+  minus: {
+    ios: 'minus',
+    type: 'MaterialCommunityIcons',
+  },
+  'plus-minus': {
+    ios: 'plusminus',
+    type: 'MaterialCommunityIcons',
+  },
+  close: {
+    ios: 'multiply',
+    type: 'MaterialCommunityIcons',
+  },
+  division: {
+    ios: 'divide',
+    type: 'MaterialCommunityIcons',
+  },
+  equal: {
+    ios: 'equal',
+    type: 'MaterialCommunityIcons',
+  },
+  'less-than': {
+    ios: 'lessthan',
+    type: 'MaterialCommunityIcons',
+  },
+  'greater-than': {
+    ios: 'greaterthan',
+    type: 'MaterialCommunityIcons',
+  },
+  'code-parentheses': {
+    ios: 'parentheses',
+    type: 'MaterialCommunityIcons',
+  },
+  'code-braces': {
+    ios: 'curlybraces',
+    type: 'MaterialCommunityIcons',
+  },
+  'code-json': {
+    ios: 'ellipsis.curlybraces',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-thick': {
+    ios: 'xmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-circle-outline': {
+    ios: 'xmark.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-circle': {
+    ios: 'xmark.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-box-outline': {
+    ios: 'xmark.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-box': {
+    ios: 'xmark.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-remove-outline': {
+    ios: 'xmark.shield',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-remove': {
+    ios: 'xmark.shield.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-octagon-outline': {
+    ios: 'xmark.octagon',
+    type: 'MaterialCommunityIcons',
+  },
+  'close-octagon': {
+    ios: 'xmark.octagon.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  check: {
+    ios: 'checkmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'check-circle-outline': {
+    ios: 'checkmark.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'check-circle': {
+    ios: 'checkmark.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'check-box': {
+    ios: 'checkmark.square.fill',
+    type: 'MaterialIcons',
+  },
+  'shield-check-outline': {
+    ios: 'checkmark.shield',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-check': {
+    ios: 'checkmark.shield.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-left': {
+    ios: 'chevron.left',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-left-circle-outline': {
+    ios: 'chevron.left.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-left-circle': {
+    ios: 'chevron.left.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-left-box-outline': {
+    ios: 'chevron.left.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-left-box': {
+    ios: 'chevron.left.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-right': {
+    ios: 'chevron.right',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-right-circle-outline': {
+    ios: 'chevron.right.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-right-circle': {
+    ios: 'chevron.right.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-right-box-outline': {
+    ios: 'chevron.right.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-right-box': {
+    ios: 'chevron.right.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-double-left': {
+    ios: 'chevron.left.2',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-double-right': {
+    ios: 'chevron.right.2',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-up': {
+    ios: 'chevron.up',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-up-circle-outline': {
+    ios: 'chevron.up.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-up-circle': {
+    ios: 'chevron.up.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-up-box-outline': {
+    ios: 'chevron.up.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-up-box': {
+    ios: 'chevron.up.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-down': {
+    ios: 'chevron.down',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-down-circle-outline': {
+    ios: 'chevron.down.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-down-circle': {
+    ios: 'chevron.down.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-down-box-outline': {
+    ios: 'chevron.down.square',
+    type: 'MaterialCommunityIcons',
+  },
+  'chevron-down-box': {
+    ios: 'chevron.down.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'unfold-more-horizontal': {
+    ios: 'chevron.up.chevron.down',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left': {
+    ios: 'arrow.left',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-circle-outline': {
+    ios: 'arrow.left.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-circle': {
+    ios: 'arrow.left.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-left-box': {
+    ios: 'arrow.left.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right': {
+    ios: 'arrow.right',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-circle-outline': {
+    ios: 'arrow.right.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-circle': {
+    ios: 'arrow.right.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-right-box': {
+    ios: 'arrow.right.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up': {
+    ios: 'arrow.up',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-circle-outline': {
+    ios: 'arrow.up.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-circle': {
+    ios: 'arrow.up.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-up-box': {
+    ios: 'arrow.up.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down': {
+    ios: 'arrow.down',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-circle-outline': {
+    ios: 'arrow.down.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-circle': {
+    ios: 'arrow.down.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'arrow-down-box': {
+    ios: 'arrow.down.square.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  asterisk: {
+    ios: 'asterisk',
+    type: 'MaterialCommunityIcons',
+  },
+  'attach-money': {
+    ios: 'dollarsign',
+    type: 'MaterialIcons',
+  },
+  apple: {
+    ios: 'apple.logo',
+    type: 'MaterialCommunityIcons',
+  },
 } as const;
 
-// console.log(Object.keys(ICON_NAMES).length); // 492
-
-export type NamesLeft =
-  | 'fossil.shell'
-  | 'fossil.shell.fill'
-  | 'gift'
-  | 'gift.fill'
-  | 'gift.circle'
-  | 'gift.circle.fill'
-  | 'banknote'
-  | 'banknote.fill'
-  | 'grid'
-  | 'checklist.unchecked'
-  | 'checklist'
-  | 'checklist.checked'
-  | 'list.bullet'
-  | 'list.bullet.circle'
-  | 'list.dash'
-  | 'list.triangle'
-  | 'list.bullet.indent'
-  | 'list.number'
-  | 'list.star'
-  | 'line.3.horizontal' // reorder-horizontal
-  | 'bold'
-  | 'italic'
-  | 'underline'
-  | 'strikethrough'
-  | 'shadow'
-  | 'bold.italic.underline'
-  | 'bold.underline'
-  | 'percent'
-  | 'info'
-  | 'info.circle'
-  | 'info.circle.fill'
-  | 'info.square'
-  | 'info.square.fill'
-  | 'at'
-  | 'questionmark'
-  | 'exclamationmark'
-  | 'plus'
-  | 'minus'
-  | 'plusminus'
-  | 'plusminus.circle'
-  | 'plusminus.circle.fill'
-  | 'multiply'
-  | 'multiply.circle'
-  | 'multiply.circle.fill'
-  | 'multiply.square'
-  | 'multiply.square.fill'
-  | 'divide'
-  | 'divide.circle'
-  | 'divide.circle.fill'
-  | 'divide.square'
-  | 'divide.square.fill'
-  | 'equal'
-  | 'equal.circle'
-  | 'equal.circle.fill'
-  | 'equal.square'
-  | 'equal.square.fill'
-  | 'lessthan'
-  | 'lessthan.circle'
-  | 'lessthan.circle.fill'
-  | 'lessthan.square'
-  | 'lessthan.square.fill'
-  | 'greaterthan'
-  | 'greaterthan.circle'
-  | 'greaterthan.circle.fill'
-  | 'greaterthan.square'
-  | 'greaterthan.square.fill'
-  | 'chevron.left.forwardslash.chevron.right'
-  | 'parentheses'
-  | 'curlybraces'
-  | 'curlybraces.square'
-  | 'curlybraces.square.fill'
-  | 'ellipsis.curlybraces'
-  | 'number'
-  | 'xmark'
-  | 'xmark.circle' // highlight-remove
-  | 'xmark.circle.fill'
-  | 'xmark.square'
-  | 'xmark.square.fill'
-  | 'xmark.rectangle'
-  | 'xmark.rectangle.fill'
-  | 'xmark.rectangle.portrait'
-  | 'xmark.rectangle.portrait.fill'
-  | 'xmark.diamond'
-  | 'xmark.diamond.fill'
-  | 'xmark.shield'
-  | 'xmark.shield.fill'
-  | 'xmark.octagon'
-  | 'xmark.octagon.fill'
-  | 'checkmark'
-  | 'checkmark.circle'
-  | 'checkmark.circle.fill'
-  | 'checkmark.circle.badge.questionmark'
-  | 'checkmark.circle.badge.questionmark.fill'
-  | 'checkmark.circle.badge.xmark'
-  | 'checkmark.circle.badge.xmark.fill'
-  | 'checkmark.circle.trianglebadge.exclamationmark'
-  | 'checkmark.square'
-  | 'checkmark.square.fill'
-  | 'checkmark.rectangle'
-  | 'checkmark.rectangle.fill'
-  | 'checkmark.rectangle.portrait'
-  | 'checkmark.rectangle.portrait.fill'
-  | 'checkmark.diamond'
-  | 'checkmark.diamond.fill'
-  | 'checkmark.shield'
-  | 'checkmark.shield.fill'
-  | 'chevron.left'
-  | 'chevron.left.circle'
-  | 'chevron.left.circle.fill'
-  | 'chevron.left.square'
-  | 'chevron.left.square.fill'
-  | 'chevron.backward'
-  | 'chevron.backward.circle'
-  | 'chevron.backward.circle.fill'
-  | 'chevron.backward.square'
-  | 'chevron.backward.square.fill'
-  | 'chevron.right'
-  | 'chevron.right.circle'
-  | 'chevron.right.circle.fill'
-  | 'chevron.right.square'
-  | 'chevron.right.square.fill'
-  | 'chevron.forward'
-  | 'chevron.forward.circle'
-  | 'chevron.forward.circle.fill'
-  | 'chevron.forward.square'
-  | 'chevron.forward.square.fill'
-  | 'chevron.left.2'
-  | 'chevron.backward.2'
-  | 'chevron.right.2'
-  | 'chevron.forward.2'
-  | 'chevron.up'
-  | 'chevron.up.circle'
-  | 'chevron.up.circle.fill'
-  | 'chevron.up.square'
-  | 'chevron.up.square.fill'
-  | 'chevron.down'
-  | 'chevron.down.circle'
-  | 'chevron.down.circle.fill'
-  | 'chevron.down.square'
-  | 'chevron.down.square.fill'
-  | 'chevron.up.chevron.down'
-  | 'chevron.compact.up'
-  | 'chevron.compact.down'
-  | 'chevron.compact.left'
-  | 'chevron.compact.right'
-  | 'arrow.left'
-  | 'arrow.left.circle'
-  | 'arrow.left.circle.fill'
-  | 'arrow.left.square'
-  | 'arrow.left.square.fill'
-  | 'arrow.right'
-  | 'arrow.right.circle'
-  | 'arrow.right.circle.fill'
-  | 'arrow.right.square'
-  | 'arrow.right.square.fill'
-  | 'arrow.up'
-  | 'arrow.up.circle'
-  | 'arrow.up.circle.fill'
-  | 'arrow.up.square'
-  | 'arrow.up.square.fill'
-  | 'arrow.up.circle.badge.clock'
-  | 'arrow.down'
-  | 'arrow.down.circle'
-  | 'arrow.down.circle.fill'
-  | 'arrow.down.circle.dotted'
-  | 'arrow.down.square'
-  | 'arrow.down.square.fill'
-  | 'asterisk'
-  | 'asterisk.circle'
-  | 'asterisk.circle.fill'
-  | 'dollarsign'
-  | 'apple.logo';
+// console.log(Object.keys(ICON_NAMES).length); // 573
 
 type IosNames = (typeof ICON_NAMES)[keyof typeof ICON_NAMES]['ios'];
 type MaterialIconNames = keyof typeof ICON_NAMES;
