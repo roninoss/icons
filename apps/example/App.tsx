@@ -5,17 +5,26 @@ import 'expo-dev-client';
 import { ICON_MAPPING, Icon } from '@roninoss/icons';
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import {
+  FlatList,
+  Platform,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
-const data = Object.keys(ICON_MAPPING).map((name) => name);
+const data = Object.keys(ICON_MAPPING).map(
+  (name) => name
+) as (keyof typeof ICON_MAPPING)[];
 
-export default function Native() {
-  const [type, setType] = React.useState('iOS Icon');
+export default function Screen() {
+  const [type, setType] = React.useState('Sf Symbol');
   return (
     <View style={styles.container}>
       <Pressable
         onPress={() => {
-          setType(type === 'iOS Icon' ? 'Material Icon' : 'iOS Icon');
+          setType(type === 'Sf Symbol' ? 'Material Icon' : 'Sf Symbol');
         }}
         style={{
           paddingTop: 60,
@@ -26,7 +35,7 @@ export default function Native() {
       >
         <Text style={styles.header}>{type}</Text>
         <Text style={{ textAlign: 'center', fontSize: 14, opacity: 0.8 }}>
-          {'Tap to change type'}
+          {`Tap to change ${Platform.OS === 'ios' ? 'type' : 'naming scheme'}`}
         </Text>
       </Pressable>
       <FlatList
