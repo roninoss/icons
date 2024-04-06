@@ -1,2295 +1,2295 @@
 export const ICON_MAPPING = {
   'tray-arrow-up': {
-    ios: 'square.and.arrow.up',
+    sfSymbol: 'square.and.arrow.up',
     type: 'MaterialCommunityIcons',
   },
   'tray-arrow-down': {
-    ios: 'square.and.arrow.down',
+    sfSymbol: 'square.and.arrow.down',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-box-outline': {
-    ios: 'square.and.arrow.down.on.square',
+    sfSymbol: 'square.and.arrow.down.on.square',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-box': {
-    ios: 'square.and.arrow.down.on.square.fill',
+    sfSymbol: 'square.and.arrow.down.on.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-box-outline': {
-    ios: 'rectangle.portrait.and.arrow.right',
+    sfSymbol: 'rectangle.portrait.and.arrow.right',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-box': {
-    ios: 'rectangle.portrait.and.arrow.right.fill',
+    sfSymbol: 'rectangle.portrait.and.arrow.right.fill',
     type: 'MaterialCommunityIcons',
   },
   pencil: {
-    ios: 'pencil',
+    sfSymbol: 'pencil',
     type: 'MaterialCommunityIcons',
   },
   'pencil-circle-outline': {
-    ios: 'pencil.circle',
+    sfSymbol: 'pencil.circle',
     type: 'MaterialCommunityIcons',
   },
   'pencil-circle': {
-    ios: 'pencil.circle.fill',
+    sfSymbol: 'pencil.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'pencil-off': {
-    ios: 'pencil.slash',
+    sfSymbol: 'pencil.slash',
     type: 'MaterialCommunityIcons',
   },
   'progress-pencil': {
-    ios: 'pencil.line',
+    sfSymbol: 'pencil.line',
     type: 'MaterialCommunityIcons',
   },
   eraser: {
-    ios: 'eraser',
+    sfSymbol: 'eraser',
     type: 'MaterialCommunityIcons',
   },
   'eraser-variant': {
-    ios: 'eraser.fill',
+    sfSymbol: 'eraser.fill',
     type: 'MaterialCommunityIcons',
   },
   'pencil-box-outline': {
-    ios: 'square.and.pencil',
+    sfSymbol: 'square.and.pencil',
     type: 'MaterialCommunityIcons',
   },
   'drive-file-rename-outline': {
-    ios: 'rectangle.and.pencil.and.ellipsis',
+    sfSymbol: 'rectangle.and.pencil.and.ellipsis',
     type: 'MaterialIcons',
   },
   draw: {
-    ios: 'pencil.and.scribble',
+    sfSymbol: 'pencil.and.scribble',
     type: 'MaterialCommunityIcons',
   },
   marker: {
-    ios: 'highlighter',
+    sfSymbol: 'highlighter',
     type: 'MaterialCommunityIcons',
   },
   'fountain-pen-tip': {
-    ios: 'pencil.tip',
+    sfSymbol: 'pencil.tip',
     type: 'MaterialCommunityIcons',
   },
   'pencil-plus-outline': {
-    ios: 'pencil.tip.crop.circle.badge.plus',
+    sfSymbol: 'pencil.tip.crop.circle.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'pen-plus': {
-    ios: 'pencil.tip.crop.circle.badge.plus.fill',
+    sfSymbol: 'pencil.tip.crop.circle.badge.plus.fill',
     type: 'MaterialCommunityIcons',
   },
   'pencil-minus-outline': {
-    ios: 'pencil.tip.crop.circle.badge.minus',
+    sfSymbol: 'pencil.tip.crop.circle.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'pen-minus': {
-    ios: 'pencil.tip.crop.circle.badge.minus.fill',
+    sfSymbol: 'pencil.tip.crop.circle.badge.minus.fill',
     type: 'MaterialCommunityIcons',
   },
   lasso: {
-    ios: 'lasso',
+    sfSymbol: 'lasso',
     type: 'MaterialCommunityIcons',
   },
   'trash-can-outline': {
-    ios: 'trash',
+    sfSymbol: 'trash',
     type: 'MaterialCommunityIcons',
   },
   'trash-can': {
-    ios: 'trash.fill',
+    sfSymbol: 'trash.fill',
     type: 'MaterialCommunityIcons',
   },
   'delete-circle-outline': {
-    ios: 'trash.circle',
+    sfSymbol: 'trash.circle',
     type: 'MaterialCommunityIcons',
   },
   'delete-circle': {
-    ios: 'trash.circle.fill',
+    sfSymbol: 'trash.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'delete-off-outline': {
-    ios: 'trash.slash',
+    sfSymbol: 'trash.slash',
     type: 'MaterialCommunityIcons',
   },
   'delete-off': {
-    ios: 'trash.slash.fill',
+    sfSymbol: 'trash.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'restore-from-trash': {
-    ios: 'arrow.up.trash.fill',
+    sfSymbol: 'arrow.up.trash.fill',
     type: 'MaterialIcons',
   },
   'folder-open': {
-    ios: 'folder',
+    sfSymbol: 'folder',
     type: 'MaterialIcons',
   },
   //
   folder: {
-    ios: 'folder.fill',
+    sfSymbol: 'folder.fill',
     type: 'MaterialCommunityIcons',
   },
   'folder-plus-outline': {
-    ios: 'folder.badge.plus',
+    sfSymbol: 'folder.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'folder-plus': {
-    ios: 'folder.fill.badge.plus',
+    sfSymbol: 'folder.fill.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'folder-remove-outline': {
-    ios: 'folder.badge.minus',
+    sfSymbol: 'folder.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'folder-remove': {
-    ios: 'folder.fill.badge.minus',
+    sfSymbol: 'folder.fill.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'folder-account-outline': {
-    ios: 'folder.badge.person.crop',
+    sfSymbol: 'folder.badge.person.crop',
     type: 'MaterialCommunityIcons',
   },
   'folder-account': {
-    ios: 'folder.fill.badge.person.crop',
+    sfSymbol: 'folder.fill.badge.person.crop',
     type: 'MaterialCommunityIcons',
   },
   'folder-cog-outline': {
-    ios: 'folder.badge.gearshape',
+    sfSymbol: 'folder.badge.gearshape',
     type: 'MaterialCommunityIcons',
   },
   'folder-cog': {
-    ios: 'folder.fill.badge.gearshape',
+    sfSymbol: 'folder.fill.badge.gearshape',
     type: 'MaterialCommunityIcons',
   },
   'send-outline': {
-    ios: 'paperplane',
+    sfSymbol: 'paperplane',
     type: 'MaterialCommunityIcons',
   },
   send: {
-    ios: 'paperplane.fill',
+    sfSymbol: 'paperplane.fill',
     type: 'MaterialCommunityIcons',
   },
   'send-circle-outline': {
-    ios: 'paperplane.circle',
+    sfSymbol: 'paperplane.circle',
     type: 'MaterialCommunityIcons',
   },
   'send-circle': {
-    ios: 'paperplane.circle.fill',
+    sfSymbol: 'paperplane.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   tray: {
-    ios: 'tray',
+    sfSymbol: 'tray',
     type: 'MaterialCommunityIcons',
   },
   inbox: {
-    ios: 'tray.fill',
+    sfSymbol: 'tray.fill',
     type: 'MaterialCommunityIcons',
   },
   'inbox-full-outline': {
-    ios: 'tray.full',
+    sfSymbol: 'tray.full',
     type: 'MaterialCommunityIcons',
   },
   'inbox-full': {
-    ios: 'tray.full.fill',
+    sfSymbol: 'tray.full.fill',
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-up-outline': {
-    ios: 'tray.and.arrow.up',
+    sfSymbol: 'tray.and.arrow.up',
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-up': {
-    ios: 'tray.and.arrow.up.fill',
+    sfSymbol: 'tray.and.arrow.up.fill',
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-down-outline': {
-    ios: 'tray.and.arrow.down',
+    sfSymbol: 'tray.and.arrow.down',
     type: 'MaterialCommunityIcons',
   },
   'inbox-arrow-down': {
-    ios: 'tray.and.arrow.down.fill',
+    sfSymbol: 'tray.and.arrow.down.fill',
     type: 'MaterialCommunityIcons',
   },
   'inbox-multiple-outline': {
-    ios: 'tray.2',
+    sfSymbol: 'tray.2',
     type: 'MaterialCommunityIcons',
   },
   'inbox-multiple': {
-    ios: 'tray.2.fill',
+    sfSymbol: 'tray.2.fill',
     type: 'MaterialCommunityIcons',
   },
   'database-outline': {
-    ios: 'externaldrive',
+    sfSymbol: 'externaldrive',
     type: 'MaterialCommunityIcons',
   },
   database: {
-    ios: 'externaldrive.fill',
+    sfSymbol: 'externaldrive.fill',
     type: 'MaterialCommunityIcons',
   },
   'database-plus-outline': {
-    ios: 'externaldrive.badge.plus',
+    sfSymbol: 'externaldrive.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'database-plus': {
-    ios: 'externaldrive.fill.badge.plus',
+    sfSymbol: 'externaldrive.fill.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'database-minus-outline': {
-    ios: 'externaldrive.badge.minus',
+    sfSymbol: 'externaldrive.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'database-minus': {
-    ios: 'externaldrive.fill.badge.minus',
+    sfSymbol: 'externaldrive.fill.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'database-check-outline': {
-    ios: 'externaldrive.badge.checkmark',
+    sfSymbol: 'externaldrive.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'database-check': {
-    ios: 'externaldrive.fill.badge.checkmark',
+    sfSymbol: 'externaldrive.fill.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'database-remove-outline': {
-    ios: 'externaldrive.badge.xmark',
+    sfSymbol: 'externaldrive.badge.xmark',
     type: 'MaterialCommunityIcons',
   },
   'database-remove': {
-    ios: 'externaldrive.fill.badge.xmark',
+    sfSymbol: 'externaldrive.fill.badge.xmark',
     type: 'MaterialCommunityIcons',
   },
   'database-alert-outline': {
-    ios: 'externaldrive.badge.exclamationmark',
+    sfSymbol: 'externaldrive.badge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'database-alert': {
-    ios: 'externaldrive.fill.badge.exclamationmark',
+    sfSymbol: 'externaldrive.fill.badge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'database-clock-outline': {
-    ios: 'externaldrive.badge.timemachine',
+    sfSymbol: 'externaldrive.badge.timemachine',
     type: 'MaterialCommunityIcons',
   },
   'database-clock': {
-    ios: 'externaldrive.fill.badge.timemachine',
+    sfSymbol: 'externaldrive.fill.badge.timemachine',
     type: 'MaterialCommunityIcons',
   },
   'archive-outline': {
-    ios: 'archivebox',
+    sfSymbol: 'archivebox',
     type: 'MaterialCommunityIcons',
   },
   archive: {
-    ios: 'archivebox.fill',
+    sfSymbol: 'archivebox.fill',
     type: 'MaterialCommunityIcons',
   },
   'archive-remove-outline': {
-    ios: 'xmark.bin',
+    sfSymbol: 'xmark.bin',
     type: 'MaterialCommunityIcons',
   },
   'archive-remove': {
-    ios: 'xmark.bin.fill',
+    sfSymbol: 'xmark.bin.fill',
     type: 'MaterialCommunityIcons',
   },
   'archive-arrow-up-outline': {
-    ios: 'arrow.up.bin',
+    sfSymbol: 'arrow.up.bin',
     type: 'MaterialCommunityIcons',
   },
   'archive-arrow-up': {
-    ios: 'arrow.up.bin.fill',
+    sfSymbol: 'arrow.up.bin.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-document-outline': {
-    ios: 'doc',
+    sfSymbol: 'doc',
     type: 'MaterialCommunityIcons',
   },
   'file-document': {
-    ios: 'doc.fill',
+    sfSymbol: 'doc.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-plus-outline': {
-    ios: 'doc.badge.plus',
+    sfSymbol: 'doc.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'file-plus': {
-    ios: 'doc.fill.badge.plus',
+    sfSymbol: 'doc.fill.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'file-upload-outline': {
-    ios: 'arrow.up.doc',
+    sfSymbol: 'arrow.up.doc',
     type: 'MaterialCommunityIcons',
   },
   'file-upload': {
-    ios: 'arrow.up.doc.fill',
+    sfSymbol: 'arrow.up.doc.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-clock-outline': {
-    ios: 'doc.badge.clock',
+    sfSymbol: 'doc.badge.clock',
     type: 'MaterialCommunityIcons',
   },
   'file-clock': {
-    ios: 'doc.badge.clock.fill',
+    sfSymbol: 'doc.badge.clock.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-cog-outline': {
-    ios: 'doc.badge.gearshape',
+    sfSymbol: 'doc.badge.gearshape',
     type: 'MaterialCommunityIcons',
   },
   'file-cog': {
-    ios: 'doc.badge.gearshape.fill',
+    sfSymbol: 'doc.badge.gearshape.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-lock-outline': {
-    ios: 'lock.doc',
+    sfSymbol: 'lock.doc',
     type: 'MaterialCommunityIcons',
   },
   'file-lock': {
-    ios: 'lock.doc.fill',
+    sfSymbol: 'lock.doc.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-download-outline': {
-    ios: 'arrow.down.doc',
+    sfSymbol: 'arrow.down.doc',
     type: 'MaterialCommunityIcons',
   },
   'file-download': {
-    ios: 'arrow.down.doc.fill',
+    sfSymbol: 'arrow.down.doc.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-document-multiple-outline': {
-    ios: 'doc.on.doc',
+    sfSymbol: 'doc.on.doc',
     type: 'MaterialCommunityIcons',
   },
   'file-document-multiple': {
-    ios: 'doc.on.doc.fill',
+    sfSymbol: 'doc.on.doc.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-copy': {
-    ios: 'doc.on.clipboard.fill',
+    sfSymbol: 'doc.on.clipboard.fill',
     type: 'MaterialIcons',
   },
   'clipboard-outline': {
-    ios: 'clipboard',
+    sfSymbol: 'clipboard',
     type: 'MaterialCommunityIcons',
   },
   clipboard: {
-    ios: 'clipboard.fill',
+    sfSymbol: 'clipboard.fill',
     type: 'MaterialCommunityIcons',
   },
   'clipboard-list-outline': {
-    ios: 'list.clipboard',
+    sfSymbol: 'list.clipboard',
     type: 'MaterialCommunityIcons',
   },
   'clipboard-list': {
-    ios: 'list.clipboard.fill',
+    sfSymbol: 'list.clipboard.fill',
     type: 'MaterialCommunityIcons',
   },
   'clipboard-edit-outline': {
-    ios: 'pencil.and.list.clipboard',
+    sfSymbol: 'pencil.and.list.clipboard',
     type: 'MaterialCommunityIcons',
   },
   'image-text': {
-    ios: 'doc.richtext',
+    sfSymbol: 'doc.richtext',
     type: 'MaterialCommunityIcons',
   },
   'file-question-outline': {
-    ios: 'doc.questionmark',
+    sfSymbol: 'doc.questionmark',
     type: 'MaterialCommunityIcons',
   },
   'file-question': {
-    ios: 'doc.questionmark.fill',
+    sfSymbol: 'doc.questionmark.fill',
     type: 'MaterialCommunityIcons',
   },
   'card-bulleted-outline': {
-    ios: 'list.bullet.rectangle',
+    sfSymbol: 'list.bullet.rectangle',
     type: 'MaterialCommunityIcons',
   },
   'card-bulleted': {
-    ios: 'list.bullet.rectangle.fill',
+    sfSymbol: 'list.bullet.rectangle.fill',
     type: 'MaterialCommunityIcons',
   },
   'file-search-outline': {
-    ios: 'doc.text.magnifyingglass',
+    sfSymbol: 'doc.text.magnifyingglass',
     type: 'MaterialCommunityIcons',
   },
   'note-outline': {
-    ios: 'note',
+    sfSymbol: 'note',
     type: 'MaterialCommunityIcons',
   },
   'note-text-outline': {
-    ios: 'note.text',
+    sfSymbol: 'note.text',
     type: 'MaterialCommunityIcons',
   },
   'calendar-month': {
-    ios: 'calendar',
+    sfSymbol: 'calendar',
     type: 'MaterialCommunityIcons',
   },
   'calendar-plus': {
-    ios: 'calendar.badge.plus',
+    sfSymbol: 'calendar.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'calendar-minus': {
-    ios: 'calendar.badge.minus',
+    sfSymbol: 'calendar.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'calendar-clock': {
-    ios: 'calendar.badge.clock',
+    sfSymbol: 'calendar.badge.clock',
     type: 'MaterialCommunityIcons',
   },
   'calendar-alert': {
-    ios: 'calendar.badge.exclamationmark',
+    sfSymbol: 'calendar.badge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'calendar-check': {
-    ios: 'calendar.badge.checkmark',
+    sfSymbol: 'calendar.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-bold-outline': {
-    ios: 'arrowshape.left',
+    sfSymbol: 'arrowshape.left',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-bold': {
-    ios: 'arrowshape.left.fill',
+    sfSymbol: 'arrowshape.left.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-bold-circle-outline': {
-    ios: 'arrowshape.left.circle',
+    sfSymbol: 'arrowshape.left.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-bold-circle': {
-    ios: 'arrowshape.left.circle.fill',
+    sfSymbol: 'arrowshape.left.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-outline': {
-    ios: 'arrowshape.right',
+    sfSymbol: 'arrowshape.right',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold': {
-    ios: 'arrowshape.right.fill',
+    sfSymbol: 'arrowshape.right.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-circle-outline': {
-    ios: 'arrowshape.right.circle',
+    sfSymbol: 'arrowshape.right.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-bold-circle': {
-    ios: 'arrowshape.right.circle.fill',
+    sfSymbol: 'arrowshape.right.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-bold-outline': {
-    ios: 'arrowshape.up',
+    sfSymbol: 'arrowshape.up',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-bold': {
-    ios: 'arrowshape.up.fill',
+    sfSymbol: 'arrowshape.up.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-bold-circle-outline': {
-    ios: 'arrowshape.up.circle',
+    sfSymbol: 'arrowshape.up.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-bold-circle': {
-    ios: 'arrowshape.up.circle.fill',
+    sfSymbol: 'arrowshape.up.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-outline': {
-    ios: 'arrowshape.down',
+    sfSymbol: 'arrowshape.down',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold': {
-    ios: 'arrowshape.down.fill',
+    sfSymbol: 'arrowshape.down.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-circle-outline': {
-    ios: 'arrowshape.down.circle',
+    sfSymbol: 'arrowshape.down.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-bold-circle': {
-    ios: 'arrowshape.down.circle.fill',
+    sfSymbol: 'arrowshape.down.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-right-bold-outline': {
-    ios: 'arrowshape.left.arrowshape.right',
+    sfSymbol: 'arrowshape.left.arrowshape.right',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-right-bold': {
-    ios: 'arrowshape.left.arrowshape.right.fill',
+    sfSymbol: 'arrowshape.left.arrowshape.right.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-top': {
-    ios: 'arrowshape.turn.up.left',
+    sfSymbol: 'arrowshape.turn.up.left',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-top-bold': {
-    ios: 'arrowshape.turn.up.left.fill',
+    sfSymbol: 'arrowshape.turn.up.left.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-top': {
-    ios: 'arrowshape.turn.up.right',
+    sfSymbol: 'arrowshape.turn.up.right',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-top-bold': {
-    ios: 'arrowshape.turn.up.right.fill',
+    sfSymbol: 'arrowshape.turn.up.right.fill',
     type: 'MaterialCommunityIcons',
   },
   'book-open-outline': {
-    ios: 'book',
+    sfSymbol: 'book',
     type: 'MaterialCommunityIcons',
   },
   'book-open': {
-    ios: 'book.fill',
+    sfSymbol: 'book.fill',
     type: 'MaterialCommunityIcons',
   },
   bookshelf: {
-    ios: 'books.vertical.fill',
+    sfSymbol: 'books.vertical.fill',
     type: 'MaterialCommunityIcons',
   },
   'menu-book': {
-    ios: 'menucard.fill',
+    sfSymbol: 'menucard.fill',
     type: 'MaterialIcons',
   },
   newspaper: {
-    ios: 'newspaper',
+    sfSymbol: 'newspaper',
     type: 'MaterialCommunityIcons',
   },
   'newspaper-variant': {
-    ios: 'newspaper.fill',
+    sfSymbol: 'newspaper.fill',
     type: 'MaterialCommunityIcons',
   },
   'bookmark-outline': {
-    ios: 'bookmark',
+    sfSymbol: 'bookmark',
     type: 'MaterialCommunityIcons',
   },
   bookmark: {
-    ios: 'bookmark.fill',
+    sfSymbol: 'bookmark.fill',
     type: 'MaterialCommunityIcons',
   },
   'bookmark-off-outline': {
-    ios: 'bookmark.slash',
+    sfSymbol: 'bookmark.slash',
     type: 'MaterialCommunityIcons',
   },
   'bookmark-off': {
-    ios: 'bookmark.slash.fill',
+    sfSymbol: 'bookmark.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'pencil-ruler': {
-    ios: 'pencil.and.ruler.fill',
+    sfSymbol: 'pencil.and.ruler.fill',
     type: 'MaterialCommunityIcons',
   },
   ruler: {
-    ios: 'ruler.fill',
+    sfSymbol: 'ruler.fill',
     type: 'MaterialCommunityIcons',
   },
   backpack: {
-    ios: 'backpack.fill',
+    sfSymbol: 'backpack.fill',
     type: 'MaterialIcons',
   },
   paperclip: {
-    ios: 'paperclip',
+    sfSymbol: 'paperclip',
     type: 'MaterialCommunityIcons',
   },
   link: {
-    ios: 'link',
+    sfSymbol: 'link',
     type: 'MaterialCommunityIcons',
   },
   'link-plus': {
-    ios: 'link.badge.plus',
+    sfSymbol: 'link.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'vector-link': {
-    ios: 'personalhotspot',
+    sfSymbol: 'personalhotspot',
     type: 'MaterialCommunityIcons',
   },
   'person-outline': {
-    ios: 'person',
+    sfSymbol: 'person',
     type: 'MaterialIcons',
   },
   person: {
-    ios: 'person.fill',
+    sfSymbol: 'person.fill',
     type: 'MaterialIcons',
   },
   'account-circle-outline': {
-    ios: 'person.circle',
+    sfSymbol: 'person.circle',
     type: 'MaterialCommunityIcons',
   },
   'account-circle': {
-    ios: 'person.circle.fill',
+    sfSymbol: 'person.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'account-off-outline': {
-    ios: 'person.slash',
+    sfSymbol: 'person.slash',
     type: 'MaterialCommunityIcons',
   },
   'account-off': {
-    ios: 'person.slash.fill',
+    sfSymbol: 'person.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'account-check': {
-    ios: 'person.fill.checkmark',
+    sfSymbol: 'person.fill.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'account-remove': {
-    ios: 'person.fill.xmark',
+    sfSymbol: 'person.fill.xmark',
     type: 'MaterialCommunityIcons',
   },
   'account-question': {
-    ios: 'person.fill.questionmark',
+    sfSymbol: 'person.fill.questionmark',
     type: 'MaterialCommunityIcons',
   },
   'account-plus-outline': {
-    ios: 'person.badge.plus',
+    sfSymbol: 'person.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'account-minus-outline': {
-    ios: 'person.badge.minus',
+    sfSymbol: 'person.badge.minus',
     type: 'MaterialCommunityIcons',
   },
   'account-clock-outline': {
-    ios: 'person.badge.clock',
+    sfSymbol: 'person.badge.clock',
     type: 'MaterialCommunityIcons',
   },
   'account-clock': {
-    ios: 'person.badge.clock.fill',
+    sfSymbol: 'person.badge.clock.fill',
     type: 'MaterialCommunityIcons',
   },
   'account-key-outline': {
-    ios: 'person.badge.key',
+    sfSymbol: 'person.badge.key',
     type: 'MaterialCommunityIcons',
   },
   'account-key': {
-    ios: 'person.badge.key.fill',
+    sfSymbol: 'person.badge.key.fill',
     type: 'MaterialCommunityIcons',
   },
   'account-multiple-outline': {
-    ios: 'person.2',
+    sfSymbol: 'person.2',
     type: 'MaterialCommunityIcons',
   },
   'account-multiple': {
-    ios: 'person.2.fill',
+    sfSymbol: 'person.2.fill',
     type: 'MaterialCommunityIcons',
   },
   'account-voice': {
-    ios: 'person.wave.2.fill',
+    sfSymbol: 'person.wave.2.fill',
     type: 'MaterialCommunityIcons',
   },
   'image-frame': {
-    ios: 'photo.artframe',
+    sfSymbol: 'photo.artframe',
     type: 'MaterialCommunityIcons',
   },
   checkerboard: {
-    ios: 'rectangle.checkered',
+    sfSymbol: 'rectangle.checkered',
     type: 'MaterialCommunityIcons',
   },
   accessibility: {
-    ios: 'accessibility',
+    sfSymbol: 'accessibility',
     type: 'MaterialIcons',
   },
   dumbbell: {
-    ios: 'dumbbell.fill',
+    sfSymbol: 'dumbbell.fill',
     type: 'MaterialCommunityIcons',
   },
   'soccer-field': {
-    ios: 'sportscourt',
+    sfSymbol: 'sportscourt',
     type: 'MaterialCommunityIcons',
   },
   soccer: {
-    ios: 'soccerball',
+    sfSymbol: 'soccerball',
     type: 'MaterialCommunityIcons',
   },
   baseball: {
-    ios: 'baseball.fill',
+    sfSymbol: 'baseball.fill',
     type: 'MaterialCommunityIcons',
   },
   basketball: {
-    ios: 'basketball.fill',
+    sfSymbol: 'basketball.fill',
     type: 'MaterialCommunityIcons',
   },
   football: {
-    ios: 'football.fill',
+    sfSymbol: 'football.fill',
     type: 'MaterialCommunityIcons',
   },
   tennis: {
-    ios: 'tennis.racket',
+    sfSymbol: 'tennis.racket',
     type: 'MaterialCommunityIcons',
   },
   'hockey-puck': {
-    ios: 'hockey.puck.fill',
+    sfSymbol: 'hockey.puck.fill',
     type: 'MaterialCommunityIcons',
   },
   cricket: {
-    ios: 'cricket.ball.fill',
+    sfSymbol: 'cricket.ball.fill',
     type: 'MaterialCommunityIcons',
   },
   'tennis-ball': {
-    ios: 'tennisball.fill',
+    sfSymbol: 'tennisball.fill',
     type: 'MaterialCommunityIcons',
   },
   volleyball: {
-    ios: 'volleyball.fill',
+    sfSymbol: 'volleyball.fill',
     type: 'MaterialCommunityIcons',
   },
   skateboard: {
-    ios: 'skateboard',
+    sfSymbol: 'skateboard',
     type: 'MaterialCommunityIcons',
   },
   ski: {
-    ios: 'skis',
+    sfSymbol: 'skis',
     type: 'MaterialCommunityIcons',
   },
   surfing: {
-    ios: 'surfboard',
+    sfSymbol: 'surfboard',
     type: 'MaterialCommunityIcons',
   },
   'trophy-outline': {
-    ios: 'trophy',
+    sfSymbol: 'trophy',
     type: 'MaterialCommunityIcons',
   },
   trophy: {
-    ios: 'trophy.fill',
+    sfSymbol: 'trophy.fill',
     type: 'MaterialCommunityIcons',
   },
   'medal-outline': {
-    ios: 'medal',
+    sfSymbol: 'medal',
     type: 'MaterialCommunityIcons',
   },
   medal: {
-    ios: 'medal.fill',
+    sfSymbol: 'medal.fill',
     type: 'MaterialCommunityIcons',
   },
   'apple-keyboard-command': {
-    ios: 'command',
+    sfSymbol: 'command',
     type: 'MaterialCommunityIcons',
   },
   'keyboard-space': {
-    ios: 'space',
+    sfSymbol: 'space',
     type: 'MaterialCommunityIcons',
   },
   'apple-keyboard-option': {
-    ios: 'option',
+    sfSymbol: 'option',
     type: 'MaterialCommunityIcons',
   },
   restart: {
-    ios: 'restart',
+    sfSymbol: 'restart',
     type: 'MaterialCommunityIcons',
   },
   sleep: {
-    ios: 'zzz',
+    sfSymbol: 'zzz',
     type: 'MaterialCommunityIcons',
   },
   power: {
-    ios: 'power',
+    sfSymbol: 'power',
     type: 'MaterialCommunityIcons',
   },
   'power-cycle': {
-    ios: 'togglepower',
+    sfSymbol: 'togglepower',
     type: 'MaterialCommunityIcons',
   },
   'power-on': {
-    ios: 'poweron',
+    sfSymbol: 'poweron',
     type: 'MaterialCommunityIcons',
   },
   'power-off': {
-    ios: 'poweroff',
+    sfSymbol: 'poweroff',
     type: 'MaterialCommunityIcons',
   },
   'power-sleep': {
-    ios: 'powersleep',
+    sfSymbol: 'powersleep',
     type: 'MaterialCommunityIcons',
   },
   'alpha-x-box-outline': {
-    ios: 'clear',
+    sfSymbol: 'clear',
     type: 'MaterialCommunityIcons',
   },
   'alpha-x-box': {
-    ios: 'clear.fill',
+    sfSymbol: 'clear.fill',
     type: 'MaterialCommunityIcons',
   },
   'keyboard-backspace': {
-    ios: 'delete.left',
+    sfSymbol: 'delete.left',
     type: 'MaterialCommunityIcons',
   },
   'apple-keyboard-shift': {
-    ios: 'shift',
+    sfSymbol: 'shift',
     type: 'MaterialCommunityIcons',
   },
   'apple-keyboard-caps': {
-    ios: 'capslock',
+    sfSymbol: 'capslock',
     type: 'MaterialCommunityIcons',
   },
   'keyboard-outline': {
-    ios: 'keyboard',
+    sfSymbol: 'keyboard',
     type: 'MaterialCommunityIcons',
   },
   keyboard: {
-    ios: 'keyboard.fill',
+    sfSymbol: 'keyboard.fill',
     type: 'MaterialCommunityIcons',
   },
   'keyboard-settings-outline': {
-    ios: 'keyboard.badge.ellipsis',
+    sfSymbol: 'keyboard.badge.ellipsis',
     type: 'MaterialCommunityIcons',
   },
   'keyboard-settings': {
-    ios: 'keyboard.badge.ellipsis.fill',
+    sfSymbol: 'keyboard.badge.ellipsis.fill',
     type: 'MaterialCommunityIcons',
   },
   web: {
-    ios: 'globe',
+    sfSymbol: 'globe',
     type: 'MaterialCommunityIcons',
   },
   'access-point-network': {
-    ios: 'network',
+    sfSymbol: 'network',
     type: 'MaterialCommunityIcons',
   },
   'access-point-network-off': {
-    ios: 'network.slash',
+    sfSymbol: 'network.slash',
     type: 'MaterialCommunityIcons',
   },
   'weather-sunny': {
-    ios: 'sun.min',
+    sfSymbol: 'sun.min',
     type: 'MaterialCommunityIcons',
   },
   'white-balance-sunny': {
-    ios: 'sun.max.fill',
+    sfSymbol: 'sun.max.fill',
     type: 'MaterialCommunityIcons',
   },
   'weather-sunny-alert': {
-    ios: 'sun.max.trianglebadge.exclamationmark',
+    sfSymbol: 'sun.max.trianglebadge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'weather-night': {
-    ios: 'moon.stars',
+    sfSymbol: 'moon.stars',
     type: 'MaterialCommunityIcons',
   },
   'nightlight-round': {
-    ios: 'moon.fill',
+    sfSymbol: 'moon.fill',
     type: 'MaterialIcons',
   },
   'star-four-points': {
-    ios: 'sparkle',
+    sfSymbol: 'sparkle',
     type: 'MaterialCommunityIcons',
   },
   'cloud-outline': {
-    ios: 'cloud',
+    sfSymbol: 'cloud',
     type: 'MaterialCommunityIcons',
   },
   cloud: {
-    ios: 'cloud.fill',
+    sfSymbol: 'cloud.fill',
     type: 'MaterialCommunityIcons',
   },
   'weather-rainy': {
-    ios: 'cloud.rain',
+    sfSymbol: 'cloud.rain',
     type: 'MaterialCommunityIcons',
   },
   'weather-lightning': {
-    ios: 'cloud.bolt',
+    sfSymbol: 'cloud.bolt',
     type: 'MaterialCommunityIcons',
   },
   'weather-tornado': {
-    ios: 'tornado',
+    sfSymbol: 'tornado',
     type: 'MaterialCommunityIcons',
   },
   'sun-thermometer-outline': {
-    ios: 'thermometer.sun',
+    sfSymbol: 'thermometer.sun',
     type: 'MaterialCommunityIcons',
   },
   'sun-thermometer': {
-    ios: 'thermometer.sun.fill',
+    sfSymbol: 'thermometer.sun.fill',
     type: 'MaterialCommunityIcons',
   },
   'water-outline': {
-    ios: 'drop',
+    sfSymbol: 'drop',
     type: 'MaterialCommunityIcons',
   },
   water: {
-    ios: 'drop.fill',
+    sfSymbol: 'drop.fill',
     type: 'MaterialCommunityIcons',
   },
   'water-circle': {
-    ios: 'drop.circle.fill',
+    sfSymbol: 'drop.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   fire: {
-    ios: 'flame',
+    sfSymbol: 'flame',
     type: 'MaterialCommunityIcons',
   },
   'fire-circle': {
-    ios: 'flame.circle',
+    sfSymbol: 'flame.circle',
     type: 'MaterialCommunityIcons',
   },
   'umbrella-outline': {
-    ios: 'umbrella',
+    sfSymbol: 'umbrella',
     type: 'MaterialCommunityIcons',
   },
   umbrella: {
-    ios: 'umbrella.fill',
+    sfSymbol: 'umbrella.fill',
     type: 'MaterialCommunityIcons',
   },
   'play-outline': {
-    ios: 'play',
+    sfSymbol: 'play',
     type: 'MaterialCommunityIcons',
   },
   play: {
-    ios: 'play.fill',
+    sfSymbol: 'play.fill',
     type: 'MaterialCommunityIcons',
   },
   'play-circle-outline': {
-    ios: 'play.circle',
+    sfSymbol: 'play.circle',
     type: 'MaterialCommunityIcons',
   },
   'play-circle': {
-    ios: 'play.circle.fill',
+    sfSymbol: 'play.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'play-box-outline': {
-    ios: 'play.square',
+    sfSymbol: 'play.square',
     type: 'MaterialCommunityIcons',
   },
   'play-box': {
-    ios: 'play.square.fill',
+    sfSymbol: 'play.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'play-box-multiple-outline': {
-    ios: 'play.square.stack',
+    sfSymbol: 'play.square.stack',
     type: 'MaterialCommunityIcons',
   },
   'play-box-multiple': {
-    ios: 'play.square.stack.fill',
+    sfSymbol: 'play.square.stack.fill',
     type: 'MaterialCommunityIcons',
   },
   pause: {
-    ios: 'pause',
+    sfSymbol: 'pause',
     type: 'MaterialCommunityIcons',
   },
   'pause-circle-outline': {
-    ios: 'pause.circle',
+    sfSymbol: 'pause.circle',
     type: 'MaterialCommunityIcons',
   },
   'pause-circle': {
-    ios: 'pause.circle.fill',
+    sfSymbol: 'pause.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   stop: {
-    ios: 'stop.fill',
+    sfSymbol: 'stop.fill',
     type: 'MaterialCommunityIcons',
   },
   'stop-circle-outline': {
-    ios: 'stop.circle',
+    sfSymbol: 'stop.circle',
     type: 'MaterialCommunityIcons',
   },
   'stop-circle': {
-    ios: 'stop.circle.fill',
+    sfSymbol: 'stop.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'record-circle-outline': {
-    ios: 'record.circle',
+    sfSymbol: 'record.circle',
     type: 'MaterialCommunityIcons',
   },
   'record-circle': {
-    ios: 'record.circle.fill',
+    sfSymbol: 'record.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'play-pause': {
-    ios: 'playpause.fill',
+    sfSymbol: 'playpause.fill',
     type: 'MaterialCommunityIcons',
   },
   'rewind-outline': {
-    ios: 'backward',
+    sfSymbol: 'backward',
     type: 'MaterialCommunityIcons',
   },
   rewind: {
-    ios: 'backward.fill',
+    sfSymbol: 'backward.fill',
     type: 'MaterialCommunityIcons',
   },
   'fast-forward-outline': {
-    ios: 'forward',
+    sfSymbol: 'forward',
     type: 'MaterialCommunityIcons',
   },
   'fast-forward': {
-    ios: 'forward.fill',
+    sfSymbol: 'forward.fill',
     type: 'MaterialCommunityIcons',
   },
   'skip-backward-outline': {
-    ios: 'backward.end',
+    sfSymbol: 'backward.end',
     type: 'MaterialCommunityIcons',
   },
   'skip-backward': {
-    ios: 'backward.end.fill',
+    sfSymbol: 'backward.end.fill',
     type: 'MaterialCommunityIcons',
   },
   'skip-forward-outline': {
-    ios: 'forward.end',
+    sfSymbol: 'forward.end',
     type: 'MaterialCommunityIcons',
   },
   'skip-forward': {
-    ios: 'forward.end.fill',
+    sfSymbol: 'forward.end.fill',
     type: 'MaterialCommunityIcons',
   },
   'step-backward': {
-    ios: 'backward.frame.fill',
+    sfSymbol: 'backward.frame.fill',
     type: 'MaterialCommunityIcons',
   },
   'step-forward': {
-    ios: 'forward.frame.fill',
+    sfSymbol: 'forward.frame.fill',
     type: 'MaterialCommunityIcons',
   },
   shuffle: {
-    ios: 'shuffle',
+    sfSymbol: 'shuffle',
     type: 'MaterialCommunityIcons',
   },
   repeat: {
-    ios: 'repeat',
+    sfSymbol: 'repeat',
     type: 'MaterialCommunityIcons',
   },
   'repeat-once': {
-    ios: 'repeat.1',
+    sfSymbol: 'repeat.1',
     type: 'MaterialCommunityIcons',
   },
   infinity: {
-    ios: 'infinity',
+    sfSymbol: 'infinity',
     type: 'MaterialCommunityIcons',
   },
   'bullhorn-outline': {
-    ios: 'megaphone',
+    sfSymbol: 'megaphone',
     type: 'MaterialCommunityIcons',
   },
   bullhorn: {
-    ios: 'megaphone.fill',
+    sfSymbol: 'megaphone.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-low': {
-    ios: 'speaker.fill',
+    sfSymbol: 'speaker.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-plus': {
-    ios: 'speaker.plus.fill',
+    sfSymbol: 'speaker.plus.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-minus': {
-    ios: 'speaker.minus.fill',
+    sfSymbol: 'speaker.minus.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-variant-off': {
-    ios: 'speaker.slash.fill',
+    sfSymbol: 'speaker.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-medium': {
-    ios: 'speaker.wave.1.fill',
+    sfSymbol: 'speaker.wave.1.fill',
     type: 'MaterialCommunityIcons',
   },
   'volume-high': {
-    ios: 'speaker.wave.3.fill',
+    sfSymbol: 'speaker.wave.3.fill',
     type: 'MaterialCommunityIcons',
   },
   'music-note': {
-    ios: 'music.note',
+    sfSymbol: 'music.note',
     type: 'MaterialCommunityIcons',
   },
   'playlist-music': {
-    ios: 'music.note.list',
+    sfSymbol: 'music.note.list',
     type: 'MaterialCommunityIcons',
   },
   'microphone-variant': {
-    ios: 'music.mic',
+    sfSymbol: 'music.mic',
     type: 'MaterialCommunityIcons',
   },
   magnify: {
-    ios: 'magnifyingglass',
+    sfSymbol: 'magnifyingglass',
     type: 'MaterialCommunityIcons',
   },
   'magnify-minus-outline': {
-    ios: 'minus.magnifyingglass',
+    sfSymbol: 'minus.magnifyingglass',
     type: 'MaterialCommunityIcons',
   },
   'magnify-plus-outline': {
-    ios: 'plus.magnifyingglass',
+    sfSymbol: 'plus.magnifyingglass',
     type: 'MaterialCommunityIcons',
   },
   'microphone-outline': {
-    ios: 'mic',
+    sfSymbol: 'mic',
     type: 'MaterialCommunityIcons',
   },
   microphone: {
-    ios: 'mic.fill',
+    sfSymbol: 'mic.fill',
     type: 'MaterialCommunityIcons',
   },
   'microphone-off': {
-    ios: 'mic.slash.fill',
+    sfSymbol: 'mic.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'microphone-plus': {
-    ios: 'mic.fill.badge.plus',
+    sfSymbol: 'mic.fill.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'circle-outline': {
-    ios: 'circle',
+    sfSymbol: 'circle',
     type: 'MaterialCommunityIcons',
   },
   circle: {
-    ios: 'circle.fill',
+    sfSymbol: 'circle.fill',
     type: 'MaterialCommunityIcons',
   },
   cancel: {
-    ios: 'circle.slash',
+    sfSymbol: 'circle.slash',
     type: 'MaterialCommunityIcons',
   },
   target: {
-    ios: 'target',
+    sfSymbol: 'target',
     type: 'MaterialCommunityIcons',
   },
   'square-outline': {
-    ios: 'square',
+    sfSymbol: 'square',
     type: 'MaterialCommunityIcons',
   },
   square: {
-    ios: 'square.fill',
+    sfSymbol: 'square.fill',
     type: 'MaterialCommunityIcons',
   },
   'star-box-multiple-outline': {
-    ios: 'star.square.on.square',
+    sfSymbol: 'star.square.on.square',
     type: 'MaterialCommunityIcons',
   },
   'star-box-multiple': {
-    ios: 'star.square.on.square.fill',
+    sfSymbol: 'star.square.on.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'plus-box-outline': {
-    ios: 'plus.app',
+    sfSymbol: 'plus.app',
     type: 'MaterialCommunityIcons',
   },
   'plus-box': {
-    ios: 'plus.app.fill',
+    sfSymbol: 'plus.app.fill',
     type: 'MaterialCommunityIcons',
   },
   'checkbox-blank-badge-outline': {
-    ios: 'app.badge',
+    sfSymbol: 'app.badge',
     type: 'MaterialCommunityIcons',
   },
   'checkbox-blank-badge': {
-    ios: 'app.badge.fill',
+    sfSymbol: 'app.badge.fill',
     type: 'MaterialCommunityIcons',
   },
   'check-decagram-outline': {
-    ios: 'checkmark.seal',
+    sfSymbol: 'checkmark.seal',
     type: 'MaterialCommunityIcons',
   },
   'check-decagram': {
-    ios: 'checkmark.seal.fill',
+    sfSymbol: 'checkmark.seal.fill',
     type: 'MaterialCommunityIcons',
   },
   'heart-outline': {
-    ios: 'heart',
+    sfSymbol: 'heart',
     type: 'MaterialCommunityIcons',
   },
   heart: {
-    ios: 'heart.fill',
+    sfSymbol: 'heart.fill',
     type: 'MaterialCommunityIcons',
   },
   'heart-flash': {
-    ios: 'bolt.heart.fill',
+    sfSymbol: 'bolt.heart.fill',
     type: 'MaterialCommunityIcons',
   },
   'star-outline': {
-    ios: 'star',
+    sfSymbol: 'star',
     type: 'MaterialCommunityIcons',
   },
   star: {
-    ios: 'star.fill',
+    sfSymbol: 'star.fill',
     type: 'MaterialCommunityIcons',
   },
   'shield-outline': {
-    ios: 'shield',
+    sfSymbol: 'shield',
     type: 'MaterialCommunityIcons',
   },
   shield: {
-    ios: 'shield.fill',
+    sfSymbol: 'shield.fill',
     type: 'MaterialCommunityIcons',
   },
   'flag-outline': {
-    ios: 'flag',
+    sfSymbol: 'flag',
     type: 'MaterialCommunityIcons',
   },
   flag: {
-    ios: 'flag.fill',
+    sfSymbol: 'flag.fill',
     type: 'MaterialCommunityIcons',
   },
   'bell-outline': {
-    ios: 'bell',
+    sfSymbol: 'bell',
     type: 'MaterialCommunityIcons',
   },
   bell: {
-    ios: 'bell.fill',
+    sfSymbol: 'bell.fill',
     type: 'MaterialCommunityIcons',
   },
   'tag-outline': {
-    ios: 'tag',
+    sfSymbol: 'tag',
     type: 'MaterialCommunityIcons',
   },
   tag: {
-    ios: 'tag.fill',
+    sfSymbol: 'tag.fill',
     type: 'MaterialCommunityIcons',
   },
   'lightning-bolt-outline': {
-    ios: 'bolt',
+    sfSymbol: 'bolt',
     type: 'MaterialCommunityIcons',
   },
   'lightning-bolt': {
-    ios: 'bolt.fill',
+    sfSymbol: 'bolt.fill',
     type: 'MaterialCommunityIcons',
   },
   'square-root': {
-    ios: 'x.squareroot',
+    sfSymbol: 'x.squareroot',
     type: 'MaterialCommunityIcons',
   },
   flashlight: {
-    ios: 'flashlight.on.fill',
+    sfSymbol: 'flashlight.on.fill',
     type: 'MaterialCommunityIcons',
   },
   'flashlight-off': {
-    ios: 'flashlight.off.fill',
+    sfSymbol: 'flashlight.off.fill',
     type: 'MaterialCommunityIcons',
   },
   'camera-outline': {
-    ios: 'camera',
+    sfSymbol: 'camera',
     type: 'MaterialCommunityIcons',
   },
   camera: {
-    ios: 'camera.fill',
+    sfSymbol: 'camera.fill',
     type: 'MaterialCommunityIcons',
   },
   'message-outline': {
-    ios: 'message',
+    sfSymbol: 'message',
     type: 'MaterialCommunityIcons',
   },
   message: {
-    ios: 'message.fill',
+    sfSymbol: 'message.fill',
     type: 'MaterialCommunityIcons',
   },
   'message-plus-outline': {
-    ios: 'plus.message',
+    sfSymbol: 'plus.message',
     type: 'MaterialCommunityIcons',
   },
   'message-plus': {
-    ios: 'plus.message.fill',
+    sfSymbol: 'plus.message.fill',
     type: 'MaterialCommunityIcons',
   },
   'message-processing-outline': {
-    ios: 'ellipsis.message',
+    sfSymbol: 'ellipsis.message',
     type: 'MaterialCommunityIcons',
   },
   'message-processing': {
-    ios: 'ellipsis.message.fill',
+    sfSymbol: 'ellipsis.message.fill',
     type: 'MaterialCommunityIcons',
   },
   'format-quote-open': {
-    ios: 'quote.opening',
+    sfSymbol: 'quote.opening',
     type: 'MaterialCommunityIcons',
   },
   'format-quote-close': {
-    ios: 'quote.closing',
+    sfSymbol: 'quote.closing',
     type: 'MaterialCommunityIcons',
   },
   'comment-quote-outline': {
-    ios: 'quote.bubble',
+    sfSymbol: 'quote.bubble',
     type: 'MaterialCommunityIcons',
   },
   'comment-quote': {
-    ios: 'quote.bubble.fill',
+    sfSymbol: 'quote.bubble.fill',
     type: 'MaterialCommunityIcons',
   },
   'message-star-outline': {
-    ios: 'star.bubble',
+    sfSymbol: 'star.bubble',
     type: 'MaterialCommunityIcons',
   },
   'message-star': {
-    ios: 'star.bubble.fill',
+    sfSymbol: 'star.bubble.fill',
     type: 'MaterialCommunityIcons',
   },
   'message-question-outline': {
-    ios: 'questionmark.bubble',
+    sfSymbol: 'questionmark.bubble',
     type: 'MaterialCommunityIcons',
   },
   'message-question': {
-    ios: 'questionmark.bubble.fill',
+    sfSymbol: 'questionmark.bubble.fill',
     type: 'MaterialCommunityIcons',
   },
   'phone-outline': {
-    ios: 'phone',
+    sfSymbol: 'phone',
     type: 'MaterialCommunityIcons',
   },
   phone: {
-    ios: 'phone.fill',
+    sfSymbol: 'phone.fill',
     type: 'MaterialCommunityIcons',
   },
   'phone-plus-outline': {
-    ios: 'phone.badge.plus',
+    sfSymbol: 'phone.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'phone-plus': {
-    ios: 'phone.fill.badge.plus',
+    sfSymbol: 'phone.fill.badge.plus',
     type: 'MaterialCommunityIcons',
   },
   'phone-check-outline': {
-    ios: 'phone.badge.checkmark',
+    sfSymbol: 'phone.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'phone-check': {
-    ios: 'phone.fill.badge.checkmark',
+    sfSymbol: 'phone.fill.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'video-outline': {
-    ios: 'video',
+    sfSymbol: 'video',
     type: 'MaterialCommunityIcons',
   },
   video: {
-    ios: 'video.fill',
+    sfSymbol: 'video.fill',
     type: 'MaterialCommunityIcons',
   },
   'email-outline': {
-    ios: 'envelope',
+    sfSymbol: 'envelope',
     type: 'MaterialCommunityIcons',
   },
   email: {
-    ios: 'envelope.fill',
+    sfSymbol: 'envelope.fill',
     type: 'MaterialCommunityIcons',
   },
   'email-open': {
-    ios: 'envelope.open.fill',
+    sfSymbol: 'envelope.open.fill',
     type: 'MaterialCommunityIcons',
   },
   'cog-outline': {
-    ios: 'gearshape',
+    sfSymbol: 'gearshape',
     type: 'MaterialCommunityIcons',
   },
   cog: {
-    ios: 'gearshape.fill',
+    sfSymbol: 'gearshape.fill',
     type: 'MaterialCommunityIcons',
   },
   'signature-freehand': {
-    ios: 'signature',
+    sfSymbol: 'signature',
     type: 'MaterialCommunityIcons',
   },
   'dots-horizontal': {
-    ios: 'ellipsis',
+    sfSymbol: 'ellipsis',
     type: 'MaterialCommunityIcons',
   },
   'dots-horizontal-circle-outline': {
-    ios: 'ellipsis.circle',
+    sfSymbol: 'ellipsis.circle',
     type: 'MaterialCommunityIcons',
   },
   'dots-horizontal-circle': {
-    ios: 'ellipsis.circle.fill',
+    sfSymbol: 'ellipsis.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'shopping-outline': {
-    ios: 'bag',
+    sfSymbol: 'bag',
     type: 'MaterialCommunityIcons',
   },
   shopping: {
-    ios: 'bag.fill',
+    sfSymbol: 'bag.fill',
     type: 'MaterialCommunityIcons',
   },
   'cart-outline': {
-    ios: 'cart',
+    sfSymbol: 'cart',
     type: 'MaterialCommunityIcons',
   },
   cart: {
-    ios: 'cart.fill',
+    sfSymbol: 'cart.fill',
     type: 'MaterialCommunityIcons',
   },
   'basket-outline': {
-    ios: 'basket',
+    sfSymbol: 'basket',
     type: 'MaterialCommunityIcons',
   },
   basket: {
-    ios: 'basket.fill',
+    sfSymbol: 'basket.fill',
     type: 'MaterialCommunityIcons',
   },
   'credit-card-outline': {
-    ios: 'creditcard',
+    sfSymbol: 'creditcard',
     type: 'MaterialCommunityIcons',
   },
   'credit-card': {
-    ios: 'creditcard.fill',
+    sfSymbol: 'creditcard.fill',
     type: 'MaterialCommunityIcons',
   },
   'card-giftcard': {
-    ios: 'giftcard',
+    sfSymbol: 'giftcard',
     type: 'MaterialIcons',
   },
   crop: {
-    ios: 'crop',
+    sfSymbol: 'crop',
     type: 'MaterialCommunityIcons',
   },
   'crop-rotate': {
-    ios: 'crop.rotate',
+    sfSymbol: 'crop.rotate',
     type: 'MaterialCommunityIcons',
   },
   'brush-variant': {
-    ios: 'paintbrush',
+    sfSymbol: 'paintbrush',
     type: 'MaterialCommunityIcons',
   },
   'spirit-level': {
-    ios: 'level',
+    sfSymbol: 'level',
     type: 'MaterialCommunityIcons',
   },
   'wrench-outline': {
-    ios: 'wrench.adjustable',
+    sfSymbol: 'wrench.adjustable',
     type: 'MaterialCommunityIcons',
   },
   wrench: {
-    ios: 'wrench.adjustable.fill',
+    sfSymbol: 'wrench.adjustable.fill',
     type: 'MaterialCommunityIcons',
   },
   hammer: {
-    ios: 'hammer.fill',
+    sfSymbol: 'hammer.fill',
     type: 'MaterialCommunityIcons',
   },
   screwdriver: {
-    ios: 'screwdriver',
+    sfSymbol: 'screwdriver',
     type: 'MaterialCommunityIcons',
   },
   eyedropper: {
-    ios: 'eyedropper',
+    sfSymbol: 'eyedropper',
     type: 'MaterialCommunityIcons',
   },
   'hammer-screwdriver': {
-    ios: 'wrench.and.screwdriver.fill',
+    sfSymbol: 'wrench.and.screwdriver.fill',
     type: 'MaterialCommunityIcons',
   },
   'script-outline': {
-    ios: 'scroll',
+    sfSymbol: 'scroll',
     type: 'MaterialCommunityIcons',
   },
   script: {
-    ios: 'scroll.fill',
+    sfSymbol: 'scroll.fill',
     type: 'MaterialCommunityIcons',
   },
   'printer-outline': {
-    ios: 'printer',
+    sfSymbol: 'printer',
     type: 'MaterialCommunityIcons',
   },
   printer: {
-    ios: 'printer.fill',
+    sfSymbol: 'printer.fill',
     type: 'MaterialCommunityIcons',
   },
   scanner: {
-    ios: 'scanner',
+    sfSymbol: 'scanner',
     type: 'MaterialCommunityIcons',
   },
   'drama-masks': {
-    ios: 'theatermasks',
+    sfSymbol: 'theatermasks',
     type: 'MaterialCommunityIcons',
   },
   'puzzle-outline': {
-    ios: 'puzzlepiece',
+    sfSymbol: 'puzzlepiece',
     type: 'MaterialCommunityIcons',
   },
   puzzle: {
-    ios: 'puzzlepiece.fill',
+    sfSymbol: 'puzzlepiece.fill',
     type: 'MaterialCommunityIcons',
   },
   'home-outline': {
-    ios: 'house',
+    sfSymbol: 'house',
     type: 'MaterialCommunityIcons',
   },
   home: {
-    ios: 'house.fill',
+    sfSymbol: 'house.fill',
     type: 'MaterialCommunityIcons',
   },
   'home-circle-outline': {
-    ios: 'house.circle',
+    sfSymbol: 'house.circle',
     type: 'MaterialCommunityIcons',
   },
   'home-circle': {
-    ios: 'house.circle.fill',
+    sfSymbol: 'house.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'storefront-outline': {
-    ios: 'storefront',
+    sfSymbol: 'storefront',
     type: 'MaterialCommunityIcons',
   },
   storefront: {
-    ios: 'storefront.fill',
+    sfSymbol: 'storefront.fill',
     type: 'MaterialCommunityIcons',
   },
   'lightbulb-outline': {
-    ios: 'lightbulb',
+    sfSymbol: 'lightbulb',
     type: 'MaterialCommunityIcons',
   },
   lightbulb: {
-    ios: 'lightbulb.fill',
+    sfSymbol: 'lightbulb.fill',
     type: 'MaterialCommunityIcons',
   },
   'lightbulb-off-outline': {
-    ios: 'lightbulb.slash',
+    sfSymbol: 'lightbulb.slash',
     type: 'MaterialCommunityIcons',
   },
   'lightbulb-off': {
-    ios: 'lightbulb.slash.fill',
+    sfSymbol: 'lightbulb.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'power-socket-us': {
-    ios: 'poweroutlet.type.b',
+    sfSymbol: 'poweroutlet.type.b',
     type: 'MaterialCommunityIcons',
   },
   'power-plug-outline': {
-    ios: 'powerplug',
+    sfSymbol: 'powerplug',
     type: 'MaterialCommunityIcons',
   },
   'power-plug': {
-    ios: 'powerplug.fill',
+    sfSymbol: 'powerplug.fill',
     type: 'MaterialCommunityIcons',
   },
   webcam: {
-    ios: 'web.camera.fill',
+    sfSymbol: 'web.camera.fill',
     type: 'MaterialCommunityIcons',
   },
   'water-pump': {
-    ios: 'spigot.fill',
+    sfSymbol: 'spigot.fill',
     type: 'MaterialCommunityIcons',
   },
   router: {
-    ios: 'wifi.router.fill',
+    sfSymbol: 'wifi.router.fill',
     type: 'MaterialIcons',
   },
   'party-popper': {
-    ios: 'party.popper.fill',
+    sfSymbol: 'party.popper.fill',
     type: 'MaterialCommunityIcons',
   },
   balloon: {
-    ios: 'balloon.fill',
+    sfSymbol: 'balloon.fill',
     type: 'MaterialCommunityIcons',
   },
   firework: {
-    ios: 'fireworks',
+    sfSymbol: 'fireworks',
     type: 'MaterialCommunityIcons',
   },
   'office-building-outline': {
-    ios: 'building',
+    sfSymbol: 'building',
     type: 'MaterialCommunityIcons',
   },
   'office-building': {
-    ios: 'building.fill',
+    sfSymbol: 'building.fill',
     type: 'MaterialCommunityIcons',
   },
   'city-variant-outline': {
-    ios: 'building.2',
+    sfSymbol: 'building.2',
     type: 'MaterialCommunityIcons',
   },
   'city-variant': {
-    ios: 'building.2.fill',
+    sfSymbol: 'building.2.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-outline': {
-    ios: 'lock',
+    sfSymbol: 'lock',
     type: 'MaterialCommunityIcons',
   },
   lock: {
-    ios: 'lock.fill',
+    sfSymbol: 'lock.fill',
     type: 'MaterialCommunityIcons',
   },
   'shield-lock-outline': {
-    ios: 'lock.shield',
+    sfSymbol: 'lock.shield',
     type: 'MaterialCommunityIcons',
   },
   'shield-lock': {
-    ios: 'lock.shield.fill',
+    sfSymbol: 'lock.shield.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-off-outline': {
-    ios: 'lock.slash',
+    sfSymbol: 'lock.slash',
     type: 'MaterialCommunityIcons',
   },
   'lock-off': {
-    ios: 'lock.slash.fill',
+    sfSymbol: 'lock.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-alert-outline': {
-    ios: 'exclamationmark.lock',
+    sfSymbol: 'exclamationmark.lock',
     type: 'MaterialCommunityIcons',
   },
   'lock-alert': {
-    ios: 'exclamationmark.lock.fill',
+    sfSymbol: 'exclamationmark.lock.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-clock': {
-    ios: 'lock.badge.clock.fill',
+    sfSymbol: 'lock.badge.clock.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-open': {
-    ios: 'lock.open',
+    sfSymbol: 'lock.open',
     type: 'MaterialCommunityIcons',
   },
   'lock-open-outline': {
-    ios: 'lock.open.fill',
+    sfSymbol: 'lock.open.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-open-alert': {
-    ios: 'lock.open.trianglebadge.exclamationmark',
+    sfSymbol: 'lock.open.trianglebadge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'lock-open-alert-outline': {
-    ios: 'lock.open.trianglebadge.exclamationmark.fill',
+    sfSymbol: 'lock.open.trianglebadge.exclamationmark.fill',
     type: 'MaterialCommunityIcons',
   },
   'lock-reset': {
-    ios: 'lock.rotation',
+    sfSymbol: 'lock.rotation',
     type: 'MaterialCommunityIcons',
   },
   'key-outline': {
-    ios: 'key',
+    sfSymbol: 'key',
     type: 'MaterialCommunityIcons',
   },
   key: {
-    ios: 'key.fill',
+    sfSymbol: 'key.fill',
     type: 'MaterialCommunityIcons',
   },
   wifi: {
-    ios: 'wifi',
+    sfSymbol: 'wifi',
     type: 'MaterialCommunityIcons',
   },
   'wifi-off': {
-    ios: 'wifi.slash',
+    sfSymbol: 'wifi.slash',
     type: 'MaterialCommunityIcons',
   },
   'wifi-alert': {
-    ios: 'wifi.exclamationmark',
+    sfSymbol: 'wifi.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'pin-outline': {
-    ios: 'pin',
+    sfSymbol: 'pin',
     type: 'MaterialCommunityIcons',
   },
   pin: {
-    ios: 'pin.fill',
+    sfSymbol: 'pin.fill',
     type: 'MaterialCommunityIcons',
   },
   'pin-off-outline': {
-    ios: 'pin.slash',
+    sfSymbol: 'pin.slash',
     type: 'MaterialCommunityIcons',
   },
   'pin-off': {
-    ios: 'pin.slash.fill',
+    sfSymbol: 'pin.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   'map-marker-outline': {
-    ios: 'mappin',
+    sfSymbol: 'mappin',
     type: 'MaterialCommunityIcons',
   },
   'map-marker-radius-outline': {
-    ios: 'mappin.circle',
+    sfSymbol: 'mappin.circle',
     type: 'MaterialCommunityIcons',
   },
   'map-marker-radius': {
-    ios: 'mappin.circle.fill',
+    sfSymbol: 'mappin.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'map-marker-off-outline': {
-    ios: 'mappin.slash',
+    sfSymbol: 'mappin.slash',
     type: 'MaterialCommunityIcons',
   },
   'map-outline': {
-    ios: 'map',
+    sfSymbol: 'map',
     type: 'MaterialCommunityIcons',
   },
   map: {
-    ios: 'map.fill',
+    sfSymbol: 'map.fill',
     type: 'MaterialCommunityIcons',
   },
   monitor: {
-    ios: 'display',
+    sfSymbol: 'display',
     type: 'MaterialCommunityIcons',
   },
   'monitor-lock': {
-    ios: 'lock.display',
+    sfSymbol: 'lock.display',
     type: 'MaterialCommunityIcons',
   },
   'monitor-multiple': {
-    ios: 'display.2',
+    sfSymbol: 'display.2',
     type: 'MaterialCommunityIcons',
   },
   server: {
-    ios: 'server.rack',
+    sfSymbol: 'server.rack',
     type: 'MaterialCommunityIcons',
   },
   laptop: {
-    ios: 'laptopcomputer',
+    sfSymbol: 'laptopcomputer',
     type: 'MaterialCommunityIcons',
   },
   'laptop-off': {
-    ios: 'laptopcomputer.slash',
+    sfSymbol: 'laptopcomputer.slash',
     type: 'MaterialCommunityIcons',
   },
   cellphone: {
-    ios: 'smartphone',
+    sfSymbol: 'smartphone',
     type: 'MaterialCommunityIcons',
   },
   headphones: {
-    ios: 'headphones',
+    sfSymbol: 'headphones',
     type: 'MaterialCommunityIcons',
   },
   'live-tv': {
-    ios: 'play.tv',
+    sfSymbol: 'play.tv',
     type: 'MaterialIcons',
   },
   'youtube-tv': {
-    ios: 'play.tv.fill',
+    sfSymbol: 'play.tv.fill',
     type: 'MaterialCommunityIcons',
   },
   'connected-tv': {
-    ios: 'tv.badge.wifi',
+    sfSymbol: 'tv.badge.wifi',
     type: 'MaterialIcons',
   },
   'bullhorn-variant-outline': {
-    ios: 'horn',
+    sfSymbol: 'horn',
     type: 'MaterialCommunityIcons',
   },
   'bullhorn-variant': {
-    ios: 'horn.fill',
+    sfSymbol: 'horn.fill',
     type: 'MaterialCommunityIcons',
   },
   bandage: {
-    ios: 'bandage.fill',
+    sfSymbol: 'bandage.fill',
     type: 'MaterialCommunityIcons',
   },
   'crown-outline': {
-    ios: 'crown',
+    sfSymbol: 'crown',
     type: 'MaterialCommunityIcons',
   },
   crown: {
-    ios: 'crown.fill',
+    sfSymbol: 'crown.fill',
     type: 'MaterialCommunityIcons',
   },
   filmstrip: {
-    ios: 'film.fill',
+    sfSymbol: 'film.fill',
     type: 'MaterialCommunityIcons',
   },
   'filmstrip-box-multiple': {
-    ios: 'film.stack.fill',
+    sfSymbol: 'film.stack.fill',
     type: 'MaterialCommunityIcons',
   },
   'movie-open-outline': {
-    ios: 'movieclapper',
+    sfSymbol: 'movieclapper',
     type: 'MaterialCommunityIcons',
   },
   'movie-open': {
-    ios: 'movieclapper.fill',
+    sfSymbol: 'movieclapper.fill',
     type: 'MaterialCommunityIcons',
   },
   'ticket-confirmation-outline': {
-    ios: 'ticket',
+    sfSymbol: 'ticket',
     type: 'MaterialCommunityIcons',
   },
   'ticket-confirmation': {
-    ios: 'ticket.fill',
+    sfSymbol: 'ticket.fill',
     type: 'MaterialCommunityIcons',
   },
   'eye-outline': {
-    ios: 'eye',
+    sfSymbol: 'eye',
     type: 'MaterialCommunityIcons',
   },
   eye: {
-    ios: 'eye.fill',
+    sfSymbol: 'eye.fill',
     type: 'MaterialCommunityIcons',
   },
   'eye-off-outline': {
-    ios: 'eye.slash',
+    sfSymbol: 'eye.slash',
     type: 'MaterialCommunityIcons',
   },
   'eye-off': {
-    ios: 'eye.slash.fill',
+    sfSymbol: 'eye.slash.fill',
     type: 'MaterialCommunityIcons',
   },
   brain: {
-    ios: 'brain',
+    sfSymbol: 'brain',
     type: 'MaterialCommunityIcons',
   },
   qrcode: {
-    ios: 'qrcode',
+    sfSymbol: 'qrcode',
     type: 'MaterialCommunityIcons',
   },
   barcode: {
-    ios: 'barcode',
+    sfSymbol: 'barcode',
     type: 'MaterialCommunityIcons',
   },
   'image-outline': {
-    ios: 'photo',
+    sfSymbol: 'photo',
     type: 'MaterialCommunityIcons',
   },
   image: {
-    ios: 'photo.fill',
+    sfSymbol: 'photo.fill',
     type: 'MaterialCommunityIcons',
   },
   'image-plus': {
-    ios: 'photo.badge.plus.fill',
+    sfSymbol: 'photo.badge.plus.fill',
     type: 'MaterialCommunityIcons',
   },
   'image-multiple-outline': {
-    ios: 'photo.stack',
+    sfSymbol: 'photo.stack',
     type: 'MaterialCommunityIcons',
   },
   'image-multiple': {
-    ios: 'photo.stack.fill',
+    sfSymbol: 'photo.stack.fill',
     type: 'MaterialCommunityIcons',
   },
   'clock-outline': {
-    ios: 'clock',
+    sfSymbol: 'clock',
     type: 'MaterialCommunityIcons',
   },
   clock: {
-    ios: 'clock.fill',
+    sfSymbol: 'clock.fill',
     type: 'MaterialCommunityIcons',
   },
   'clock-check-outline': {
-    ios: 'clock.badge.checkmark',
+    sfSymbol: 'clock.badge.checkmark',
     type: 'MaterialCommunityIcons',
   },
   'clock-check': {
-    ios: 'clock.badge.checkmark.fill',
+    sfSymbol: 'clock.badge.checkmark.fill',
     type: 'MaterialCommunityIcons',
   },
   'clock-remove-outline': {
-    ios: 'clock.badge.xmark',
+    sfSymbol: 'clock.badge.xmark',
     type: 'MaterialCommunityIcons',
   },
   'clock-remove': {
-    ios: 'clock.badge.xmark.fill',
+    sfSymbol: 'clock.badge.xmark.fill',
     type: 'MaterialCommunityIcons',
   },
   'clock-alert-outline': {
-    ios: 'clock.badge.exclamationmark',
+    sfSymbol: 'clock.badge.exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   'clock-alert': {
-    ios: 'clock.badge.exclamationmark.fill',
+    sfSymbol: 'clock.badge.exclamationmark.fill',
     type: 'MaterialCommunityIcons',
   },
   alarm: {
-    ios: 'alarm',
+    sfSymbol: 'alarm',
     type: 'MaterialCommunityIcons',
   },
   'timer-outline': {
-    ios: 'stopwatch',
+    sfSymbol: 'stopwatch',
     type: 'MaterialCommunityIcons',
   },
   timer: {
-    ios: 'stopwatch.fill',
+    sfSymbol: 'stopwatch.fill',
     type: 'MaterialCommunityIcons',
   },
   'chart-timeline-variant': {
-    ios: 'chart.xyaxis.line',
+    sfSymbol: 'chart.xyaxis.line',
     type: 'MaterialCommunityIcons',
   },
   'camera-timer': {
-    ios: 'timer',
+    sfSymbol: 'timer',
     type: 'MaterialCommunityIcons',
   },
   'controller-classic-outline': {
-    ios: 'gamecontroller',
+    sfSymbol: 'gamecontroller',
     type: 'MaterialCommunityIcons',
   },
   'controller-classic': {
-    ios: 'gamecontroller.fill',
+    sfSymbol: 'gamecontroller.fill',
     type: 'MaterialCommunityIcons',
   },
   'sony-playstation': {
-    ios: 'playstation.logo',
+    sfSymbol: 'playstation.logo',
     type: 'MaterialCommunityIcons',
   },
   'microsoft-xbox': {
-    ios: 'xbox.logo',
+    sfSymbol: 'xbox.logo',
     type: 'MaterialCommunityIcons',
   },
   'palette-outline': {
-    ios: 'paintpalette',
+    sfSymbol: 'paintpalette',
     type: 'MaterialCommunityIcons',
   },
   palette: {
-    ios: 'paintpalette.fill',
+    sfSymbol: 'paintpalette.fill',
     type: 'MaterialCommunityIcons',
   },
   'palette-swatch-outline': {
-    ios: 'swatchpalette',
+    sfSymbol: 'swatchpalette',
     type: 'MaterialCommunityIcons',
   },
   'palette-swatch': {
-    ios: 'swatchpalette.fill',
+    sfSymbol: 'swatchpalette.fill',
     type: 'MaterialCommunityIcons',
   },
   'silverware-fork-knife': {
-    ios: 'fork.knife',
+    sfSymbol: 'fork.knife',
     type: 'MaterialCommunityIcons',
   },
   'chart-box-outline': {
-    ios: 'chart.bar',
+    sfSymbol: 'chart.bar',
     type: 'MaterialCommunityIcons',
   },
   'chart-box': {
-    ios: 'chart.bar.fill',
+    sfSymbol: 'chart.bar.fill',
     type: 'MaterialCommunityIcons',
   },
   'signal-cellular-3': {
-    ios: 'cellularbars',
+    sfSymbol: 'cellularbars',
     type: 'MaterialCommunityIcons',
   },
   'chart-pie': {
-    ios: 'chart.pie.fill',
+    sfSymbol: 'chart.pie.fill',
     type: 'MaterialCommunityIcons',
   },
   sd: {
-    ios: 'sdcard.fill',
+    sfSymbol: 'sdcard.fill',
     type: 'MaterialCommunityIcons',
   },
   atom: {
-    ios: 'atom',
+    sfSymbol: 'atom',
     type: 'MaterialCommunityIcons',
   },
   'angle-acute': {
-    ios: 'angle',
+    sfSymbol: 'angle',
     type: 'MaterialCommunityIcons',
   },
   'math-compass': {
-    ios: 'compass.drawing',
+    sfSymbol: 'compass.drawing',
     type: 'MaterialCommunityIcons',
   },
   'globe-model': {
-    ios: 'globe.desk',
+    sfSymbol: 'globe.desk',
     type: 'MaterialCommunityIcons',
   },
   'gift-outline': {
-    ios: 'gift',
+    sfSymbol: 'gift',
     type: 'MaterialCommunityIcons',
   },
   gift: {
-    ios: 'gift.fill',
+    sfSymbol: 'gift.fill',
     type: 'MaterialCommunityIcons',
   },
   cash: {
-    ios: 'banknote',
+    sfSymbol: 'banknote',
     type: 'MaterialCommunityIcons',
   },
   grid: {
-    ios: 'grid',
+    sfSymbol: 'grid',
     type: 'MaterialCommunityIcons',
   },
   'format-list-checks': {
-    ios: 'checklist',
+    sfSymbol: 'checklist',
     type: 'MaterialCommunityIcons',
   },
   'format-list-bulleted': {
-    ios: 'list.bullet',
+    sfSymbol: 'list.bullet',
     type: 'MaterialCommunityIcons',
   },
   'reorder-horizontal': {
-    ios: 'line.3.horizontal',
+    sfSymbol: 'line.3.horizontal',
     type: 'MaterialCommunityIcons',
   },
   'format-bold': {
-    ios: 'bold',
+    sfSymbol: 'bold',
     type: 'MaterialCommunityIcons',
   },
   'format-italic': {
-    ios: 'italic',
+    sfSymbol: 'italic',
     type: 'MaterialCommunityIcons',
   },
   'format-underline': {
-    ios: 'underline',
+    sfSymbol: 'underline',
     type: 'MaterialCommunityIcons',
   },
   'format-strikethrough': {
-    ios: 'strikethrough',
+    sfSymbol: 'strikethrough',
     type: 'MaterialCommunityIcons',
   },
   percent: {
-    ios: 'percent',
+    sfSymbol: 'percent',
     type: 'MaterialCommunityIcons',
   },
   'information-outline': {
-    ios: 'info.circle',
+    sfSymbol: 'info.circle',
     type: 'MaterialCommunityIcons',
   },
   information: {
-    ios: 'info.circle.fill',
+    sfSymbol: 'info.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'alternate-email': {
-    ios: 'at',
+    sfSymbol: 'at',
     type: 'MaterialIcons',
   },
   help: {
-    ios: 'questionmark',
+    sfSymbol: 'questionmark',
     type: 'MaterialCommunityIcons',
   },
   exclamation: {
-    ios: 'exclamationmark',
+    sfSymbol: 'exclamationmark',
     type: 'MaterialCommunityIcons',
   },
   plus: {
-    ios: 'plus',
+    sfSymbol: 'plus',
     type: 'MaterialCommunityIcons',
   },
   minus: {
-    ios: 'minus',
+    sfSymbol: 'minus',
     type: 'MaterialCommunityIcons',
   },
   'plus-minus': {
-    ios: 'plusminus',
+    sfSymbol: 'plusminus',
     type: 'MaterialCommunityIcons',
   },
   close: {
-    ios: 'multiply',
+    sfSymbol: 'multiply',
     type: 'MaterialCommunityIcons',
   },
   division: {
-    ios: 'divide',
+    sfSymbol: 'divide',
     type: 'MaterialCommunityIcons',
   },
   equal: {
-    ios: 'equal',
+    sfSymbol: 'equal',
     type: 'MaterialCommunityIcons',
   },
   'less-than': {
-    ios: 'lessthan',
+    sfSymbol: 'lessthan',
     type: 'MaterialCommunityIcons',
   },
   'greater-than': {
-    ios: 'greaterthan',
+    sfSymbol: 'greaterthan',
     type: 'MaterialCommunityIcons',
   },
   'code-parentheses': {
-    ios: 'parentheses',
+    sfSymbol: 'parentheses',
     type: 'MaterialCommunityIcons',
   },
   'code-braces': {
-    ios: 'curlybraces',
+    sfSymbol: 'curlybraces',
     type: 'MaterialCommunityIcons',
   },
   'code-json': {
-    ios: 'ellipsis.curlybraces',
+    sfSymbol: 'ellipsis.curlybraces',
     type: 'MaterialCommunityIcons',
   },
   'close-thick': {
-    ios: 'xmark',
+    sfSymbol: 'xmark',
     type: 'MaterialCommunityIcons',
   },
   'close-circle-outline': {
-    ios: 'xmark.circle',
+    sfSymbol: 'xmark.circle',
     type: 'MaterialCommunityIcons',
   },
   'close-circle': {
-    ios: 'xmark.circle.fill',
+    sfSymbol: 'xmark.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'close-box-outline': {
-    ios: 'xmark.square',
+    sfSymbol: 'xmark.square',
     type: 'MaterialCommunityIcons',
   },
   'close-box': {
-    ios: 'xmark.square.fill',
+    sfSymbol: 'xmark.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'shield-remove-outline': {
-    ios: 'xmark.shield',
+    sfSymbol: 'xmark.shield',
     type: 'MaterialCommunityIcons',
   },
   'shield-remove': {
-    ios: 'xmark.shield.fill',
+    sfSymbol: 'xmark.shield.fill',
     type: 'MaterialCommunityIcons',
   },
   'close-octagon-outline': {
-    ios: 'xmark.octagon',
+    sfSymbol: 'xmark.octagon',
     type: 'MaterialCommunityIcons',
   },
   'close-octagon': {
-    ios: 'xmark.octagon.fill',
+    sfSymbol: 'xmark.octagon.fill',
     type: 'MaterialCommunityIcons',
   },
   check: {
-    ios: 'checkmark',
+    sfSymbol: 'checkmark',
     type: 'MaterialCommunityIcons',
   },
   'check-circle-outline': {
-    ios: 'checkmark.circle',
+    sfSymbol: 'checkmark.circle',
     type: 'MaterialCommunityIcons',
   },
   'check-circle': {
-    ios: 'checkmark.circle.fill',
+    sfSymbol: 'checkmark.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'check-box': {
-    ios: 'checkmark.square.fill',
+    sfSymbol: 'checkmark.square.fill',
     type: 'MaterialIcons',
   },
   'shield-check-outline': {
-    ios: 'checkmark.shield',
+    sfSymbol: 'checkmark.shield',
     type: 'MaterialCommunityIcons',
   },
   'shield-check': {
-    ios: 'checkmark.shield.fill',
+    sfSymbol: 'checkmark.shield.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-left': {
-    ios: 'chevron.left',
+    sfSymbol: 'chevron.left',
     type: 'MaterialCommunityIcons',
   },
   'chevron-left-circle-outline': {
-    ios: 'chevron.left.circle',
+    sfSymbol: 'chevron.left.circle',
     type: 'MaterialCommunityIcons',
   },
   'chevron-left-circle': {
-    ios: 'chevron.left.circle.fill',
+    sfSymbol: 'chevron.left.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-left-box-outline': {
-    ios: 'chevron.left.square',
+    sfSymbol: 'chevron.left.square',
     type: 'MaterialCommunityIcons',
   },
   'chevron-left-box': {
-    ios: 'chevron.left.square.fill',
+    sfSymbol: 'chevron.left.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-right': {
-    ios: 'chevron.right',
+    sfSymbol: 'chevron.right',
     type: 'MaterialCommunityIcons',
   },
   'chevron-right-circle-outline': {
-    ios: 'chevron.right.circle',
+    sfSymbol: 'chevron.right.circle',
     type: 'MaterialCommunityIcons',
   },
   'chevron-right-circle': {
-    ios: 'chevron.right.circle.fill',
+    sfSymbol: 'chevron.right.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-right-box-outline': {
-    ios: 'chevron.right.square',
+    sfSymbol: 'chevron.right.square',
     type: 'MaterialCommunityIcons',
   },
   'chevron-right-box': {
-    ios: 'chevron.right.square.fill',
+    sfSymbol: 'chevron.right.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-double-left': {
-    ios: 'chevron.left.2',
+    sfSymbol: 'chevron.left.2',
     type: 'MaterialCommunityIcons',
   },
   'chevron-double-right': {
-    ios: 'chevron.right.2',
+    sfSymbol: 'chevron.right.2',
     type: 'MaterialCommunityIcons',
   },
   'chevron-up': {
-    ios: 'chevron.up',
+    sfSymbol: 'chevron.up',
     type: 'MaterialCommunityIcons',
   },
   'chevron-up-circle-outline': {
-    ios: 'chevron.up.circle',
+    sfSymbol: 'chevron.up.circle',
     type: 'MaterialCommunityIcons',
   },
   'chevron-up-circle': {
-    ios: 'chevron.up.circle.fill',
+    sfSymbol: 'chevron.up.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-up-box-outline': {
-    ios: 'chevron.up.square',
+    sfSymbol: 'chevron.up.square',
     type: 'MaterialCommunityIcons',
   },
   'chevron-up-box': {
-    ios: 'chevron.up.square.fill',
+    sfSymbol: 'chevron.up.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-down': {
-    ios: 'chevron.down',
+    sfSymbol: 'chevron.down',
     type: 'MaterialCommunityIcons',
   },
   'chevron-down-circle-outline': {
-    ios: 'chevron.down.circle',
+    sfSymbol: 'chevron.down.circle',
     type: 'MaterialCommunityIcons',
   },
   'chevron-down-circle': {
-    ios: 'chevron.down.circle.fill',
+    sfSymbol: 'chevron.down.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'chevron-down-box-outline': {
-    ios: 'chevron.down.square',
+    sfSymbol: 'chevron.down.square',
     type: 'MaterialCommunityIcons',
   },
   'chevron-down-box': {
-    ios: 'chevron.down.square.fill',
+    sfSymbol: 'chevron.down.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'unfold-more-horizontal': {
-    ios: 'chevron.up.chevron.down',
+    sfSymbol: 'chevron.up.chevron.down',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left': {
-    ios: 'arrow.left',
+    sfSymbol: 'arrow.left',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-circle-outline': {
-    ios: 'arrow.left.circle',
+    sfSymbol: 'arrow.left.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-circle': {
-    ios: 'arrow.left.circle.fill',
+    sfSymbol: 'arrow.left.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-left-box': {
-    ios: 'arrow.left.square.fill',
+    sfSymbol: 'arrow.left.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right': {
-    ios: 'arrow.right',
+    sfSymbol: 'arrow.right',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-circle-outline': {
-    ios: 'arrow.right.circle',
+    sfSymbol: 'arrow.right.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-circle': {
-    ios: 'arrow.right.circle.fill',
+    sfSymbol: 'arrow.right.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-right-box': {
-    ios: 'arrow.right.square.fill',
+    sfSymbol: 'arrow.right.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up': {
-    ios: 'arrow.up',
+    sfSymbol: 'arrow.up',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-circle-outline': {
-    ios: 'arrow.up.circle',
+    sfSymbol: 'arrow.up.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-circle': {
-    ios: 'arrow.up.circle.fill',
+    sfSymbol: 'arrow.up.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-up-box': {
-    ios: 'arrow.up.square.fill',
+    sfSymbol: 'arrow.up.square.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down': {
-    ios: 'arrow.down',
+    sfSymbol: 'arrow.down',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-circle-outline': {
-    ios: 'arrow.down.circle',
+    sfSymbol: 'arrow.down.circle',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-circle': {
-    ios: 'arrow.down.circle.fill',
+    sfSymbol: 'arrow.down.circle.fill',
     type: 'MaterialCommunityIcons',
   },
   'arrow-down-box': {
-    ios: 'arrow.down.square.fill',
+    sfSymbol: 'arrow.down.square.fill',
     type: 'MaterialCommunityIcons',
   },
   asterisk: {
-    ios: 'asterisk',
+    sfSymbol: 'asterisk',
     type: 'MaterialCommunityIcons',
   },
   'attach-money': {
-    ios: 'dollarsign',
+    sfSymbol: 'dollarsign',
     type: 'MaterialIcons',
   },
   apple: {
-    ios: 'apple.logo',
+    sfSymbol: 'apple.logo',
     type: 'MaterialCommunityIcons',
   },
 } as const;

@@ -2,45 +2,65 @@
 
 import 'expo-dev-client';
 
-import { ICON_NAMES, Icon } from '@roninoss/icons';
+import { ICON_MAPPING, Icon } from '@roninoss/icons';
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
-const data = Object.keys(ICON_NAMES).map((name) => name);
-data.reverse();
+const data = Object.keys(ICON_MAPPING).map((name) => name);
+
 export default function Native() {
   const [type, setType] = React.useState('iOS Icon');
   return (
     <View style={styles.container}>
+      <Pressable
+        onPress={() => {
+          setType(type === 'iOS Icon' ? 'Material Icon' : 'iOS Icon');
+        }}
+        style={{
+          paddingTop: 60,
+          marginBottom: 20,
+          backgroundColor: '#FFFFFFEE',
+          zIndex: 100,
+        }}
+      >
+        <Text style={styles.header}>{type}</Text>
+        <Text style={{ textAlign: 'center', fontSize: 14, opacity: 0.8 }}>
+          {'Tap to change type'}
+        </Text>
+      </Pressable>
       <FlatList
         extraData={data}
         keyExtractor={(item) => item}
-        ListHeaderComponent={
-          <Pressable
-            onPress={() => {
-              setType(type === 'iOS Icon' ? 'Material Icon' : 'iOS Icon');
-            }}
-          >
-            <Text style={styles.header}>{type}</Text>
-          </Pressable>
-        }
-        numColumns={9}
+        numColumns={4}
         data={data}
         renderItem={({ item }) => (
-          <Icon
-            name={item}
-            color={'orange'}
-            size={42}
-            ios={{
-              useMaterialIcon: type === 'Material Icon',
-              // name: 'checkmark.diamond',
+          <View
+            style={{
+              flex: 1,
+              aspectRatio: 1,
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: 8,
+              padding: 4,
             }}
-          />
+          >
+            <Icon
+              name={item}
+              color={'orange'}
+              size={42}
+              ios={{ useMaterialIcon: type === 'Material Icon' }}
+            />
+            <View style={{ height: 18, flex: 1 }}>
+              <Text
+                numberOfLines={2}
+                style={{ textAlign: 'center', fontSize: 12, color: 'orange' }}
+              >
+                {type === 'Material Icon' ? item : ICON_MAPPING[item].sfSymbol}
+              </Text>
+            </View>
+          </View>
         )}
-        contentContainerStyle={{
-          paddingTop: 60,
-        }}
         style={{
           overflow: 'visible',
         }}
@@ -55,13 +75,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
     gap: 12,
   },
   header: {
     fontWeight: 'bold',
-    marginBottom: 20,
+
     fontSize: 36,
     marginTop: 20,
+    textAlign: 'center',
   },
 });
