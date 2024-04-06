@@ -1540,304 +1540,563 @@ export const ICON_NAMES = {
     ios: 'basket.fill',
     type: 'MaterialCommunityIcons',
   },
+  'credit-card-outline': {
+    ios: 'creditcard',
+    type: 'MaterialCommunityIcons',
+  },
+  'credit-card': {
+    ios: 'creditcard.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'card-giftcard': {
+    ios: 'giftcard',
+    type: 'MaterialIcons',
+  },
+  crop: {
+    ios: 'crop',
+    type: 'MaterialCommunityIcons',
+  },
+  'crop-rotate': {
+    ios: 'crop.rotate',
+    type: 'MaterialCommunityIcons',
+  },
+  'brush-variant': {
+    ios: 'paintbrush',
+    type: 'MaterialCommunityIcons',
+  },
+  'spirit-level': {
+    ios: 'level',
+    type: 'MaterialCommunityIcons',
+  },
+  'wrench-outline': {
+    ios: 'wrench.adjustable',
+    type: 'MaterialCommunityIcons',
+  },
+  wrench: {
+    ios: 'wrench.adjustable.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  hammer: {
+    ios: 'hammer.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  screwdriver: {
+    ios: 'screwdriver',
+    type: 'MaterialCommunityIcons',
+  },
+  eyedropper: {
+    ios: 'eyedropper',
+    type: 'MaterialCommunityIcons',
+  },
+  'hammer-screwdriver': {
+    ios: 'wrench.and.screwdriver.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'script-outline': {
+    ios: 'scroll',
+    type: 'MaterialCommunityIcons',
+  },
+  script: {
+    ios: 'scroll.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'printer-outline': {
+    ios: 'printer',
+    type: 'MaterialCommunityIcons',
+  },
+  printer: {
+    ios: 'printer.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  scanner: {
+    ios: 'scanner',
+    type: 'MaterialCommunityIcons',
+  },
+  'drama-masks': {
+    ios: 'theatermasks',
+    type: 'MaterialCommunityIcons',
+  },
+  'puzzle-outline': {
+    ios: 'puzzlepiece',
+    type: 'MaterialCommunityIcons',
+  },
+  puzzle: {
+    ios: 'puzzlepiece.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'home-outline': {
+    ios: 'house',
+    type: 'MaterialCommunityIcons',
+  },
+  home: {
+    ios: 'house.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'home-circle-outline': {
+    ios: 'house.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'home-circle': {
+    ios: 'house.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'storefront-outline': {
+    ios: 'storefront',
+    type: 'MaterialCommunityIcons',
+  },
+  storefront: {
+    ios: 'storefront.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lightbulb-outline': {
+    ios: 'lightbulb',
+    type: 'MaterialCommunityIcons',
+  },
+  lightbulb: {
+    ios: 'lightbulb.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lightbulb-off-outline': {
+    ios: 'lightbulb.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'lightbulb-off': {
+    ios: 'lightbulb.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-socket-us': {
+    ios: 'poweroutlet.type.b',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-plug-outline': {
+    ios: 'powerplug',
+    type: 'MaterialCommunityIcons',
+  },
+  'power-plug': {
+    ios: 'powerplug.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  webcam: {
+    ios: 'web.camera.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'water-pump': {
+    ios: 'spigot.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  router: {
+    ios: 'wifi.router.fill',
+    type: 'MaterialIcons',
+  },
+  'party-popper': {
+    ios: 'party.popper.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  balloon: {
+    ios: 'balloon.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  firework: {
+    ios: 'fireworks',
+    type: 'MaterialCommunityIcons',
+  },
+  'office-building-outline': {
+    ios: 'building',
+    type: 'MaterialCommunityIcons',
+  },
+  'office-building': {
+    ios: 'building.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'city-variant-outline': {
+    ios: 'building.2',
+    type: 'MaterialCommunityIcons',
+  },
+  'city-variant': {
+    ios: 'building.2.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-outline': {
+    ios: 'lock',
+    type: 'MaterialCommunityIcons',
+  },
+  lock: {
+    ios: 'lock.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-lock-outline': {
+    ios: 'lock.shield',
+    type: 'MaterialCommunityIcons',
+  },
+  'shield-lock': {
+    ios: 'lock.shield.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-off-outline': {
+    ios: 'lock.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-off': {
+    ios: 'lock.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-alert-outline': {
+    ios: 'exclamationmark.lock',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-alert': {
+    ios: 'exclamationmark.lock.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-clock': {
+    ios: 'lock.badge.clock.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-open': {
+    ios: 'lock.open',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-open-outline': {
+    ios: 'lock.open.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-open-alert': {
+    ios: 'lock.open.trianglebadge.exclamationmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-open-alert-outline': {
+    ios: 'lock.open.trianglebadge.exclamationmark.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'lock-reset': {
+    ios: 'lock.rotation',
+    type: 'MaterialCommunityIcons',
+  },
+  'key-outline': {
+    ios: 'key',
+    type: 'MaterialCommunityIcons',
+  },
+  key: {
+    ios: 'key.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  wifi: {
+    ios: 'wifi',
+    type: 'MaterialCommunityIcons',
+  },
+  'wifi-off': {
+    ios: 'wifi.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'wifi-alert': {
+    ios: 'wifi.exclamationmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'pin-outline': {
+    ios: 'pin',
+    type: 'MaterialCommunityIcons',
+  },
+  pin: {
+    ios: 'pin.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'pin-off-outline': {
+    ios: 'pin.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'pin-off': {
+    ios: 'pin.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'map-marker-outline': {
+    ios: 'mappin',
+    type: 'MaterialCommunityIcons',
+  },
+  'map-marker-radius-outline': {
+    ios: 'mappin.circle',
+    type: 'MaterialCommunityIcons',
+  },
+  'map-marker-radius': {
+    ios: 'mappin.circle.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'map-marker-off-outline': {
+    ios: 'mappin.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'map-outline': {
+    ios: 'map',
+    type: 'MaterialCommunityIcons',
+  },
+  map: {
+    ios: 'map.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  monitor: {
+    ios: 'display',
+    type: 'MaterialCommunityIcons',
+  },
+  'monitor-lock': {
+    ios: 'lock.display',
+    type: 'MaterialCommunityIcons',
+  },
+  'monitor-multiple': {
+    ios: 'display.2',
+    type: 'MaterialCommunityIcons',
+  },
+  server: {
+    ios: 'server.rack',
+    type: 'MaterialCommunityIcons',
+  },
+  laptop: {
+    ios: 'laptopcomputer',
+    type: 'MaterialCommunityIcons',
+  },
+  'laptop-off': {
+    ios: 'laptopcomputer.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  cellphone: {
+    ios: 'smartphone',
+    type: 'MaterialCommunityIcons',
+  },
+  headphones: {
+    ios: 'headphones',
+    type: 'MaterialCommunityIcons',
+  },
+  'live-tv': {
+    ios: 'play.tv',
+    type: 'MaterialIcons',
+  },
+  'youtube-tv': {
+    ios: 'play.tv.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'connected-tv': {
+    ios: 'tv.badge.wifi',
+    type: 'MaterialIcons',
+  },
+  'bullhorn-variant-outline': {
+    ios: 'horn',
+    type: 'MaterialCommunityIcons',
+  },
+  'bullhorn-variant': {
+    ios: 'horn.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  bandage: {
+    ios: 'bandage.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'crown-outline': {
+    ios: 'crown',
+    type: 'MaterialCommunityIcons',
+  },
+  crown: {
+    ios: 'crown.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  filmstrip: {
+    ios: 'film.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'filmstrip-box-multiple': {
+    ios: 'film.stack.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'movie-open-outline': {
+    ios: 'movieclapper',
+    type: 'MaterialCommunityIcons',
+  },
+  'movie-open': {
+    ios: 'movieclapper.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'ticket-confirmation-outline': {
+    ios: 'ticket',
+    type: 'MaterialCommunityIcons',
+  },
+  'ticket-confirmation': {
+    ios: 'ticket.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'eye-outline': {
+    ios: 'eye',
+    type: 'MaterialCommunityIcons',
+  },
+  eye: {
+    ios: 'eye.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'eye-off-outline': {
+    ios: 'eye.slash',
+    type: 'MaterialCommunityIcons',
+  },
+  'eye-off': {
+    ios: 'eye.slash.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  brain: {
+    ios: 'brain',
+    type: 'MaterialCommunityIcons',
+  },
+  qrcode: {
+    ios: 'qrcode',
+    type: 'MaterialCommunityIcons',
+  },
+  barcode: {
+    ios: 'barcode',
+    type: 'MaterialCommunityIcons',
+  },
+  'image-outline': {
+    ios: 'photo',
+    type: 'MaterialCommunityIcons',
+  },
+  image: {
+    ios: 'photo.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'image-plus': {
+    ios: 'photo.badge.plus.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'image-multiple-outline': {
+    ios: 'photo.stack',
+    type: 'MaterialCommunityIcons',
+  },
+  'image-multiple': {
+    ios: 'photo.stack.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-outline': {
+    ios: 'clock',
+    type: 'MaterialCommunityIcons',
+  },
+  clock: {
+    ios: 'clock.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-check-outline': {
+    ios: 'clock.badge.checkmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-check': {
+    ios: 'clock.badge.checkmark.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-remove-outline': {
+    ios: 'clock.badge.xmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-remove': {
+    ios: 'clock.badge.xmark.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-alert-outline': {
+    ios: 'clock.badge.exclamationmark',
+    type: 'MaterialCommunityIcons',
+  },
+  'clock-alert': {
+    ios: 'clock.badge.exclamationmark.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  alarm: {
+    ios: 'alarm',
+    type: 'MaterialCommunityIcons',
+  },
+  'timer-outline': {
+    ios: 'stopwatch',
+    type: 'MaterialCommunityIcons',
+  },
+  timer: {
+    ios: 'stopwatch.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'chart-timeline-variant': {
+    ios: 'chart.xyaxis.line',
+    type: 'MaterialCommunityIcons',
+  },
+  'camera-timer': {
+    ios: 'timer',
+    type: 'MaterialCommunityIcons',
+  },
+  'controller-classic-outline': {
+    ios: 'gamecontroller',
+    type: 'MaterialCommunityIcons',
+  },
+  'controller-classic': {
+    ios: 'gamecontroller.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'sony-playstation': {
+    ios: 'playstation.logo',
+    type: 'MaterialCommunityIcons',
+  },
+  'microsoft-xbox': {
+    ios: 'xbox.logo',
+    type: 'MaterialCommunityIcons',
+  },
+  'palette-outline': {
+    ios: 'paintpalette',
+    type: 'MaterialCommunityIcons',
+  },
+  palette: {
+    ios: 'paintpalette.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'palette-swatch-outline': {
+    ios: 'swatchpalette',
+    type: 'MaterialCommunityIcons',
+  },
+  'palette-swatch': {
+    ios: 'swatchpalette.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'silverware-fork-knife': {
+    ios: 'fork.knife',
+    type: 'MaterialCommunityIcons',
+  },
+  'chart-box-outline': {
+    ios: 'chart.bar',
+    type: 'MaterialCommunityIcons',
+  },
+  'chart-box': {
+    ios: 'chart.bar.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  'signal-cellular-3': {
+    ios: 'cellularbars',
+    type: 'MaterialCommunityIcons',
+  },
+  'chart-pie': {
+    ios: 'chart.pie.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  sd: {
+    ios: 'sdcard.fill',
+    type: 'MaterialCommunityIcons',
+  },
+  atom: {
+    ios: 'atom',
+    type: 'MaterialCommunityIcons',
+  },
+  'angle-acute': {
+    ios: 'angle',
+    type: 'MaterialCommunityIcons',
+  },
+  'math-compass': {
+    ios: 'compass.drawing',
+    type: 'MaterialCommunityIcons',
+  },
+  'globe-model': {
+    ios: 'globe.desk',
+    type: 'MaterialCommunityIcons',
+  },
 } as const;
 
-// console.log(Object.keys(ICON_NAMES).length); // 354
+// console.log(Object.keys(ICON_NAMES).length); // 492
 
 export type NamesLeft =
-  | 'creditcard'
-  | 'creditcard.fill'
-  | 'giftcard'
-  | 'giftcard.fill'
-  | 'wallet.pass'
-  | 'wallet.pass.fill'
-  | 'crop'
-  | 'crop.rotate'
-  | 'rectangle.portrait.rotate'
-  | 'rectangle.landscape.rotate'
-  | 'tuningfork'
-  | 'paintbrush'
-  | 'paintbrush.fill'
-  | 'level'
-  | 'wrench.adjustable'
-  | 'wrench.adjustable.fill'
-  | 'hammer'
-  | 'hammer.fill'
-  | 'screwdriver'
-  | 'screwdriver.fill'
-  | 'eyedropper'
-  | 'eyedropper.full'
-  | 'wrench.and.screwdriver'
-  | 'wrench.and.screwdriver.fill'
-  | 'scroll'
-  | 'scroll.fill'
-  | 'printer'
-  | 'printer.fill'
-  | 'scanner'
-  | 'scanner.fill'
-  | 'theatermasks'
-  | 'theatermasks.fill'
-  | 'puzzlepiece'
-  | 'puzzlepiece.fill'
-  | 'house'
-  | 'house.fill'
-  | 'house.circle'
-  | 'house.circle.fill'
-  | 'storefront'
-  | 'storefront.fill'
-  | 'lightbulb'
-  | 'lightbulb.fill'
-  | 'lightbulb.circle'
-  | 'lightbulb.circle.fill'
-  | 'lightbulb.slash'
-  | 'lightbulb.slash.fill'
-  | 'lightswitch.on'
-  | 'lightswitch.on.fill'
-  | 'lightswitch.off'
-  | 'lightswitch.off.fill'
-  | 'poweroutlet.type.b'
-  | 'powerplug'
-  | 'powerplug.fill'
-  | 'powercord'
-  | 'powercord.fill'
-  | 'web.camera'
-  | 'web.camera.fill'
-  | 'spigot.fill'
-  | 'sensor'
-  | 'sensor.fill'
-  | 'wifi.router'
-  | 'wifi.router.fill'
-  | 'party.popper'
-  | 'party.popper.fill'
-  | 'balloon'
-  | 'balloon.fill'
-  | 'balloon.2'
-  | 'balloon.2.fill'
-  | 'fireworks'
-  | 'building'
-  | 'building.fill'
-  | 'building.2'
-  | 'building.2.fill'
-  | 'lock'
-  | 'lock.fill'
-  | 'lock.circle'
-  | 'lock.circle.fill'
-  | 'lock.square'
-  | 'lock.square.fill'
-  | 'lock.circle.dotted'
-  | 'lock.square.stack'
-  | 'lock.square.stack.fill'
-  | 'lock.shield'
-  | 'lock.shield.fill'
-  | 'lock.slash'
-  | 'lock.slash.fill'
-  | 'exclamationmark.lock'
-  | 'exclamationmark.lock.fill'
-  | 'lock.badge.clock'
-  | 'lock.badge.clock.fill'
-  | 'lock.open'
-  | 'lock.open.fill'
-  | 'lock.open.trianglebadge.exclamationmark'
-  | 'lock.open.trianglebadge.exclamationmark.fill'
-  | 'lock.rotation'
-  | 'lock.open.rotation'
-  | 'key'
-  | 'key.fill'
-  | 'key.slash'
-  | 'key.slash.fill'
-  | 'questionmark.key.filled'
-  | 'wifi'
-  | 'wifi.circle'
-  | 'wifi.circle.fill'
-  | 'wifi.slash'
-  | 'wifi.exclamationmark'
-  | 'wifi.exclamationmark.circle'
-  | 'wifi.exclamationmark.circle.fill'
-  | 'pin'
-  | 'pin.fill'
-  | 'pin.circle'
-  | 'pin.circle.fill'
-  | 'pin.square'
-  | 'pin.square.fill'
-  | 'pin.slash'
-  | 'pin.slash.fill'
-  | 'mappin'
-  | 'mappin.circle'
-  | 'mappin.circle.fill'
-  | 'mappin.square'
-  | 'mappin.square.fill'
-  | 'mappin.slash'
-  | 'mappin.slash.circle'
-  | 'mappin.slash.circle.fill'
-  | 'mappin.and.ellipse'
-  | 'mappin.and.ellipse.circle'
-  | 'mappin.and.ellipse.circle.fill'
-  | 'map'
-  | 'map.fill'
-  | 'map.circle'
-  | 'map.circle.fill'
-  | 'move.3d'
-  | 'scale.3d'
-  | 'rotate.3d'
-  | 'rotate.3d.fill'
-  | 'rotate.3d.circle'
-  | 'rotate.3d.circle.fill'
-  | 'rotate.left'
-  | 'rotate.left.fill'
-  | 'rotate.right'
-  | 'rotate.right.fill'
-  | 'display' // monitor
-  | 'play.display'
-  | 'lock.display'
-  | 'lock.open.display'
-  | 'display.and.arrow.down'
-  | 'dot.scope.display'
-  | 'display.trianglebadge.exclamationmark'
-  | 'display.2'
-  | 'server.rack'
-  | 'laptopcomputer'
-  | 'laptopcomputer.slash'
-  | 'play.laptopcomputer'
-  | 'lock.laptopcomputer'
-  | 'lock.open.laptopcomputer'
-  | 'laptopcomputer.and.arrow.down'
-  | 'laptopcomputer.trianglebadge.exclamationmark'
-  | 'dot.scope.laptopcomputer'
-  | 'smartphone'
-  | 'viewfinder.rectangular'
-  | 'headphones'
-  | 'headphones.circle'
-  | 'headphones.circle.fill'
-  | 'earbuds'
-  | 'earbuds.case'
-  | 'earbuds.case.fill'
-  | 'play.tv'
-  | 'play.tv.fill'
-  | 'photo.tv'
-  | 'tv.badge.wifi'
-  | 'tv.badge.wifi.fill'
-  | 'tv.and.hifispeaker.fill'
-  | 'tv.and.mediabox'
-  | 'tv.and.mediabox.fill'
-  | 'horn'
-  | 'horn.fill'
-  | 'horn.blast'
-  | 'horn.blast.fill'
-  | 'bandage'
-  | 'bandage.fill'
-  | 'crown'
-  | 'crown.fill'
-  | 'film'
-  | 'film.fill'
-  | 'film.circle'
-  | 'film.circle.fill'
-  | 'film.stack'
-  | 'film.stack.fill'
-  | 'movieclapper'
-  | 'movieclapper.fill'
-  | 'ticket'
-  | 'ticket.fill'
-  | 'eye'
-  | 'eye.fill'
-  | 'eye.circle'
-  | 'eye.circle.fill'
-  | 'eye.square'
-  | 'eye.square.fill'
-  | 'eye.slash'
-  | 'eye.slash.fill'
-  | 'eye.slash.circle'
-  | 'eye.slash.circle.fill'
-  | 'eyes'
-  | 'brain'
-  | 'brain.fill'
-  | 'ear'
-  | 'ear.fill'
-  | 'ear.badge.checkmark'
-  | 'ear.trianglebadge.exclamationmark'
-  | 'qrcode'
-  | 'barcode'
-  | 'photo'
-  | 'photo.fill'
-  | 'photo.circle'
-  | 'photo.circle.fill'
-  | 'photo.badge.plus'
-  | 'photo.badge.plus.fill'
-  | 'photo.badge.arrow.down'
-  | 'photo.badge.arrow.down.fill'
-  | 'photo.badge.checkmark'
-  | 'photo.badge.checkmark.fill'
-  | 'photo.stack'
-  | 'photo.stack.fill'
-  | 'scope'
-  | 'dot.scope'
-  | 'clock'
-  | 'clock.fill'
-  | 'clock.circle'
-  | 'clock.circle.fill'
-  | 'clock.badge'
-  | 'clock.badge.fill'
-  | 'clock.badge.checkmark'
-  | 'clock.badge.checkmark.fill'
-  | 'clock.badge.xmark'
-  | 'clock.badge.xmark.fill'
-  | 'clock.badge.questionmark'
-  | 'clock.badge.questionmark.fill'
-  | 'clock.badge.exclamationmark'
-  | 'clock.badge.exclamationmark.fill'
-  | 'alarm'
-  | 'alarm.fill'
-  | 'alarm.waves.left.and.right'
-  | 'alarm.waves.left.and.right.fill'
-  | 'stopwatch'
-  | 'stopwatch.fill'
-  | 'chart.xyaxis.line'
-  | 'timer'
-  | 'timer.circle'
-  | 'timer.circle.fill'
-  | 'timer.square'
-  | 'arrow.circlepath'
-  | 'clock.arrow.circlepath'
-  | 'exclamationmark.arrow.circlepath'
-  | 'clock.arrow.2.circlepath'
-  | 'gamecontroller'
-  | 'gamecontroller.fill'
-  | 'playstation.logo'
-  | 'xbox.logo'
-  | 'paintpalette'
-  | 'paintpalette.fill'
-  | 'swatchpalette'
-  | 'swatchpalette.fill'
-  | 'fork.knife'
-  | 'chart.bar'
-  | 'chart.bar.fill'
-  | 'cellularbars'
-  | 'chart.pie'
-  | 'chart.pie.fill'
-  | 'chart.bar.xaxis'
-  | 'chart.bar.xaxis.ascending'
-  | 'chart.bar.xaxis.ascending.badge.clock'
-  | 'chart.line.uptrend.xyaxis'
-  | 'chart.line.uptrend.xyaxis.circle'
-  | 'chart.line.uptrend.xyaxis.circle.fill'
-  | 'chart.line.downtrend.xyaxis'
-  | 'chart.line.downtrend.xyaxis.circle'
-  | 'chart.line.downtrend.xyaxis.circle.fill'
-  | 'chart.line.flattrend.xyaxis'
-  | 'chart.line.flattrend.xyaxis.circle'
-  | 'chart.line.flattrend.xyaxis.circle.fill'
-  | 'chart.dots.scatter'
-  | 'dot.squareshape.split.2x2'
-  | 'squareshape.dotted.split.2x2'
-  | 'squareshape.split.2x2.dotted'
-  | 'squareshape.split.2x2'
-  | 'squareshape.split.3x3'
-  | 'sdcard'
-  | 'sdcard.fill'
-  | 'atom'
-  | 'angle'
-  | 'compass.drawing'
-  | 'globe.desk'
-  | 'globe.desk.fill'
   | 'fossil.shell'
   | 'fossil.shell.fill'
   | 'gift'
