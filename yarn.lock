@@ -8981,10 +8981,10 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
-sweet-sfsymbols@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/sweet-sfsymbols/-/sweet-sfsymbols-0.5.0.tgz#2b02cfa7cbb781a67c595d8f4c752c4636a0f83b"
-  integrity sha512-l9p/ec9vjLMVt9KMrRPoYLmFhCugeUpwZaoWxoMjlUfqyvvyK8b19jx/GB63H/HKw2obOBH5uI5/sp51O0nvEQ==
+sweet-sfsymbols@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/sweet-sfsymbols/-/sweet-sfsymbols-0.6.0.tgz#f8116b8d2cff4eff4e13a83066b49d9d968f82c7"
+  integrity sha512-6vXBODLNL+IvPIcF0TMIbgmegG9RFSZVRL2vltPSSLLQR203h79mwITm1s0h/KoPnSg+N4OJn0/Eb1ky4/2PZg==
 
 tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0, tapable@^2.2.1:
   version "2.2.1"
