@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "gen": "tsx scripts/generate-sf-symbol-mapping.ts",
+    "gen:md-icon-table": "tsx scripts/generate-md-icon-table.ts",
     "build": "tsup",
     "dev": "tsup --watch",
     "clean": "rm -rf dist"
