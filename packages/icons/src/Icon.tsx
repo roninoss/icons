@@ -6,14 +6,14 @@ import SFSymbol from 'sweet-sfsymbols';
 import { getIconNames } from './get-icon-names';
 import type { IconProps } from './types';
 
-export function Icon({
+export function Icon<T extends 'material' | 'sfSymbol' = 'material'>({
   name,
   color = '#000000',
   namingScheme = 'material',
   size = 27,
   ios,
   materialIcon,
-}: IconProps) {
+}: IconProps<T>) {
   const { useMaterialIcon, ...sfSymbolProps } = ios ?? {};
   const iconNames = React.useMemo(() => getIconNames(namingScheme, name), []);
 

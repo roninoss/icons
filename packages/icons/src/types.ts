@@ -27,48 +27,38 @@ type OptionalMaterialProps =
 export type MaterialIconName = keyof typeof ICON_MAPPING;
 export type SfSymbolIconName = keyof typeof SF_SYMBOL_MAPPING;
 
-type IconPropsWithRequiredMaterialName = {
+type IconBaseProps<T extends 'material' | 'sfSymbol'> = {
+  namingScheme?: T;
+  color?: string;
+  size?: number;
+  ios?: OptionalIOSProps;
+  materialIcon?: OptionalMaterialProps;
+};
+
+type IconWithMaterialNameProps<T extends 'material' | 'sfSymbol'> = {
   name: MaterialIconName;
-  namingScheme?: 'material';
-  color?: string;
-  size?: number;
-  ios?: OptionalIOSProps;
-  materialIcon?: OptionalMaterialProps;
-};
+} & IconBaseProps<T>;
 
-type IconPropsWithRequiredSfSymbolName = {
+type IconWithSfSymbolNameProps<T extends 'material' | 'sfSymbol'> = {
   name: SfSymbolIconName;
-  namingScheme: 'sfSymbol';
+} & IconBaseProps<T>;
+
+type IconBaseWithOptionalNameProps<T extends 'material' | 'sfSymbol'> = {
+  namingScheme?: T;
   color?: string;
   size?: number;
-  ios?: OptionalIOSProps;
-  materialIcon?: OptionalMaterialProps;
+  ios: IOSProps;
+  materialIcon: MaterialProps;
 };
 
-type IconPropsWithRequiredName =
-  | IconPropsWithRequiredMaterialName
-  | IconPropsWithRequiredSfSymbolName;
-
-type IconPropsWithOptionalMaterialName = Omit<
-  IconPropsWithRequiredMaterialName,
-  'name' | 'ios' | 'materialIcon'
-> & {
+type IconWithOptionalMaterialNameProps<T extends 'material' | 'sfSymbol'> = {
   name?: MaterialIconName;
-  ios: IOSProps;
-  materialIcon: MaterialProps;
-};
+} & IconBaseWithOptionalNameProps<T>;
 
-type IconPropsWithOptionalSfSymbolName = Omit<
-  IconPropsWithRequiredSfSymbolName,
-  'name' | 'ios' | 'materialIcon'
-> & {
+type IconWithOptionalSfSymbolNameProps<T extends 'material' | 'sfSymbol'> = {
   name?: SfSymbolIconName;
-  ios: IOSProps;
-  materialIcon: MaterialProps;
-};
+} & IconBaseWithOptionalNameProps<T>;
 
-type IconPropsWithOptionalName =
-  | IconPropsWithOptionalMaterialName
-  | IconPropsWithOptionalSfSymbolName;
-
-export type IconProps = IconPropsWithOptionalName | IconPropsWithRequiredName;
+export type IconProps<T extends 'material' | 'sfSymbol'> = T extends 'sfSymbol'
+  ? IconWithSfSymbolNameProps<T> | IconWithOptionalSfSymbolNameProps<T>
+  : IconWithMaterialNameProps<T> | IconWithOptionalMaterialNameProps<T>;
