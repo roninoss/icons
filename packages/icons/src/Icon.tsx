@@ -15,7 +15,10 @@ export function Icon<T extends 'material' | 'sfSymbol' = 'material'>({
   materialIcon,
 }: IconProps<T>) {
   const { useMaterialIcon, ...sfSymbolProps } = ios ?? {};
-  const iconNames = React.useMemo(() => getIconNames(namingScheme, name), []);
+  const iconNames = React.useMemo(
+    () => getIconNames(namingScheme, name),
+    [namingScheme, name]
+  );
 
   if (Platform.OS !== 'ios' || useMaterialIcon) {
     if (materialIcon?.type === 'MaterialCommunityIcons') {
