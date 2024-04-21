@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
-    "sweet-sfsymbols": "^0.6.0"
+    "sweet-sfsymbols": "^0.7.0"
   },
   "peerDependencies": {
     "react": "*",

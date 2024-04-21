@@ -507,7 +507,7 @@ PODS:
     - React-logger (= 0.72.10)
     - React-perflogger (= 0.72.10)
   - SocketRocket (0.6.1)
-  - SweetSFSymbols (0.5.0):
+  - SweetSFSymbols (0.7.0):
     - ExpoModulesCore
   - Yoga (1.14.0)
 
@@ -745,7 +745,7 @@ SPEC CHECKSUMS:
   React-utils: 372b83030a74347331636909278bf0a60ec30d59
   ReactCommon: 38824bfffaf4c51fbe03a2730b4fd874ef34d67b
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  SweetSFSymbols: e758921afd1b48cb9d3ebf1528dbf718a88b6ff7
+  SweetSFSymbols: 75e9d61f69fd934b0a32d87f739360a8eda22f4c
   Yoga: d0003f849d2b5224c072cef6568b540d8bb15cd3
 
 PODFILE CHECKSUM: 329483eb6daf495a1eab8db2c188f13aaa25dcf9
