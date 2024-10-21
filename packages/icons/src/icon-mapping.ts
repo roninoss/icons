@@ -1,4 +1,16 @@
 export const ICON_MAPPING = {
+  'run': {
+    sfSymbol: 'figure.run',
+    type: 'MaterialCommunityIcons'
+  },
+  'share-variant':{ 
+    sfSymbol: 'square.and.arrow.up.fill',
+    type: 'MaterialCommunityIcons'
+  },
+  'share-variant-outline':{ 
+    sfSymbol: 'square.and.arrow.up',
+    type: 'MaterialCommunityIcons'
+  },
   'format-font': {
     sfSymbol: 'textformat',
     type: 'MaterialCommunityIcons'
