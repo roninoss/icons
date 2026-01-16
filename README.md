@@ -1,3 +1,15 @@
+
+
+## ⚠️ DEPRECATED
+
+**This repository is deprecated and no longer maintained.**
+
+👉 Please use **[`rn-icon-mapper`](https://github.com/founded-labs/rn-icon-mapper?tab=readme-ov-file#rn-icon-mapper)** instead.
+
+---
+
+
+
 # A Platform Specific Icon
 
 Built on top of [sweet-sfsymbols](https://github.com/andrew-levy/sweet-sfsymbols) for the SF Symbols on iOS as well as [expo-vector-icons](https://docs.expo.dev/guides/icons/) for the `MaterialIcons` and `MaterialCommunityIcons` icon families on other platforms.
